@@ -1,0 +1,1011 @@
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <style>
+
+body {
+ background-color: #a1a1a1;
+ overflow-x:hidden;
+ overflow-y:scroll;
+}
+
+html {
+  height: 100%;
+}
+
+.background {
+  background-image: url("landing_page.jpg");
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px) grayscale(100%) brightness(40%);;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 {
+padding-top: 5vh;
+}
+
+
+  .list-group-item {
+    background-color: #E8B1B1;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .list-group {
+    margin: auto;
+    width: 525px;
+    padding-bottom: 5vh;
+  }
+
+
+    .year {
+      font-size: 18px;
+      fill: black;
+      padding: 3px;
+      background-color: black;
+      border-radius: 5px;
+      cursor: default;
+    }
+
+    .age_range {
+      font-size: 18px;
+      border-radius: 5px;
+      padding: 3px;
+      fill: black;
+      cursor: default;
+    }
+
+    /* .manner {
+      background-color: black;
+      border-radius: 5px;
+      padding: 3px;
+      font-size: 18px;
+      fill: #636363;
+      cursor: default;
+    } */
+
+    hr.divider {
+    margin: 0.3em;
+    border-width: 0.8px;
+  }
+
+  .tooltip {
+  	position: absolute;
+  	top: 100px;
+  	left: 100px;
+    -moz-border-radius:5px;
+  	border-radius: 4px;
+    border: 1px solid #2F4F4F;
+    background: Azure;
+  	opacity: 0.8;
+    /* color: black; */
+  	padding: 8px;
+  	max-width: 190px;
+  	/* font-size: 12px; */
+  	z-index: 10;
+  }
+
+  .tooltip .title {
+  	font-size: 13px;
+  }
+
+  .tooltip .category {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .tooltip .name {
+    font-size: 19px;
+    line-height: 35px;
+    font-family: 'Gelasio', serif;
+    background-color: black;
+    padding: 1px 4px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+
+  .tooltip .dob {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .tooltip .value {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+.wrapper {
+  overflow-x:hidden;
+}
+
+.background {
+  background-image: url("landing_page.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foreground {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Gelasio', serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+
+}
+
+.armap{
+  padding-top: 250px;
+  padding-right: 30px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  color: white;
+  text-align: left;
+  max-width: 80vw;
+}
+
+h4 {
+  /* color: #d1d1d1; */
+  font-size: 1.8em;
+  /* text-shadow: 1px 1px 1px #000; */
+
+  /* -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: white; */
+  text-align: center;
+  padding-top: 30px
+}
+
+h5 {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding-top: 30px
+}
+
+h7 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  color: black;
+  font-weight: 700;
+}
+
+p {
+  max-width: 730px;
+  margin: auto;
+  margin-bottom: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.captions p{
+  max-width: 730px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  padding-bottom: 4vh;
+}
+
+.dropcap:first-of-type p:first-of-type:first-letter {
+    float: left;
+    font-size: 65px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+
+
+.intro {
+  /* background: black; */
+background: -webkit-gradient(linear, 100% 100%, 100% 100%, from(black), 80%, to(transparent));
+background: -webkit-linear-gradient(top, black, transparent);
+background: -moz-linear-gradient(top, black, transparent);
+background: -ms-linear-gradient(top, black, transparent);
+background: -o-linear-gradient(top, black, transparent);
+background: linear-gradient(top, black, 80%, transparent);
+/* background: linear-gradient(black, 80%, transparent) no-repeat; */
+}
+
+
+.subintro p{
+color: White
+}
+
+#vis {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding-top: 2vh;
+  padding-left: 15vw;
+}
+
+
+#bubble {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding-top: 1vh;
+  padding-left: 38vw;
+}
+
+
+#chart {
+  /* padding-bottom: 1vh; */
+  padding-left: 3vw;
+  /* max-height: 90%; */
+}
+
+#share {
+  display: inline-block;
+  position: absolute;
+  top: 5;
+  right: 1;
+  width: 80px;
+  z-index: 150;
+}
+
+/* buttons */
+
+#share a {
+  display: inline-block;
+  margin: 5px;
+  opacity: 0.7;
+}
+
+#share a:hover {
+  opacity: 1;
+}
+
+#share img {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.col-md-6 a:hover {
+  opacity: 1;
+}
+
+.col-md-6 a {
+  opacity: 0.7;
+}
+
+a {
+    color: black !important;
+    text-decoration:none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+#logo {
+  display: inline-block;
+  float: left;
+  position: relative;
+  flex: 0 0 700px;
+  position:relative;
+  left:51%;
+  transform:translate(-30%, 50%);
+  z-index: 100;
+    }
+
+#logo img {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 55%;
+  z-index: 100;
+    }
+
+#logo a{
+  opacity: 1;
+}
+
+#logo a:hover {
+  opacity: 0.7;
+}
+
+.states {
+  stroke: #fff;
+  stroke-width:1px;
+}
+
+.states:hover{
+  opacity: .6;
+}
+
+.legendLinear text {
+    font-size: 12px;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  background: Azure;
+  border: 1px solid #2F4F4F;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.scroll {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -650%);
+  top: 0;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+}
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: white;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  padding-top: 65px;
+  margin-top: 65px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+.subhead {
+  line-height: 0.5;
+  text-align: center;
+  padding-bottom: 8vh;
+}
+.subhead span {
+  display: inline-block;
+  position: relative;
+}
+.subhead span:before,
+.subhead span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 0;
+  width: 150px;
+}
+.subhead span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.subhead span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.carousel-cell{
+  width: 80vw;
+  overflow: hidden;
+  padding-right:100px;
+}
+
+.slideshow img {
+  width: 100%;
+}
+
+.slideshow {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 1980px) {
+
+#bubble {
+  padding-left: 40%;
+}
+}
+
+
+@media screen and (max-width: 1980px) and (min-width: 992px) {
+  #bubble {
+    padding-left: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .subhead span:before,
+  .subhead span:after {
+    width: 140px;
+  }
+
+  .list-group {
+    width: 465px;
+  }
+
+#vis {height: 50%;}
+
+#chart {height: 50%;}
+
+#bubble {
+  padding-left: 8%;
+}
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 3em;
+    font-family: 'Gelasio', serif;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 1.1em;
+    width:400px;
+  }
+
+  #logo img {
+    width: 50%
+  }
+
+#share {
+  width: 70px;
+}
+
+#share img {
+  width: 30px;
+  height: auto
+  }
+
+.chevron {
+  width: 20px;
+  height: 5px;
+  }
+
+.text {
+  font-size: 10px
+  }
+
+#chart .tooltiptext{
+  font-size: 5px
+}
+
+.subhead span:before,
+.subhead span:after {
+  width: 90px;
+}
+
+h4 {
+  font-size: 1.0em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1.0em;
+}
+
+#share img {
+  width: 18px;
+  height: 18px;
+}
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+  h1 {
+    font-size: 2em;
+    font-family: 'Gelasio', serif;
+    text-align: center;
+  }
+
+  .list-group {
+    margin: auto;
+    width: 415px;
+    padding-bottom: 5vh;
+  }
+
+#bubble {
+  padding-left: 0
+}
+
+  h7 {
+    font-size: 1.0em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+p {
+  font-size: 1.0em;
+  width:380px;
+  }
+
+  .subhead span:before,
+  .subhead span:after {
+    width: 70px;
+  }
+
+  h4 {
+    font-size: 0.9em;
+  }
+
+  h5 {
+    font-size: 0.8em;
+  }
+
+}
+
+
+  </style>
+  </head>
+  <body>
+<div class="wrapper">
+    <section id="topper">
+      <div id="logo"><a href="http://www.arkansasonline.com" target="_blank"><img alt="Arkansas Democrat-Gazette" src="https://s3.amazonaws.com/new_videos/year_in_pictures/logo.png" class="center"></a></div>
+
+
+      <div id="share">
+        <a target="_blank" class="twitter" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https://www.arkansasonline.com/yearinreview/&text=Explore the best stories from the Arkansas Democrat-Gazette newsroom in 2019."><img
+            src="twitter.png" alt="2"></a>
+        <a target="_blank" class="facebook" title="Share on Facebook" href="https://www.facebook.com/share.php?u=https://www.arkansasonline.com/yearinreview/&title=Explore the best stories from the Arkansas Democrat-Gazette newsroom in 2019."><img
+            src="facebook.png"></a>
+      </div>
+      <div class="background"></div>
+      <div class="foreground">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="a0e812b2-9fcc-47fe-bb56-9c8694f0e37b"
+        	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 73 83"
+        	 style="enable-background:new 0 0 73 83; height:12vh" xml:space="preserve">
+        <style type="text/css">
+        	.st0{opacity:0.5;}
+        	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+        	.st2{fill:#FFFFFF;}
+        </style>
+        <title>virus</title>
+        <g class="st0">
+        	<circle class="st1" cx="21.7" cy="61.8" r="8.6"/>
+        	<g>
+        		<rect x="19.6" y="57" transform="matrix(0.6526 -0.7577 0.7577 0.6526 -34.7902 38.9188)" class="st2" width="11" height="0.8"/>
+        		<path class="st2" d="M29.3,52.5c0.5,0.5,0.8,1.2,0.5,1.5c-0.3,0.3-1,0.2-1.6-0.3s-0.8-1.2-0.5-1.5C28,51.9,28.7,52,29.3,52.5z"/>
+        	</g>
+        	<g>
+        		<rect x="19.8" y="50.4" transform="matrix(0.9702 -0.2424 0.2424 0.9702 -12.9475 6.5687)" class="st2" width="0.8" height="11"/>
+        		<ellipse transform="matrix(0.9701 -0.2426 0.2426 0.9701 -11.6546 6.0714)" class="st2" cx="18.8" cy="50.4" rx="1.4" ry="0.8"/>
+        	</g>
+        	<g>
+        		<rect x="18.2" y="52.1" transform="matrix(0.8018 -0.5976 0.5976 0.8018 -31.0413 22.668)" class="st2" width="0.8" height="12"/>
+        		<path class="st2" d="M14.4,52.4c0.7-0.5,1.4-0.5,1.7-0.2c0.3,0.4,0,1.1-0.7,1.6c-0.7,0.5-1.4,0.5-1.7,0.2
+        			C13.4,53.6,13.7,52.9,14.4,52.4z"/>
+        	</g>
+        	<g>
+
+        			<rect x="10.2" y="61.5" transform="matrix(0.9981 -6.174535e-02 6.174535e-02 0.9981 -3.792 1.118)" class="st2" width="12" height="0.8"/>
+
+        			<ellipse transform="matrix(0.9981 -6.174535e-02 6.174535e-02 0.9981 -3.8289 0.7344)" class="st2" cx="10" cy="62.3" rx="0.9" ry="1.5"/>
+        	</g>
+        	<g>
+
+        			<rect x="11.9" y="66.1" transform="matrix(0.5066 -0.8622 0.8622 0.5066 -48.5168 48.2935)" class="st2" width="12" height="0.8"/>
+        		<ellipse transform="matrix(0.5057 -0.8627 0.8627 0.5057 -54.7513 48.3115)" class="st2" cx="14.8" cy="71.9" rx="0.9" ry="1.5"/>
+        	</g>
+        	<g>
+        		<rect x="22.9" y="60.6" transform="matrix(0.8778 -0.479 0.479 0.8778 -29.0433 19.2929)" class="st2" width="0.8" height="12"/>
+        		<ellipse transform="matrix(0.8774 -0.4798 0.4798 0.8774 -31.3586 21.445)" class="st2" cx="26.3" cy="72.1" rx="1.5" ry="0.9"/>
+        	</g>
+        	<g>
+
+        			<rect x="25.9" y="55.6" transform="matrix(5.651850e-02 -0.9984 0.9984 5.651850e-02 -36.7509 84.3801)" class="st2" width="0.8" height="12"/>
+
+        			<ellipse transform="matrix(5.704123e-02 -0.9984 0.9984 5.704123e-02 -31.2566 90.9395)" class="st2" cx="32.5" cy="62" rx="1.5" ry="0.9"/>
+        	</g>
+        	<g>
+
+        			<rect x="10.7" y="63.2" transform="matrix(0.8827 -0.4699 0.4699 0.8827 -27.9685 15.0438)" class="st2" width="10.9" height="0.8"/>
+        		<ellipse transform="matrix(0.8824 -0.4705 0.4705 0.8824 -29.86 13.0213)" class="st2" cx="11.1" cy="66.2" rx="0.8" ry="1.4"/>
+        	</g>
+        	<g>
+
+        			<rect x="24.6" y="59.8" transform="matrix(0.6783 -0.7348 0.7348 0.6783 -39.9357 39.345)" class="st2" width="0.7" height="10.9"/>
+        		<ellipse transform="matrix(0.6776 -0.7354 0.7354 0.6776 -41.466 43.6961)" class="st2" cx="29.1" cy="69.1" rx="1.4" ry="0.8"/>
+        	</g>
+        </g>
+        <g class="st0">
+        	<circle class="st1" cx="39.6" cy="31" r="16.9"/>
+        	<g>
+        		<rect x="28.9" y="15.2" transform="matrix(0.412 -0.9112 0.9112 0.412 -6.731 42.6992)" class="st2" width="1.6" height="22.6"/>
+        		<ellipse transform="matrix(0.4118 -0.9113 0.9113 0.4118 -8.6043 30.0548)" class="st2" cx="19" cy="21.7" rx="2.8" ry="1.7"/>
+        	</g>
+        	<g>
+
+        			<rect x="34.7" y="9.6" transform="matrix(0.9141 -0.4055 0.4055 0.9141 -5.4453 16.1809)" class="st2" width="1.5" height="22.6"/>
+        		<path class="st2" d="M33.3,9c0.4,0.9-0.5,2.1-1.9,2.7c-1.4,0.6-2.9,0.4-3.2-0.4c-0.4-0.9,0.5-2.1,1.9-2.7S32.9,8.2,33.3,9z"/>
+        	</g>
+        	<g>
+
+        			<rect x="19.5" y="37.1" transform="matrix(0.807 -0.5906 0.5906 0.807 -16.4541 25.5117)" class="st2" width="22.6" height="1.6"/>
+        		<ellipse transform="matrix(0.8072 -0.5903 0.5903 0.8072 -22.3698 21.209)" class="st2" cx="21.3" cy="44.8" rx="1.7" ry="2.8"/>
+        	</g>
+        	<g>
+
+        			<rect x="25.5" y="41.1" transform="matrix(0.3442 -0.9389 0.9389 0.3442 -15.7172 60.8652)" class="st2" width="20.4" height="1.2"/>
+        		<path class="st2" d="M29.9,50.9c0.3-0.8,1.5-1.1,2.6-0.7c1.2,0.4,1.9,1.4,1.6,2.2c-0.3,0.8-1.5,1.1-2.6,0.7
+        			C30.4,52.6,29.7,51.7,29.9,50.9z"/>
+        	</g>
+        	<g>
+
+        			<rect x="46.3" y="28.8" transform="matrix(0.7723 -0.6353 0.6353 0.7723 -14.7442 39.0426)" class="st2" width="1.6" height="22.6"/>
+        		<ellipse transform="matrix(0.772 -0.6357 0.6357 0.772 -18.8103 45.9127)" class="st2" cx="54.6" cy="49.2" rx="2.8" ry="1.7"/>
+        	</g>
+        	<g>
+        		<rect x="35" y="21.7" transform="matrix(0.5684 -0.8227 0.8227 0.5684 1.4903 47.8204)" class="st2" width="22.6" height="1.5"/>
+        		<path class="st2" d="M55.3,14.4c-0.5,0.8-2,0.7-3.2-0.2s-1.9-2.2-1.3-3c0.5-0.8,2-0.7,3.2,0.2C55.2,12.3,55.9,13.6,55.3,14.4z"/>
+        	</g>
+        	<g>
+        		<rect x="41.3" y="30.8" transform="matrix(0.9617 -0.274 0.274 0.9617 -9.7739 13.0891)" class="st2" width="1.3" height="21.4"/>
+        		<ellipse transform="matrix(0.9619 -0.2735 0.2735 0.9619 -12.5624 14.2986)" class="st2" cx="45" cy="52.2" rx="2.4" ry="1.4"/>
+        	</g>
+        	<g>
+        		<rect x="48.6" y="22.7" transform="matrix(0.14 -0.9901 0.9901 0.14 9.3483 77.5213)" class="st2" width="1.3" height="21.4"/>
+        		<ellipse transform="matrix(0.1393 -0.9902 0.9902 0.1393 17.3049 89.6281)" class="st2" cx="60.2" cy="34.9" rx="2.4" ry="1.4"/>
+        	</g>
+        	<g>
+        		<rect x="39.9" y="29.5" transform="matrix(0.9838 -0.1793 0.1793 0.9838 -4.596 9.325)" class="st2" width="18.9" height="1.2"/>
+        		<ellipse transform="matrix(0.9837 -0.1798 0.1798 0.9837 -4.1324 11.0547)" class="st2" cx="58.9" cy="28.3" rx="1.3" ry="2.1"/>
+        	</g>
+        	<g>
+
+        			<rect x="32.3" y="21.8" transform="matrix(0.3688 -0.9295 0.9295 0.3688 6.2533 54.2343)" class="st2" width="21.4" height="1.3"/>
+        		<ellipse transform="matrix(0.368 -0.9298 0.9298 0.368 18.4515 51.5676)" class="st2" cx="47.2" cy="12.2" rx="1.4" ry="2.4"/>
+        	</g>
+        	<g>
+
+        			<rect x="21.2" y="33.4" transform="matrix(0.9659 -0.2589 0.2589 0.9659 -7.7837 8.7461)" class="st2" width="16.2" height="1.1"/>
+        		<ellipse transform="matrix(0.9669 -0.2553 0.2553 0.9669 -8.5154 6.5388)" class="st2" cx="20.9" cy="36.1" rx="1.2" ry="2"/>
+        	</g>
+        	<g>
+        		<rect x="32.5" y="14.3" transform="matrix(0.7814 -0.624 0.624 0.7814 -6.7138 25.5076)" class="st2" width="1.1" height="16.1"/>
+        		<path class="st2" d="M29.4,14.5c0.4,0.5,0.1,1.5-0.8,2.2c-0.9,0.7-1.9,0.9-2.3,0.3s0-1.5,0.8-2.2C27.9,14.2,29,14,29.4,14.5z"/>
+        	</g>
+        </g>
+        </svg>
+
+          <div id="titlecard">
+          <h1>Tracking Coronavirus in Arkansas</h1>
+        </div>
+            <h3>Here is where we compile information on covid-19 cases in Arkansas.</h3>
+            <h5>By The Arkansas Democrat-Gazette<br></br></h5>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-mvxCX">Arkansas</a></button>
+            <button type="button" class="btn btn-light btn-lg">U.S.</button>
+            <button type="button" class="btn btn-light btn-lg">World</button>
+
+</div>
+</div>
+      </div>
+
+    <div class="scroll">
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <span class="text">Scroll down</span>
+    </div>
+  </section>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+<div class="col-md-8">
+  <iframe title="Coronavirus Copy (DO NOT USE)" aria-label="USA arkansas counties choropleth map" id="datawrapper-chart-mvxCX" src="//datawrapper.dwcdn.net/mvxCX/8/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+  </script>
+</div>
+<div class="col-md-4">
+<div class="armap">
+<p><span class="badge badge-pill badge-warning">232</span> confirmed cases in Arkansas</p>
+
+<p><span class="badge badge-pill badge-warning">2</span> confirmed deaths</p>
+
+<p><span class="badge badge-pill badge-success">10</span> confirmed recoveries</p>
+
+<p><span class="badge badge-pill badge-light">998</span> negative tests</p>
+
+</div>
+</div>
+</div>
+</div>
+
+  <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" style="background-color: #383838">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <!-- <h6 class="text-uppercase font-weight-bold">Company name</h6> -->
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <a href="http://www.arkansasonline.com" target="_blank"><img alt="Arkansas Democrat-Gazette" src="https://s3.amazonaws.com/new_videos/year_in_pictures/logo.png" class="center" style="width: 100%"></a>
+        <div class="col-md-6 col-lg-9 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic"><a href="https://www.facebook.com/arkansasonline/" target="_blank">
+<img src="facebook.png" style="width:20px"></a>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic"><a href="https://twitter.com/arkansasonline" target="_blank">
+<img src="twitter.png" style="width: 20px;"></a>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic"><a href="https://instagram.com/arkansasonline" target="_blank">
+<img src="instagram.png" style="width: 20px;"></a>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic"><a href="https://www.linkedin.com/company/arkansas-democrat-gazette" target="_blank">
+<img src="linkedin.png" style="width: 20px;"></a>
+          </a>
+
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="padding-top:20px">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white">About</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; color: white;   border-bottom: 1px solid White;"><br>
+        <small>
+          <a href="https://www.arkansasonline.com/tools/termsofuse/" style="color: white">Terms of Use</a><br>
+        </small>
+        <small>
+          <a href="http://adv.arkansasonline.com/" style="color: white">Advertising</a><br>
+        </small>
+        <small>
+          <a href="https://www.jobsarkansas.com/Jobs/-quat-arkansas%20democrat-gazette-quat-?source=5&countryId=3" style="color: white">Careers</a><br>
+        </small>
+        <small>
+          <a href="https://www.arkansasonline.com/tools/privacystatement/" style="color: white">Privacy Statement</a>
+        </small>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="padding-top:20px">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white">Newsroom</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; color: white;   border-bottom: 1px solid White;"><br>
+        <small>
+          <a href="https://www.arkansasonline.com/corevalues/" style="color: white">Core Values</a><br>
+        </small>
+        <small>
+          <a href="https://www.arkansasonline.com/contacts/newstips/" style="color: white">News Tips</a><br>
+        </small>
+        <small>
+          <a href="https://www.arkansasonline.com/emails/subscribe/" style="color: white">Newsletters</a><br>
+        </small>
+        <small>
+          <a href="https://digital.olivesoftware.com/Olive/ODN/ArDemocrat/" style="color: white">Today's Paper</a>
+        </small>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="padding-top:20px">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; color: white;   border-bottom: 1px solid White;"><br>
+        <small>
+          <a href="https://www.arkansasonline.com/digital/faq/" style="color: white">Digital Replica FAQ</a><br>
+        </small>
+        <small>
+          <a href="https://www.arkansasonline.com/settings/" style="color: white">Subscriber Help</a><br>
+        </small>
+        <small>
+          <a href="https://www.arkansasonline.com/contact/voicesform/" style="color: white">Letters to the Editor</a><br>
+        </small>
+        <small>
+          <a href="https://www.arkansasonline.com/staff/" style="color: white">Newspaper Staff</a>
+        </small>
+
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-4" style="color: white; font-size: 14px;">Copyright © 2020, Arkansas Democrat-Gazette, Inc.
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+</div>
+<!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+    var flky = new Flickity( '.carousel', {});
+
+    AOS.init();
+
+    AOS.refresh();
+
+
+    var titleCard = "#titlecard";
+    //The effect that will be applied to your page element. See https://daneden.github.io/animate.css/ for full list.
+    var yourEffect = "fadeInUp";
+    var effectClass = "animated " + yourEffect;
+    jQuery( document ).ready(function() {
+      jQuery(titleCard).show().addClass(effectClass).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        jQuery(this).removeClass();
+      });
+    });
+
+
+    $(function() {
+
+        var documentEl = $(document),
+            fadeElem = $('#topper');
+
+        documentEl.on('scroll', function() {
+            var currScrollPos = documentEl.scrollTop();
+
+
+            fadeElem.each(function() {
+                var $this = $(this),
+                    elemOffsetTop = $this.offset().top;
+                if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/800);
+            });
+        });
+    });
+
+
+
+    </script>
+
+  </body>
+</html>
