@@ -13,7 +13,7 @@
     <style>
 
 body {
- background-color: #a1a1a1;
+ background-color: #DDDDDD;
  overflow-x:hidden;
  overflow-y:scroll;
 }
@@ -24,11 +24,11 @@ html {
 
 .background {
   background-image: url("landing_page.jpg");
-  -webkit-filter: blur(2px);
+  /* -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
   -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px) grayscale(100%) brightness(40%);;
+  -ms-filter: blur(2px); */
+  filter: grayscale(100%) brightness(40%);;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -321,12 +321,18 @@ color: White
 }
 
 a {
-    color: black !important;
+    color: black;
+    text-decoration:none;
+}
+
+.footer a {
+    color: white;
     text-decoration:none;
 }
 
 a:hover, a:focus {
     text-decoration: none;
+    opacity: 0.8
 }
 
 #logo {
@@ -356,27 +362,20 @@ a:hover, a:focus {
   opacity: 0.7;
 }
 
-.states {
-  stroke: #fff;
-  stroke-width:1px;
+.text {
+  display: block;
+  padding-top: 65px;
+  margin-top: 65px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .5;
+  animation: pulse 2s linear alternate infinite;
 }
 
-.states:hover{
-  opacity: .6;
-}
-
-.legendLinear text {
-    font-size: 12px;
-}
-
-.d3-tip {
-  line-height: 1;
-  padding: 12px;
-  background: Azure;
-  border: 1px solid #2F4F4F;
-  opacity: 0.8;
-  border-radius: 2px;
-}
 
 .scroll {
   position: relative;
@@ -445,19 +444,6 @@ a:hover, a:focus {
   }
 }
 
-.text {
-  display: block;
-  padding-top: 65px;
-  margin-top: 65px;
-  margin-left: -30px;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
-  color: white;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: .25;
-  animation: pulse 2s linear alternate infinite;
-}
 
 .subhead {
   line-height: 0.5;
@@ -815,7 +801,7 @@ p {
     </div>
   </section>
 
-
+<div class="spacer" style="padding:20vh"></div>
 
   <div class="container-fluid">
     <div class="row">
@@ -837,6 +823,20 @@ p {
 </div>
 </div>
 </div>
+
+<div class="spacer" style="padding:10vh"></div>
+
+<h2>New cases announced by day</h2>
+<div class="d-flex justify-content-center">
+
+<svg width="550" height="500" xmlns="http://www.w3.org/2000/svg"><g transform="translate(30,0)"><text x="-30" y="-7" style="font-size: 10px; font-family: Arial, Helvetica;">undefined</text><g class="y axis" transform="translate(0,0)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end" style="font-size: 10px; font-family: Arial, Helvetica;"><path class="domain" stroke="#000" d="M-6,450.5H0.5V0.5H-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></path><g class="tick" opacity="1" transform="translate(0,450.5)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">0</text></g><g class="tick" opacity="1" transform="translate(0,431.1034482758621)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">10</text></g><g class="tick" opacity="1" transform="translate(0,411.7068965517241)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">20</text></g><g class="tick" opacity="1" transform="translate(0,392.3103448275862)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">30</text></g><g class="tick" opacity="1" transform="translate(0,372.91379310344826)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">40</text></g><g class="tick" opacity="1" transform="translate(0,353.51724137931035)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">50</text></g><g class="tick" opacity="1" transform="translate(0,334.12068965517244)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">60</text></g><g class="tick" opacity="1" transform="translate(0,314.7241379310345)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">70</text></g><g class="tick" opacity="1" transform="translate(0,295.3275862068965)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">80</text></g><g class="tick" opacity="1" transform="translate(0,275.9310344827586)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">90</text></g><g class="tick" opacity="1" transform="translate(0,256.5344827586207)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">100</text></g><g class="tick" opacity="1" transform="translate(0,237.13793103448276)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">110</text></g><g class="tick" opacity="1" transform="translate(0,217.74137931034483)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">120</text></g><g class="tick" opacity="1" transform="translate(0,198.34482758620692)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">130</text></g><g class="tick" opacity="1" transform="translate(0,178.94827586206895)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">140</text></g><g class="tick" opacity="1" transform="translate(0,159.55172413793105)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">150</text></g><g class="tick" opacity="1" transform="translate(0,140.15517241379308)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">160</text></g><g class="tick" opacity="1" transform="translate(0,120.75862068965517)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">170</text></g><g class="tick" opacity="1" transform="translate(0,101.36206896551727)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">180</text></g><g class="tick" opacity="1" transform="translate(0,81.9655172413793)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">190</text></g><g class="tick" opacity="1" transform="translate(0,62.568965517241395)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">200</text></g><g class="tick" opacity="1" transform="translate(0,43.17241379310343)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">210</text></g><g class="tick" opacity="1" transform="translate(0,23.775862068965523)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">220</text></g><g class="tick" opacity="1" transform="translate(0,4.379310344827559)"><line stroke="#000" x2="-6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" x="-9" dy="0.32em">230</text></g></g><rect transform="translate(0,0)" class="bar" x="6" width="29" y="450" height="0" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="38" width="29" y="450" height="0" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="70" width="29" y="448.0603448275862" height="1.9396551724137794" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="102" width="29" y="438.36206896551727" height="11.637931034482733" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="134" width="29" y="438.36206896551727" height="11.637931034482733" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="166" width="29" y="426.7241379310345" height="23.275862068965523" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="198" width="29" y="418.9655172413793" height="31.034482758620697" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="230" width="29" y="407.32758620689657" height="42.67241379310343" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="262" width="29" y="407.32758620689657" height="42.67241379310343" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="294" width="29" y="385.9913793103448" height="64.00862068965517" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="326" width="29" y="329.7413793103448" height="120.25862068965517" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="358" width="29" y="263.7931034482759" height="186.20689655172413" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="390" width="29" y="213.36206896551724" height="236.63793103448276" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="422" width="29" y="129.95689655172418" height="320.0431034482758" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="454" width="29" y="60.12931034482756" height="389.87068965517244" style="fill: rgb(165, 42, 42);"></rect><rect transform="translate(0,0)" class="bar" x="486" width="29" y="0" height="450" style="fill: rgb(165, 42, 42);"></rect></g><g class="x axis" transform="translate(30,450)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" style="font-size: 10px; font-family: Arial, Helvetica;"><path class="domain" stroke="#000" d="M0.5,6V0.5H520.5V6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></path><g class="tick" opacity="1" transform="translate(20.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em"></text></g><g class="tick" opacity="1" transform="translate(52.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/10</text></g><g class="tick" opacity="1" transform="translate(84.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/11</text></g><g class="tick" opacity="1" transform="translate(116.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/12</text></g><g class="tick" opacity="1" transform="translate(148.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/13</text></g><g class="tick" opacity="1" transform="translate(180.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/14</text></g><g class="tick" opacity="1" transform="translate(212.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/15</text></g><g class="tick" opacity="1" transform="translate(244.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/16</text></g><g class="tick" opacity="1" transform="translate(276.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/17</text></g><g class="tick" opacity="1" transform="translate(308.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/18</text></g><g class="tick" opacity="1" transform="translate(340.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/19</text></g><g class="tick" opacity="1" transform="translate(372.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/20</text></g><g class="tick" opacity="1" transform="translate(404.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/21</text></g><g class="tick" opacity="1" transform="translate(436.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/22</text></g><g class="tick" opacity="1" transform="translate(468.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/23</text></g><g class="tick" opacity="1" transform="translate(500.5,0)"><line stroke="#000" y2="6" style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line><text fill="#000" y="9" dy="0.71em">3/24</text></g></g></svg>
+
+</div>
+
+
+
+
+
 
   <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark" style="background-color: #383838">
