@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
@@ -24,113 +23,16 @@ html {
 
 .background {
   background-image: url("landing_page.jpg");
-  /* -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px); */
   filter: grayscale(100%) brightness(40%);;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container1 {
-padding-top: 5vh;
-}
-
-
-  .list-group-item {
-    background-color: #E8B1B1;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-  }
-
-  .list-group {
-    margin: auto;
-    width: 525px;
-    padding-bottom: 5vh;
-  }
-
-
-    .year {
-      font-size: 18px;
-      fill: black;
-      padding: 3px;
-      background-color: black;
-      border-radius: 5px;
-      cursor: default;
-    }
-
-    .age_range {
-      font-size: 18px;
-      border-radius: 5px;
-      padding: 3px;
-      fill: black;
-      cursor: default;
-    }
-
-    /* .manner {
-      background-color: black;
-      border-radius: 5px;
-      padding: 3px;
-      font-size: 18px;
-      fill: #636363;
-      cursor: default;
-    } */
 
     hr.divider {
     margin: 0.3em;
     border-width: 0.8px;
-  }
-
-  .tooltip {
-  	position: absolute;
-  	top: 100px;
-  	left: 100px;
-    -moz-border-radius:5px;
-  	border-radius: 4px;
-    border: 1px solid #2F4F4F;
-    background: Azure;
-  	opacity: 0.8;
-    /* color: black; */
-  	padding: 8px;
-  	max-width: 190px;
-  	/* font-size: 12px; */
-  	z-index: 10;
-  }
-
-  .tooltip .title {
-  	font-size: 13px;
-  }
-
-  .tooltip .category {
-    font-size: 15px;
-    font-weight: bold;
-  }
-
-  .tooltip .name {
-    font-size: 19px;
-    line-height: 35px;
-    font-family: 'Gelasio', serif;
-    background-color: black;
-    padding: 1px 4px;
-    font-weight: bold;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-  }
-
-  .tooltip .dob {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .tooltip .value {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
   }
 
 
@@ -196,15 +98,6 @@ h5 {
   padding-top: 30px
 }
 
-h7 {
-  max-width: 680px;
-  margin: auto;
-  padding: 0 15px;
-  margin-bottom: 1em;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
-}
-
 h4 {
   max-width: 730px;
   margin: auto;
@@ -236,66 +129,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.0em;
   font-weight: 100;
-}
-
-.captions p{
-  max-width: 730px;
-  margin: auto;
-  padding: 0 15px;
-  margin-bottom: 1em;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
-  padding-bottom: 4vh;
-}
-
-.dropcap:first-of-type p:first-of-type:first-letter {
-    float: left;
-    font-size: 65px;
-    line-height: 1;
-    font-weight: bold;
-    margin-right: 9px;
-}
-
-
-
-.intro {
-  /* background: black; */
-background: -webkit-gradient(linear, 100% 100%, 100% 100%, from(black), 80%, to(transparent));
-background: -webkit-linear-gradient(top, black, transparent);
-background: -moz-linear-gradient(top, black, transparent);
-background: -ms-linear-gradient(top, black, transparent);
-background: -o-linear-gradient(top, black, transparent);
-background: linear-gradient(top, black, 80%, transparent);
-/* background: linear-gradient(black, 80%, transparent) no-repeat; */
-}
-
-
-.subintro p{
-color: White
-}
-
-#vis {
-  align-items: center;
-  justify-content: center;
-  display: block;
-  padding-top: 2vh;
-  padding-left: 15vw;
-}
-
-
-#bubble {
-  align-items: center;
-  justify-content: center;
-  display: block;
-  padding-top: 1vh;
-  padding-left: 38vw;
-}
-
-
-#chart {
-  /* padding-bottom: 1vh; */
-  padding-left: 3vw;
-  /* max-height: 90%; */
 }
 
 #share {
@@ -463,36 +296,6 @@ a:hover, a:focus {
 
 
 
-@media (min-width: 1980px) {
-
-#bubble {
-  padding-left: 40%;
-}
-}
-
-
-@media screen and (max-width: 1980px) and (min-width: 992px) {
-  #bubble {
-    padding-left: 30%;
-  }
-}
-
-@media (max-width: 992px) {
-
-  .list-group {
-    width: 465px;
-  }
-
-#vis {height: 50%;}
-
-#chart {height: 50%;}
-
-#bubble {
-  padding-left: 8%;
-}
-}
-
-
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
 
@@ -556,20 +359,6 @@ h5 {
     font-size: 2em;
     font-family: 'Gelasio', serif;
     text-align: center;
-  }
-
-  .list-group {
-    margin: auto;
-    width: 415px;
-    padding-bottom: 5vh;
-  }
-
-#bubble {
-  padding-left: 0
-}
-
-   {
-    font-size: 1.0em;
   }
 
   h3 {
@@ -732,7 +521,7 @@ p {
             <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-J3ur5">Arkansas</a></button>
             <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-3uS9T">U.S.</a></button>
             <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-Z4Qde">World</a></button>
-            <h2>UPDATED MARCH 25, 9:31 P.M. CDT</h2>
+            <h2>UPDATED MARCH 26, 1:00 P.M. CDT</h2>
 
 
 </div>
@@ -759,13 +548,13 @@ p {
   <div class="armap">
   <div class="card" style="background:#f0f0f0">
   <div class="card-body">
-<h4><span class="badge badge-pill badge-warning">308</span> confirmed cases in Arkansas</h4>
+<h4><span class="badge badge-pill badge-warning">335</span> confirmed cases in Arkansas</h4>
 
 <h4><span class="badge badge-pill badge-warning">2</span> confirmed deaths</h4>
 
-<h4><span class="badge badge-pill badge-success">12</span> confirmed recoveries</h4>
+<h4><span class="badge badge-pill badge-success">13</span> confirmed recoveries</h4>
 
-<h4><span class="badge badge-pill badge-dark">1,469</span> negative tests</h4>
+<h4><span class="badge badge-pill badge-dark">1,504</span> negative tests</h4>
 </div>
 </div>
 </div>
