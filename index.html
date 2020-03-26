@@ -13,7 +13,7 @@
     <style>
 
 body {
- background-color: #a1a1a1;
+ background-color: white;
  overflow-x:hidden;
  overflow-y:scroll;
 }
@@ -24,11 +24,11 @@ html {
 
 .background {
   background-image: url("landing_page.jpg");
-  -webkit-filter: blur(2px);
+  /* -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
   -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px) grayscale(100%) brightness(40%);;
+  -ms-filter: blur(2px); */
+  filter: grayscale(100%) brightness(40%);;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -168,11 +168,11 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.0em;
+  color: white;
   text-align: center;
-  font-weight: bold;
-  font-size: 1.8em;
-
+  padding-top: 30px;
+  font-weight: 100;
 }
 
 .armap{
@@ -188,37 +188,54 @@ h3 {
   max-width: 80vw;
 }
 
-h4 {
-  /* color: #d1d1d1; */
-  font-size: 1.8em;
-  /* text-shadow: 1px 1px 1px #000; */
-
-  /* -webkit-text-stroke-width: 0.3px;
-  -webkit-text-stroke-color: white; */
-  text-align: center;
-  padding-top: 30px
-}
 
 h5 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: white;
   text-align: center;
   padding-top: 30px
 }
 
 h7 {
+  max-width: 680px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 1em;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
-  color: black;
-  font-weight: 700;
+  font-size: 1.1em;
 }
 
-p {
+h4 {
   max-width: 730px;
   margin: auto;
   margin-bottom: 1em;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
+}
+
+p {
+  max-width: 680px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 1em;
+  font-family: 'Gelasio', serif;
+  font-size: 1.2em;
+}
+
+.subhead p{
+  max-width: 680px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+.source p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0em;
+  font-weight: 100;
 }
 
 .captions p{
@@ -321,12 +338,18 @@ color: White
 }
 
 a {
-    color: black !important;
+    color: black;
+    text-decoration:none;
+}
+
+.footer a {
+    color: white;
     text-decoration:none;
 }
 
 a:hover, a:focus {
     text-decoration: none;
+    opacity: 0.8
 }
 
 #logo {
@@ -356,27 +379,20 @@ a:hover, a:focus {
   opacity: 0.7;
 }
 
-.states {
-  stroke: #fff;
-  stroke-width:1px;
+.text {
+  display: block;
+  padding-top: 65px;
+  margin-top: 65px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .5;
+  animation: pulse 2s linear alternate infinite;
 }
 
-.states:hover{
-  opacity: .6;
-}
-
-.legendLinear text {
-    font-size: 12px;
-}
-
-.d3-tip {
-  line-height: 1;
-  padding: 12px;
-  background: Azure;
-  border: 1px solid #2F4F4F;
-  opacity: 0.8;
-  border-radius: 2px;
-}
 
 .scroll {
   position: relative;
@@ -445,62 +461,7 @@ a:hover, a:focus {
   }
 }
 
-.text {
-  display: block;
-  padding-top: 65px;
-  margin-top: 65px;
-  margin-left: -30px;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
-  color: white;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: .25;
-  animation: pulse 2s linear alternate infinite;
-}
 
-.subhead {
-  line-height: 0.5;
-  text-align: center;
-  padding-bottom: 8vh;
-}
-.subhead span {
-  display: inline-block;
-  position: relative;
-}
-.subhead span:before,
-.subhead span:after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  top: 0;
-  width: 150px;
-}
-.subhead span:before {
-  right: 100%;
-  margin-right: 15px;
-}
-.subhead span:after {
-  left: 100%;
-  margin-left: 15px;
-}
-
-.carousel-cell{
-  width: 80vw;
-  overflow: hidden;
-  padding-right:100px;
-}
-
-.slideshow img {
-  width: 100%;
-}
-
-.slideshow {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 @media (min-width: 1980px) {
 
@@ -517,11 +478,6 @@ a:hover, a:focus {
 }
 
 @media (max-width: 992px) {
-
-  .subhead span:before,
-  .subhead span:after {
-    width: 140px;
-  }
 
   .list-group {
     width: 465px;
@@ -547,10 +503,6 @@ a:hover, a:focus {
   }
 
   h3 {
-    font-size: 1.3em;
-  }
-
-  h2 {
     font-size: 1.3em;
   }
 
@@ -585,19 +537,6 @@ a:hover, a:focus {
   font-size: 5px
 }
 
-.subhead span:before,
-.subhead span:after {
-  width: 90px;
-}
-
-h4 {
-  font-size: 1.0em;
-}
-
-h2 {
-  font-size: 1.1em;
-}
-
 h5 {
   font-size: 1.0em;
 }
@@ -629,7 +568,7 @@ h5 {
   padding-left: 0
 }
 
-  h7 {
+   {
     font-size: 1.0em;
   }
 
@@ -640,15 +579,6 @@ h5 {
 p {
   font-size: 1.0em;
   width:380px;
-  }
-
-  .subhead span:before,
-  .subhead span:after {
-    width: 70px;
-  }
-
-  h4 {
-    font-size: 0.9em;
   }
 
   h5 {
@@ -793,15 +723,17 @@ p {
         </svg>
 
           <div id="titlecard">
-          <h1>Tracking Coronavirus in Arkansas</h1>
+          <h1>Tracking Coronavirus</h1>
         </div>
-            <h3>Here is where we compile information on covid-19 cases in Arkansas.</h3>
+            <h3>The latest information on covid-19 cases in Arkansas, the U.S. and the world</h3>
             <h5>By The Arkansas Democrat-Gazette<br></br></h5>
             <div class="row">
                 <div class="col-sm-12 text-center">
-            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-mvxCX">Arkansas</a></button>
-            <button type="button" class="btn btn-light btn-lg">U.S.</button>
-            <button type="button" class="btn btn-light btn-lg">World</button>
+            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-J3ur5">Arkansas</a></button>
+            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-3uS9T">U.S.</a></button>
+            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-Z4Qde">World</a></button>
+            <h2>UPDATED MARCH 25, 9:31 P.M. CDT</h2>
+
 
 </div>
 </div>
@@ -815,28 +747,131 @@ p {
     </div>
   </section>
 
-
+<div class="spacer" style="padding:20vh"></div>
 
   <div class="container-fluid">
     <div class="row">
 <div class="col-md-8">
-  <iframe title="Coronavirus Copy (DO NOT USE)" aria-label="USA arkansas counties choropleth map" id="datawrapper-chart-mvxCX" src="//datawrapper.dwcdn.net/mvxCX/8/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+  <iframe title="[ Insert title here ]" aria-label="choropleth map" id="datawrapper-chart-J3ur5" src="//datawrapper.dwcdn.net/J3ur5/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
   </script>
 </div>
 <div class="col-md-4">
-<div class="armap">
-<p><span class="badge badge-pill badge-warning">232</span> confirmed cases in Arkansas</p>
+  <div class="armap">
+  <div class="card" style="background:#f0f0f0">
+  <div class="card-body">
+<h4><span class="badge badge-pill badge-warning">308</span> confirmed cases in Arkansas</h4>
 
-<p><span class="badge badge-pill badge-warning">2</span> confirmed deaths</p>
+<h4><span class="badge badge-pill badge-warning">2</span> confirmed deaths</h4>
 
-<p><span class="badge badge-pill badge-success">10</span> confirmed recoveries</p>
+<h4><span class="badge badge-pill badge-success">12</span> confirmed recoveries</h4>
 
-<p><span class="badge badge-pill badge-light">998</span> negative tests</p>
+<h4><span class="badge badge-pill badge-dark">1,469</span> negative tests</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="spacer" style="padding:5vh"></div>
+
+
+<p>Arkansas’ <a href="https://www.arkansasonline.com/news/2020/mar/11/pine-bluff-patient-first-presumptive-case-coronavi/" target="_blank"><span class="badge badge-info">first presumptive case</span></a> of covid-19, the illness caused by the coronavirus, was detected in Pine Bluff on Wednesday, March 11. The patient had an out-of-state travel history.</p>
+
+<p>Also on March 11, the Centers for Disease Control and Prevention announced that Arkansas will receive $6,205,347 to support coronavirus preparedness and response, according to the agency’s website.</p>
+
+
+
+
+<div class="spacer" style="padding:5vh"></div>
+
+<div class="subhead"><p>New cases announced by day</p></div>
+<div class="d-flex justify-content-center">
+
+  <iframe title="[ Insert title here ]" aria-label="Column Chart" id="datawrapper-chart-oILSM" src="//datawrapper.dwcdn.net/oILSM/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 35% !important; border: none;" height="424"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+  </script>
+
+</div>
+
+<div class="spacer" style="padding:5vh"></div>
+
+<p>Symptoms of covid-19, including fever, cough and shortness of breath, have been mild for most people but severe or even deadly for some. The elderly and people with underlying health conditions considered most at risk.</p>
+
+<p>The <a href="https://www.arkansasonline.com/news/2020/mar/25/state-sees-first-covid-19-deaths-202003/" target="_blank"><span class="badge badge-info">first two deaths</span></a> from the coronavirus in Arkansas were reported Tuesday, March 24.</p>
+
+<p>The first person, a 59-year-old Sherwood man, died of the virus at Baptist Health Medical Center in North Little Rock. Officials said he had a "significant medical history," including respiratory and cardiac problems.</p>
+
+<p>At 8 a.m., a 91-year-old Cleburne County man died at Conway Regional Medical Center, a deputy Faulkner County coroner said.</p>
+
+
+
+
+<div class="spacer" style="padding:5vh"></div>
+<div class="d-flex justify-content-center">
+<iframe title="[ Insert title here ]" aria-label="USA states Symbol map" id="datawrapper-chart-3uS9T" src="//datawrapper.dwcdn.net/3uS9T/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 60% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
+</div>
+
+<div class="d-flex justify-content-center">
+
+<div class="card" style="background:#f0f0f0; width:60vw;">
+<div class="card-body">
+  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">69,194</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">1,050</span> confirmed deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">619</span> confirmed recoveries</h5>
+</div>
+</div>
+</div>
+
+<div class="spacer" style="padding:5vh"></div>
+
+<p>The outbreak in the United States first emerged in Washington state after a resident tested positive on January 20.
+
+<p>The first coronavirus-related death also occurred in Washington on February 29.</p>
+
+<p>Cases have been discovered in all 50 states after West Virginia reported its first on March 17. </p>
+
+<p>Thousands of new cases are now being detected across the country each day.</p>
+
+<div class="spacer" style="padding:5vh"></div>
+<div class="d-flex justify-content-center">
+<iframe title="[ Insert title here ]" aria-label="World Symbol map" id="datawrapper-chart-Z4Qde" src="//datawrapper.dwcdn.net/Z4Qde/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 60% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
+</div>
+<div class="d-flex justify-content-center">
+
+<div class="card" style="background:#f0f0f0; width: 60vw;">
+<div class="card-body">
+  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">472,076</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">21,308</span> confirmed deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">114,870</span> confirmed recoveries</h5>
+</div>
+</div>
+</div>
+
+<div class="spacer" style="padding:5vh"></div>
+
+<p>The ongoing global pandemic can be traced back to November 2019 in Hubei, China. </p>
+
+<p>The Centers for Disease Control and Prevention has advised against all <a href="https://wwwnc.cdc.gov/travel/notices" target="_blank"><span class="badge badge-info">non-essential travel</span></a> throughout most of Europe and Asia.</p>
+
+<div class="spacer" style="padding:10vh"></div>
+
+
+<div class="d-flex justify-content-center">
+
+<div class="card" style="width: 40vw; background:#f0f0f0">
+<div class="card-body">
+  <div class="subhead"><p>About this page</p></div>
+  <div class="source"><p>The Arkansas Democrat-Gazette updates this page daily using data from <a href="https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/f533ac8a8b6040e5896b05b47b17a647" target="_blank" style="color: CornflowerBlue">
+    the Arkansas Department of Health</a>, <a href="https://coronavirus.jhu.edu/map.html" target="_blank" style="color: CornflowerBlue">Johns Hopkins University Center for Systems Science and Engineering</a> and
+    <a href="https://covidtracking.com/data/" target="_blank" style="color: CornflowerBlue">The COVID Tracking Project</a>.</p>
+    <p>Data compiled here only tracks number of confirmed cases. More cases exist among individuals who have not been tested.<p>
+    <p>Please contact <a href="mailto:ychen@adgnewsroom.com" style="color: CornflowerBlue">Yutao Chen</a> if you see information that you believe is out-of-date or incorrect.<p>
+    <p>Data visualization by Yutao Chen and Emily Walkenhorst</p>
+    <p>Design and development by Yutao Chen</p>
 
 </div>
 </div>
 </div>
 </div>
+
+
 
   <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark" style="background-color: #383838">
