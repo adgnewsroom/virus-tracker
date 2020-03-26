@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
     <style>
@@ -106,6 +105,11 @@ h4 {
   font-size: 1.5em;
 }
 
+h7 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0em;
+}
+
 p {
   max-width: 680px;
   margin: auto;
@@ -127,8 +131,9 @@ p {
 
 .source p{
   font-family: 'Roboto', sans-serif;
+  max-width: 60vw;
   font-size: 1.0em;
-  font-weight: 100;
+  font-weight: 50;
 }
 
 #share {
@@ -140,7 +145,6 @@ p {
   z-index: 150;
 }
 
-/* buttons */
 
 #share a {
   display: inline-block;
@@ -168,6 +172,23 @@ p {
 
 .col-md-6 a {
   opacity: 0.7;
+}
+
+
+#datawrapper-chart-oILSM {
+min-width: 40% !important;
+height: 600px;
+}
+
+#datawrapper-chart-3uS9T {
+min-width: 60% !important;
+height: 600px;
+}
+
+
+#datawrapper-chart-Z4Qde {
+min-width: 60% !important;
+height: 600px;
 }
 
 a {
@@ -226,6 +247,13 @@ a:hover, a:focus {
   animation: pulse 2s linear alternate infinite;
 }
 
+#aboutthispage {
+  width: 40vw;
+}
+
+#totalcases {
+ width: 60vw;
+}
 
 .scroll {
   position: relative;
@@ -374,6 +402,30 @@ p {
     font-size: 0.8em;
   }
 
+  h7 {
+    font-size: 0.8em;
+  }
+
+  #aboutthispage {
+    width: 65vw;
+  }
+
+  #totalcases {
+    width: 90vw;
+  }
+
+  #datawrapper-chart-oILSM {
+  min-width: 95% !important;
+  }
+
+  #datawrapper-chart-3uS9T {
+  min-width: 95% !important;
+  }
+
+  #datawrapper-chart-Z4Qde {
+  min-width: 95% !important;
+  }
+
 }
 
 
@@ -518,9 +570,9 @@ p {
             <h5>By The Arkansas Democrat-Gazette<br></br></h5>
             <div class="row">
                 <div class="col-sm-12 text-center">
-            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-J3ur5">Arkansas</a></button>
-            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-3uS9T">U.S.</a></button>
-            <button type="button" class="btn btn-light btn-lg"><a href="#datawrapper-chart-Z4Qde">World</a></button>
+            <button type="button" class="btn btn-light btn-lg"><h7><a href="#datawrapper-chart-J3ur5">Arkansas</a></h7></button>
+            <button type="button" class="btn btn-light btn-lg"><h7><a href="#datawrapper-chart-3uS9T">U.S.</a></h7></button>
+            <button type="button" class="btn btn-light btn-lg"><h7><a href="#datawrapper-chart-Z4Qde">World</a></h7></button>
             <h2>UPDATED MARCH 26, 1:00 P.M. CDT</h2>
 
 
@@ -550,9 +602,9 @@ p {
   <div class="card-body">
 <h4><span class="badge badge-pill badge-warning">335</span> confirmed cases in Arkansas</h4>
 
-<h4><span class="badge badge-pill badge-warning">2</span> confirmed deaths</h4>
+<h4><span class="badge badge-pill badge-warning">2</span> deaths</h4>
 
-<h4><span class="badge badge-pill badge-success">13</span> confirmed recoveries</h4>
+<h4><span class="badge badge-pill badge-success">13</span> recoveries</h4>
 
 <h4><span class="badge badge-pill badge-dark">1,504</span> negative tests</h4>
 </div>
@@ -573,10 +625,10 @@ p {
 
 <div class="spacer" style="padding:5vh"></div>
 
-<div class="subhead"><p>New cases announced by day</p></div>
+<div class="subhead"><p>Cumulative covid-19 cases in Arkansas by day</p></div>
 <div class="d-flex justify-content-center">
 
-  <iframe title="[ Insert title here ]" aria-label="Column Chart" id="datawrapper-chart-oILSM" src="//datawrapper.dwcdn.net/oILSM/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 35% !important; border: none;" height="424"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+  <iframe title="[ Insert title here ]" aria-label="Column Chart" id="datawrapper-chart-oILSM" src="//datawrapper.dwcdn.net/oILSM/3/" scrolling="no" frameborder="0" style="width: 0; border: none;" height="424"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
   </script>
 
 </div>
@@ -592,19 +644,17 @@ p {
 <p>At 8 a.m., a 91-year-old Cleburne County man died at Conway Regional Medical Center, a deputy Faulkner County coroner said.</p>
 
 
-
-
 <div class="spacer" style="padding:5vh"></div>
 <div class="d-flex justify-content-center">
-<iframe title="[ Insert title here ]" aria-label="USA states Symbol map" id="datawrapper-chart-3uS9T" src="//datawrapper.dwcdn.net/3uS9T/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 60% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+<iframe title="[ Insert title here ]" aria-label="USA states Symbol map" id="datawrapper-chart-3uS9T" src="//datawrapper.dwcdn.net/3uS9T/5/" scrolling="no" frameborder="0" style="width: 0; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 </div>
 
 <div class="d-flex justify-content-center">
 
-<div class="card" style="background:#f0f0f0; width:60vw;">
+<div class="card" id="totalcases" style="background:#f0f0f0;">
 <div class="card-body">
-  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">69,194</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">1,050</span> confirmed deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">619</span> confirmed recoveries</h5>
+  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">69,194</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">1,050</span> deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">619</span> recoveries</h5>
 </div>
 </div>
 </div>
@@ -621,14 +671,14 @@ p {
 
 <div class="spacer" style="padding:5vh"></div>
 <div class="d-flex justify-content-center">
-<iframe title="[ Insert title here ]" aria-label="World Symbol map" id="datawrapper-chart-Z4Qde" src="//datawrapper.dwcdn.net/Z4Qde/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 60% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+<iframe title="[ Insert title here ]" aria-label="World Symbol map" id="datawrapper-chart-Z4Qde" src="//datawrapper.dwcdn.net/Z4Qde/1/" scrolling="no" frameborder="0" style="width: 0; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 </div>
 <div class="d-flex justify-content-center">
 
-<div class="card" style="background:#f0f0f0; width: 60vw;">
+<div class="card" id="totalcases" style="background:#f0f0f0;">
 <div class="card-body">
-  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">472,076</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">21,308</span> confirmed deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">114,870</span> confirmed recoveries</h5>
+  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">472,076</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">21,308</span> deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">114,870</span> recoveries</h5>
 </div>
 </div>
 </div>
@@ -644,12 +694,13 @@ p {
 
 <div class="d-flex justify-content-center">
 
-<div class="card" style="width: 40vw; background:#f0f0f0">
+<div class="card" id="aboutthispage" style="background:#f0f0f0">
 <div class="card-body">
   <div class="subhead"><p>About this page</p></div>
   <div class="source"><p>The Arkansas Democrat-Gazette updates this page daily using data from <a href="https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/f533ac8a8b6040e5896b05b47b17a647" target="_blank" style="color: CornflowerBlue">
     the Arkansas Department of Health</a>, <a href="https://coronavirus.jhu.edu/map.html" target="_blank" style="color: CornflowerBlue">Johns Hopkins University Center for Systems Science and Engineering</a> and
     <a href="https://covidtracking.com/data/" target="_blank" style="color: CornflowerBlue">The COVID Tracking Project</a>.</p>
+    <p>Arkansas map is updated as data come in from state health department. Other graphics are updated 9:00 p.m. CDT each day.<p>
     <p>Data compiled here only tracks number of confirmed cases. More cases most likely exist among individuals who have not been tested.<p>
     <p>Please contact <a href="mailto:ychen@adgnewsroom.com" style="color: CornflowerBlue">Yutao Chen</a> if you see information that you believe is out-of-date or incorrect.<p>
     <p>Data visualization by Yutao Chen and Emily Walkenhorst</p>
@@ -789,14 +840,8 @@ p {
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
-    var flky = new Flickity( '.carousel', {});
-
-    AOS.init();
-
-    AOS.refresh();
 
 
     var titleCard = "#titlecard";
