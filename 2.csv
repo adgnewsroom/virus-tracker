@@ -1,0 +1,541 @@
+﻿date,county,value
+3/11/20,Pulaski,0
+3/12/20,Pulaski,5
+3/13/20,Pulaski,6
+3/14/20,Pulaski,7
+3/15/20,Pulaski,8
+3/16/20,Pulaski,10
+3/17/20,Pulaski,10
+3/18/20,Pulaski,13
+3/19/20,Pulaski,18
+3/20/20,Pulaski,23
+3/21/20,Pulaski,28
+3/22/20,Pulaski,52
+3/23/20,Pulaski,54
+3/24/20,Pulaski,64
+3/25/20,Pulaski,79
+3/26/20,Pulaski,83
+3/27/20,Pulaski,89
+3/28/20,Pulaski,92
+3/29/20,Pulaski,94
+3/30/20,Pulaski,99
+3/31/20,Pulaski,103
+4/1/20,Pulaski,113
+4/2/20,Pulaski,126
+4/3/20,Pulaski,137
+4/4/20,Pulaski,139
+4/5/20,Pulaski,161
+4/6/20,Pulaski,171
+3/11/20,Cleburne,0
+3/12/20,Cleburne,0
+3/13/20,Cleburne,0
+3/14/20,Cleburne,0
+3/15/20,Cleburne,0
+3/16/20,Cleburne,1
+3/17/20,Cleburne,1
+3/18/20,Cleburne,1
+3/19/20,Cleburne,1
+3/20/20,Cleburne,11
+3/21/20,Cleburne,22
+3/22/20,Cleburne,25
+3/23/20,Cleburne,25
+3/24/20,Cleburne,34
+3/25/20,Cleburne,41
+3/26/20,Cleburne,46
+3/27/20,Cleburne,49
+3/28/20,Cleburne,50
+3/29/20,Cleburne,56
+3/30/20,Cleburne,58
+3/31/20,Cleburne,61
+4/1/20,Cleburne,63
+4/2/20,Cleburne,64
+4/3/20,Cleburne,65
+4/4/20,Cleburne,65
+4/5/20,Cleburne,65
+4/6/20,Cleburne,65
+3/11/20,Jefferson,1
+3/12/20,Jefferson,1
+3/13/20,Jefferson,1
+3/14/20,Jefferson,2
+3/15/20,Jefferson,5
+3/16/20,Jefferson,5
+3/17/20,Jefferson,5
+3/18/20,Jefferson,10
+3/19/20,Jefferson,18
+3/20/20,Jefferson,19
+3/21/20,Jefferson,19
+3/22/20,Jefferson,20
+3/23/20,Jefferson,20
+3/24/20,Jefferson,22
+3/25/20,Jefferson,22
+3/26/20,Jefferson,23
+3/27/20,Jefferson,23
+3/28/20,Jefferson,25
+3/29/20,Jefferson,26
+3/30/20,Jefferson,33
+3/31/20,Jefferson,40
+4/1/20,Jefferson,49
+4/2/20,Jefferson,49
+4/3/20,Jefferson,53
+4/4/20,Jefferson,53
+4/5/20,Jefferson,62
+4/6/20,Jefferson,68
+3/11/20,Benton,0
+3/12/20,Benton,0
+3/13/20,Benton,0
+3/14/20,Benton,0
+3/15/20,Benton,0
+3/16/20,Benton,0
+3/17/20,Benton,0
+3/18/20,Benton,0
+3/19/20,Benton,1
+3/20/20,Benton,1
+3/21/20,Benton,1
+3/22/20,Benton,1
+3/23/20,Benton,1
+3/24/20,Benton,3
+3/25/20,Benton,18
+3/26/20,Benton,23
+3/27/20,Benton,24
+3/28/20,Benton,29
+3/29/20,Benton,33
+3/30/20,Benton,38
+3/31/20,Benton,38
+4/1/20,Benton,40
+4/2/20,Benton,42
+4/3/20,Benton,41
+4/4/20,Benton,40
+4/5/20,Benton,42
+4/6/20,Benton,42
+3/11/20,Faulkner,0
+3/12/20,Faulkner,0
+3/13/20,Faulkner,0
+3/14/20,Faulkner,0
+3/15/20,Faulkner,0
+3/16/20,Faulkner,0
+3/17/20,Faulkner,0
+3/18/20,Faulkner,1
+3/19/20,Faulkner,1
+3/20/20,Faulkner,1
+3/21/20,Faulkner,1
+3/22/20,Faulkner,7
+3/23/20,Faulkner,7
+3/24/20,Faulkner,17
+3/25/20,Faulkner,23
+3/26/20,Faulkner,24
+3/27/20,Faulkner,28
+3/28/20,Faulkner,29
+3/29/20,Faulkner,30
+3/30/20,Faulkner,36
+3/31/20,Faulkner,36
+4/1/20,Faulkner,36
+4/2/20,Faulkner,38
+4/3/20,Faulkner,40
+4/4/20,Faulkner,40
+4/5/20,Faulkner,47
+4/6/20,Faulkner,52
+3/11/20,Garland,0
+3/12/20,Garland,0
+3/13/20,Garland,0
+3/14/20,Garland,0
+3/15/20,Garland,2
+3/16/20,Garland,2
+3/17/20,Garland,2
+3/18/20,Garland,2
+3/19/20,Garland,3
+3/20/20,Garland,6
+3/21/20,Garland,6
+3/22/20,Garland,9
+3/23/20,Garland,9
+3/24/20,Garland,11
+3/25/20,Garland,18
+3/26/20,Garland,19
+3/27/20,Garland,20
+3/28/20,Garland,20
+3/29/20,Garland,26
+3/30/20,Garland,31
+3/31/20,Garland,31
+4/1/20,Garland,33
+4/2/20,Garland,37
+4/3/20,Garland,40
+4/4/20,Garland,40
+4/5/20,Garland,41
+4/6/20,Garland,46
+3/11/20,Crittenden,0
+3/12/20,Crittenden,0
+3/13/20,Crittenden,0
+3/14/20,Crittenden,0
+3/15/20,Crittenden,0
+3/16/20,Crittenden,0
+3/17/20,Crittenden,0
+3/18/20,Crittenden,0
+3/19/20,Crittenden,1
+3/20/20,Crittenden,1
+3/21/20,Crittenden,1
+3/22/20,Crittenden,1
+3/23/20,Crittenden,1
+3/24/20,Crittenden,3
+3/25/20,Crittenden,7
+3/26/20,Crittenden,7
+3/27/20,Crittenden,12
+3/28/20,Crittenden,15
+3/29/20,Crittenden,17
+3/30/20,Crittenden,17
+3/31/20,Crittenden,29
+4/1/20,Crittenden,31
+4/2/20,Crittenden,32
+4/3/20,Crittenden,43
+4/4/20,Crittenden,44
+4/5/20,Crittenden,53
+4/6/20,Crittenden,58
+3/11/20,Clark,0
+3/12/20,Clark,0
+3/13/20,Clark,0
+3/14/20,Clark,0
+3/15/20,Clark,0
+3/16/20,Clark,0
+3/17/20,Clark,0
+3/18/20,Clark,0
+3/19/20,Clark,1
+3/20/20,Clark,1
+3/21/20,Clark,1
+3/22/20,Clark,1
+3/23/20,Clark,1
+3/24/20,Clark,6
+3/25/20,Clark,13
+3/26/20,Clark,15
+3/27/20,Clark,17
+3/28/20,Clark,18
+3/29/20,Clark,18
+3/30/20,Clark,24
+3/31/20,Clark,24
+4/1/20,Clark,26
+4/2/20,Clark,26
+4/3/20,Clark,27
+4/4/20,Clark,27
+4/5/20,Clark,27
+4/6/20,Clark,27
+3/11/20,Washington,0
+3/12/20,Washington,0
+3/13/20,Washington,0
+3/14/20,Washington,0
+3/15/20,Washington,0
+3/16/20,Washington,0
+3/17/20,Washington,0
+3/18/20,Washington,1
+3/19/20,Washington,1
+3/20/20,Washington,1
+3/21/20,Washington,1
+3/22/20,Washington,5
+3/23/20,Washington,5
+3/24/20,Washington,6
+3/25/20,Washington,10
+3/26/20,Washington,12
+3/27/20,Washington,13
+3/28/20,Washington,14
+3/29/20,Washington,15
+3/30/20,Washington,18
+3/31/20,Washington,22
+4/1/20,Washington,22
+4/2/20,Washington,24
+4/3/20,Washington,25
+4/4/20,Washington,25
+4/5/20,Washington,29
+4/6/20,Washington,29
+3/11/20,Van Buren,0
+3/12/20,Van Buren,0
+3/13/20,Van Buren,0
+3/14/20,Van Buren,0
+3/15/20,Van Buren,0
+3/16/20,Van Buren,0
+3/17/20,Van Buren,0
+3/18/20,Van Buren,0
+3/19/20,Van Buren,1
+3/20/20,Van Buren,1
+3/21/20,Van Buren,1
+3/22/20,Van Buren,1
+3/23/20,Van Buren,1
+3/24/20,Van Buren,7
+3/25/20,Van Buren,10
+3/26/20,Van Buren,13
+3/27/20,Van Buren,17
+3/28/20,Van Buren,17
+3/29/20,Van Buren,18
+3/30/20,Van Buren,20
+3/31/20,Van Buren,20
+4/1/20,Van Buren,20
+4/2/20,Van Buren,20
+4/3/20,Van Buren,20
+4/4/20,Van Buren,20
+4/5/20,Van Buren,21
+4/6/20,Van Buren,21
+3/11/20,Saline,0
+3/12/20,Saline,0
+3/13/20,Saline,0
+3/14/20,Saline,0
+3/15/20,Saline,1
+3/16/20,Saline,1
+3/17/20,Saline,1
+3/18/20,Saline,1
+3/19/20,Saline,1
+3/20/20,Saline,1
+3/21/20,Saline,1
+3/22/20,Saline,1
+3/23/20,Saline,1
+3/24/20,Saline,4
+3/25/20,Saline,4
+3/26/20,Saline,4
+3/27/20,Saline,4
+3/28/20,Saline,4
+3/29/20,Saline,6
+3/30/20,Saline,8
+3/31/20,Saline,11
+4/1/20,Saline,14
+4/2/20,Saline,18
+4/3/20,Saline,21
+4/4/20,Saline,21
+4/5/20,Saline,29
+4/6/20,Saline,33
+3/11/20,White,0
+3/12/20,White,0
+3/13/20,White,0
+3/14/20,White,0
+3/15/20,White,0
+3/16/20,White,0
+3/17/20,White,0
+3/18/20,White,0
+3/19/20,White,0
+3/20/20,White,0
+3/21/20,White,0
+3/22/20,White,0
+3/23/20,White,0
+3/24/20,White,4
+3/25/20,White,4
+3/26/20,White,6
+3/27/20,White,6
+3/28/20,White,6
+3/29/20,White,6
+3/30/20,White,9
+3/31/20,White,11
+4/1/20,White,15
+4/2/20,White,22
+4/3/20,White,23
+4/4/20,White,23
+4/5/20,White,25
+4/6/20,White,27
+3/11/20,Lonoke,0
+3/12/20,Lonoke,0
+3/13/20,Lonoke,0
+3/14/20,Lonoke,0
+3/15/20,Lonoke,0
+3/16/20,Lonoke,0
+3/17/20,Lonoke,0
+3/18/20,Lonoke,0
+3/19/20,Lonoke,0
+3/20/20,Lonoke,0
+3/21/20,Lonoke,0
+3/22/20,Lonoke,0
+3/23/20,Lonoke,0
+3/24/20,Lonoke,0
+3/25/20,Lonoke,0
+3/26/20,Lonoke,4
+3/27/20,Lonoke,4
+3/28/20,Lonoke,4
+3/29/20,Lonoke,4
+3/30/20,Lonoke,4
+3/31/20,Lonoke,6
+4/1/20,Lonoke,6
+4/2/20,Lonoke,13
+4/3/20,Lonoke,16
+4/4/20,Lonoke,15
+4/5/20,Lonoke,17
+4/6/20,Lonoke,23
+3/11/20,Craighead,0
+3/12/20,Craighead,0
+3/13/20,Craighead,0
+3/14/20,Craighead,0
+3/15/20,Craighead,0
+3/16/20,Craighead,0
+3/17/20,Craighead,0
+3/18/20,Craighead,0
+3/19/20,Craighead,1
+3/20/20,Craighead,1
+3/21/20,Craighead,1
+3/22/20,Craighead,1
+3/23/20,Craighead,1
+3/24/20,Craighead,4
+3/25/20,Craighead,4
+3/26/20,Craighead,4
+3/27/20,Craighead,4
+3/28/20,Craighead,4
+3/29/20,Craighead,6
+3/30/20,Craighead,8
+3/31/20,Craighead,10
+4/1/20,Craighead,13
+4/2/20,Craighead,13
+4/3/20,Craighead,16
+4/4/20,Craighead,17
+4/5/20,Craighead,20
+4/6/20,Craighead,22
+3/11/20,Pope,0
+3/12/20,Pope,0
+3/13/20,Pope,0
+3/14/20,Pope,0
+3/15/20,Pope,0
+3/16/20,Pope,0
+3/17/20,Pope,0
+3/18/20,Pope,0
+3/19/20,Pope,1
+3/20/20,Pope,1
+3/21/20,Pope,1
+3/22/20,Pope,1
+3/23/20,Pope,1
+3/24/20,Pope,2
+3/25/20,Pope,3
+3/26/20,Pope,3
+3/27/20,Pope,3
+3/28/20,Pope,3
+3/29/20,Pope,4
+3/30/20,Pope,5
+3/31/20,Pope,6
+4/1/20,Pope,6
+4/2/20,Pope,8
+4/3/20,Pope,8
+4/4/20,Pope,8
+4/5/20,Pope,13
+4/6/20,Pope,17
+3/11/20,St. Francis,0
+3/12/20,St. Francis,0
+3/13/20,St. Francis,0
+3/14/20,St. Francis,0
+3/15/20,St. Francis,0
+3/16/20,St. Francis,0
+3/17/20,St. Francis,0
+3/18/20,St. Francis,0
+3/19/20,St. Francis,0
+3/20/20,St. Francis,0
+3/21/20,St. Francis,0
+3/22/20,St. Francis,0
+3/23/20,St. Francis,0
+3/24/20,St. Francis,0
+3/25/20,St. Francis,0
+3/26/20,St. Francis,0
+3/27/20,St. Francis,0
+3/28/20,St. Francis,0
+3/29/20,St. Francis,0
+3/30/20,St. Francis,1
+3/31/20,St. Francis,2
+4/1/20,St. Francis,2
+4/2/20,St. Francis,2
+4/3/20,St. Francis,2
+4/4/20,St. Francis,3
+4/5/20,St. Francis,11
+4/6/20,St. Francis,17
+3/11/20,Union,0
+3/12/20,Union,0
+3/13/20,Union,0
+3/14/20,Union,0
+3/15/20,Union,0
+3/16/20,Union,0
+3/17/20,Union,0
+3/18/20,Union,0
+3/19/20,Union,0
+3/20/20,Union,0
+3/21/20,Union,0
+3/22/20,Union,0
+3/23/20,Union,0
+3/24/20,Union,1
+3/25/20,Union,2
+3/26/20,Union,2
+3/27/20,Union,2
+3/28/20,Union,5
+3/29/20,Union,6
+3/30/20,Union,8
+3/31/20,Union,8
+4/1/20,Union,9
+4/2/20,Union,10
+4/3/20,Union,10
+4/4/20,Union,10
+4/5/20,Union,12
+4/6/20,Union,13
+3/11/20,Miller,0
+3/12/20,Miller,0
+3/13/20,Miller,0
+3/14/20,Miller,0
+3/15/20,Miller,0
+3/16/20,Miller,0
+3/17/20,Miller,0
+3/18/20,Miller,0
+3/19/20,Miller,0
+3/20/20,Miller,0
+3/21/20,Miller,0
+3/22/20,Miller,0
+3/23/20,Miller,0
+3/24/20,Miller,0
+3/25/20,Miller,0
+3/26/20,Miller,0
+3/27/20,Miller,0
+3/28/20,Miller,0
+3/29/20,Miller,0
+3/30/20,Miller,0
+3/31/20,Miller,1
+4/1/20,Miller,7
+4/2/20,Miller,8
+4/3/20,Miller,8
+4/4/20,Miller,8
+4/5/20,Miller,8
+4/6/20,Miller,13
+3/11/20,Johnson,0
+3/12/20,Johnson,0
+3/13/20,Johnson,0
+3/14/20,Johnson,0
+3/15/20,Johnson,0
+3/16/20,Johnson,0
+3/17/20,Johnson,0
+3/18/20,Johnson,0
+3/19/20,Johnson,0
+3/20/20,Johnson,0
+3/21/20,Johnson,0
+3/22/20,Johnson,0
+3/23/20,Johnson,0
+3/24/20,Johnson,0
+3/25/20,Johnson,0
+3/26/20,Johnson,0
+3/27/20,Johnson,0
+3/28/20,Johnson,1
+3/29/20,Johnson,1
+3/30/20,Johnson,3
+3/31/20,Johnson,3
+4/1/20,Johnson,6
+4/2/20,Johnson,7
+4/3/20,Johnson,7
+4/4/20,Johnson,7
+4/5/20,Johnson,8
+4/6/20,Johnson,11
+3/11/20,Lincoln,0
+3/12/20,Lincoln,0
+3/13/20,Lincoln,0
+3/14/20,Lincoln,0
+3/15/20,Lincoln,0
+3/16/20,Lincoln,1
+3/17/20,Lincoln,1
+3/18/20,Lincoln,1
+3/19/20,Lincoln,1
+3/20/20,Lincoln,1
+3/21/20,Lincoln,1
+3/22/20,Lincoln,1
+3/23/20,Lincoln,1
+3/24/20,Lincoln,3
+3/25/20,Lincoln,4
+3/26/20,Lincoln,5
+3/27/20,Lincoln,6
+3/28/20,Lincoln,6
+3/29/20,Lincoln,6
+3/30/20,Lincoln,6
+3/31/20,Lincoln,6
+4/1/20,Lincoln,6
+4/2/20,Lincoln,6
+4/3/20,Lincoln,6
+4/4/20,Lincoln,6
+4/5/20,Lincoln,7
+4/6/20,Lincoln,10
