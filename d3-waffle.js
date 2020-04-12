@@ -6,8 +6,8 @@ function d3waffle() {
       adjust = 1.2,
       colorscale = d3v3.scale.category20(),
       appearancetimes = function(d, i){ return 500; },
-      height = 400,
-      magic_padding = 5;
+      height = 350,
+      magic_padding = 10;
 
   function chart(selection) {
 
@@ -48,7 +48,7 @@ function d3waffle() {
 
       /* setting the container */
       var svg = selection.append("svg")
-            .attr("width",  "515px")
+            .attr("width",  "465px")
             .attr("height", height + "px")
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
@@ -112,7 +112,7 @@ function d3waffle() {
           .attr("transform", function(d) { return "translate(" + (cols*gridSize + magic_padding) + "," + magic_padding + ")"; })
 
       legend.append('text')
-            .attr('x', 20)
+            .attr('x', 10)
             .attr('y', function(d, i){ return i * gridSize + i * magic_padding / 2;})
             .style("opacity", 1)
             .html(function(d){ return icon; })
@@ -123,7 +123,7 @@ function d3waffle() {
             .style("font-size", "40px");
 
       legend.append('text')
-            .attr('x', 10)
+            .attr('x', 1)
             .attr('y', function(d, i){ return i * gridSize + i * magic_padding / 2;})
             .style("opacity", 1)
             .html(function(d){ return d.name; })
