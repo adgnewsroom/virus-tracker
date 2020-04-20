@@ -485,33 +485,6 @@
 4/4/20,Miller,8
 4/5/20,Miller,8
 4/6/20,Miller,13
-3/11/20,Johnson,0
-3/12/20,Johnson,0
-3/13/20,Johnson,0
-3/14/20,Johnson,0
-3/15/20,Johnson,0
-3/16/20,Johnson,0
-3/17/20,Johnson,0
-3/18/20,Johnson,0
-3/19/20,Johnson,0
-3/20/20,Johnson,0
-3/21/20,Johnson,0
-3/22/20,Johnson,0
-3/23/20,Johnson,0
-3/24/20,Johnson,0
-3/25/20,Johnson,0
-3/26/20,Johnson,0
-3/27/20,Johnson,0
-3/28/20,Johnson,1
-3/29/20,Johnson,1
-3/30/20,Johnson,3
-3/31/20,Johnson,3
-4/1/20,Johnson,6
-4/2/20,Johnson,7
-4/3/20,Johnson,7
-4/4/20,Johnson,7
-4/5/20,Johnson,8
-4/6/20,Johnson,11
 3/11/20,Lincoln,0
 3/12/20,Lincoln,0
 3/13/20,Lincoln,0
@@ -558,7 +531,6 @@
 4/7/20,Miller,16
 4/7/20,Union,13
 4/7/20,Lincoln,11
-4/7/20,Johnson,11
 4/8/20,Pulaski,201
 4/8/20,Jefferson,85
 4/8/20,Cleburne,70
@@ -578,7 +550,6 @@
 4/8/20,Miller,17
 4/8/20,Union,15
 4/8/20,Lincoln,11
-4/8/20,Johnson,11
 4/9/20,Pulaski,221
 4/9/20,Jefferson,91
 4/9/20,Crittenden,77
@@ -597,7 +568,6 @@
 4/9/20,Pope,23
 4/9/20,Miller,20
 4/9/20,Union,16
-4/9/20,Johnson,11
 4/9/20,Lincoln,10
 4/10/20,Pulaski,236
 4/10/20,Jefferson,90
@@ -617,7 +587,6 @@
 4/10/20,Van Buren,26
 4/10/20,Miller,20
 4/10/20,Union,17
-4/10/20,Johnson,13
 4/10/20,Lincoln,10
 4/11/20,Pulaski,249
 4/11/20,Jefferson,91
@@ -637,7 +606,6 @@
 4/11/20,Van Buren,26
 4/11/20,Miller,22
 4/11/20,Union,18
-4/11/20,Johnson,13
 4/11/20,Lincoln,10
 4/12/20,Pulaski,256
 4/12/20,Jefferson,95
@@ -657,7 +625,6 @@
 4/12/20,Van Buren,26
 4/12/20,Miller,22
 4/12/20,Union,18
-4/12/20,Johnson,13
 4/12/20,Lincoln,11
 4/13/20,Pulaski,284
 4/13/20,Crittenden,115
@@ -677,7 +644,6 @@
 4/13/20,Miller,27
 4/13/20,Clark,26
 4/13/20,Van Buren,26
-4/13/20,Johnson,19
 4/13/20,Union,17
 4/14/20,Pulaski,297
 4/14/20,Crittenden,116
@@ -697,7 +663,6 @@
 4/14/20,White,28
 4/14/20,Clark,26
 4/14/20,Van Buren,26
-4/14/20,Johnson,19
 4/14/20,Union,17
 4/15/20,Pulaski,353
 4/15/20,Crittenden,122
@@ -718,7 +683,6 @@
 4/15/20,Clark,27
 4/15/20,Van Buren,26
 4/15/20,Union,18
-4/15/20,Johnson,18
 4/16/20,Pulaski,355
 4/16/20,Crittenden,122
 4/16/20,Jefferson,109
@@ -738,7 +702,6 @@
 4/16/20,Clark,27
 4/16/20,Van Buren,26
 4/16/20,Union,19
-4/16/20,Johnson,18
 4/17/20,Pulaski,360
 4/17/20,Crittenden,127
 4/17/20,Jefferson,113
@@ -758,7 +721,6 @@
 4/17/20,Clark,27
 4/17/20,Van Buren,26
 4/17/20,Union,20
-4/17/20,Johnson,20
 4/18/20,Pulaski,377
 4/18/20,Crittenden,138
 4/18/20,Jefferson,118
@@ -778,7 +740,6 @@
 4/18/20,Lonoke,26
 4/18/20,Van Buren,26
 4/18/20,Union,24
-4/18/20,Johnson,21
 3/11/20,Lawrence,0
 3/12/20,Lawrence,0
 3/13/20,Lawrence,0
@@ -793,7 +754,7 @@
 3/22/20,Lawrence,0
 3/23/20,Lawrence,1
 3/24/20,Lawrence,1
-3/25/20,Lawrence,0
+3/25/20,Lawrence,1
 3/26/20,Lawrence,1
 3/27/20,Lawrence,1
 3/28/20,Lawrence,1
@@ -838,4 +799,3 @@
 4/19/20,Lonoke,26
 4/19/20,Van Buren,26
 4/19/20,Union,24
-4/19/20,Johnson,22
