@@ -1,4 +1,4 @@
-County,State,Lat,Long_,Confirmed,Deaths
+county,state,Lat,Long_,Confirmed,Deaths
 New York City,New York,40.7672726,-73.97152637,155113,17126
 Nassau,New York,40.74066522,-73.58941873,33798,1558
 Suffolk,New York,40.88320119,-72.8012172,31368,1042

@@ -1,4 +1,4 @@
-Country_Region,Lat,Long_,Confirmed,Deaths,Recovered
+country,Lat,Long_,Confirmed,Deaths,Recovered
 U.S.,39.381266,-97.922211,939053,53934,100721
 Spain,40.463667,-3.74922,223759,22902,95708
 Italy,41.87194,12.56738,195351,26384,63120
