@@ -5,82 +5,200 @@
 <style type="text/css">
 	.st0{clip-path:url(#SVGID_2_);enable-background:new    ;}
 	.st1{clip-path:url(#SVGID_4_);fill:none;stroke:#E8E8E8;stroke-width:0.75;stroke-miterlimit:10;}
-	.st2{clip-path:url(#SVGID_4_);fill:#C71E1D;}
-	.st3{clip-path:url(#SVGID_4_);}
-	.st4{fill:#C71E1D;fill-opacity:0.6;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-	.st5{clip-path:url(#SVGID_4_);fill:none;stroke:#333333;stroke-width:0.75;stroke-miterlimit:10;}
-	.st6{fill:#A6A6A6;}
-	.st7{font-family:'Roboto-Regular';}
-	.st8{font-size:9px;}
-	.st9{fill:#333333;}
-	.st10{font-size:11px;}
-	.st11{fill:#FACE00;fill-opacity:0.85;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_6_);fill:none;stroke:#E8E8E8;stroke-width:0.75;stroke-miterlimit:10;}
+	.st3{clip-path:url(#SVGID_8_);fill:none;stroke:#E8E8E8;stroke-width:0.75;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_10_);fill:none;stroke:#E8E8E8;stroke-width:0.75;stroke-miterlimit:10;}
+	.st5{clip-path:url(#SVGID_12_);fill:none;stroke:#E8E8E8;stroke-width:0.75;stroke-miterlimit:10;}
+	.st6{clip-path:url(#SVGID_14_);fill:#C71E1D;}
+	.st7{clip-path:url(#SVGID_16_);}
+	.st8{fill:#C71E1D;fill-opacity:0.6;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st9{clip-path:url(#SVGID_18_);fill:none;stroke:#333333;stroke-width:0.75;stroke-miterlimit:10;}
+	.st10{clip-path:url(#SVGID_20_);}
+	.st11{fill:#A6A6A6;}
+	.st12{font-family:'Roboto-Regular';}
+	.st13{font-size:9px;}
+	.st14{clip-path:url(#SVGID_22_);}
+	.st15{clip-path:url(#SVGID_24_);}
+	.st16{clip-path:url(#SVGID_26_);}
+	.st17{clip-path:url(#SVGID_28_);}
+	.st18{clip-path:url(#SVGID_30_);}
+	.st19{fill:#333333;}
+	.st20{font-size:11px;}
+	.st21{fill:#FACE00;fill-opacity:0.85;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
 </style>
 <g>
-	<defs>
-		<rect id="SVGID_1_" width="637.5" height="487.5"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g class="st0">
-		<g>
-			<defs>
-				<rect id="SVGID_3_" width="637.5" height="487.5"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-			</clipPath>
-			<line class="st1" x1="21" y1="78.8" x2="637.5" y2="78.8"/>
-			<line class="st1" x1="21" y1="156" x2="637.5" y2="156"/>
-			<line class="st1" x1="21" y1="232.5" x2="637.5" y2="232.5"/>
-			<line class="st1" x1="21" y1="309.8" x2="637.5" y2="309.8"/>
-			<line class="st1" x1="21" y1="386.2" x2="637.5" y2="386.2"/>
-			<path class="st2" d="M87.1,463.5h11H87.1z"/>
-			<g class="st3">
-				<polygon class="st4" points="76,457.5 65,457.5 65,459 54,459 43,459 43,456 32,456 32,462 21,462 21,463.5 32,463.5 32,463.5 
-					43,463.5 54,463.5 65,463.5 65,463.5 76,463.5 87.1,463.5 87.1,454.5 76,454.5 				"/>
-				<polygon class="st4" points="626.1,377.2 626.1,405 615.1,405 615.1,372.8 604.1,372.8 604.1,368.2 593.1,368.2 593.1,419.2 
-					582.1,419.2 582.1,349.5 571.1,349.5 571.1,340.5 560.1,340.5 560.1,374.2 549.1,374.2 549.1,358.5 538.1,358.5 538.1,321.8 
-					527.1,321.8 527.1,311.2 516.1,311.2 516.1,138.8 505,138.8 505,144.8 494,144.8 494,263.2 483,263.2 483,15.8 472,15.8 
-					472,171 461,171 461,457.5 450.1,457.5 450.1,337.5 439.1,337.5 439.1,348 428.1,348 428.1,431.2 417.1,431.2 417.1,308.2 
-					406,308.2 406,428.2 395,428.2 395,163.5 384,163.5 384,383.2 373,383.2 373,423.8 362.1,423.8 362.1,377.2 351.1,377.2 
-					351.1,357 340.1,357 340.1,340.5 329.1,340.5 329.1,355.5 318.1,355.5 318.1,349.5 307.1,349.5 307.1,294 296,294 296,456 
-					285.2,456 285.2,378.8 274.2,378.8 274.2,372.8 263.2,372.8 263.2,371.2 252.2,371.2 252.2,377.2 241.2,377.2 241.2,372.8 
-					230.2,372.8 230.2,402 219.2,402 219.2,428.2 208.2,428.2 208.2,406.5 197.1,406.5 197.1,400.5 186.1,400.5 186.1,346.5 
-					175.1,346.5 175.1,415.5 164.1,415.5 164.1,408 153.1,408 153.1,397.5 142.1,397.5 142.1,429.8 131.1,429.8 131.1,405 
-					120.1,405 120.1,419.2 109.1,419.2 109.1,446.2 98.1,446.2 98.1,463.5 109.1,463.5 109.1,463.5 120.1,463.5 131.1,463.5 
-					142.1,463.5 142.1,463.5 153.1,463.5 164.1,463.5 175.1,463.5 175.1,463.5 186.1,463.5 186.1,463.5 197.1,463.5 208.2,463.5 
-					219.2,463.5 219.2,463.5 230.2,463.5 241.2,463.5 252.2,463.5 252.2,463.5 263.2,463.5 263.2,463.5 274.2,463.5 285.2,463.5 
-					296,463.5 296.2,463.5 307.1,463.5 318.1,463.5 329.1,463.5 329.1,463.5 340.1,463.5 340.1,463.5 351.1,463.5 362.1,463.5 
-					373,463.5 373.1,463.5 384,463.5 395,463.5 406,463.5 417.1,463.5 428.1,463.5 439.1,463.5 450,463.5 450.1,463.5 461,463.5 
-					472,463.5 483,463.5 494,463.5 505,463.5 516.1,463.5 527.1,463.5 527.1,463.5 538.1,463.5 549.1,463.5 549.1,463.5 
-					560.1,463.5 571.1,463.5 582.1,463.5 582.1,463.5 593.1,463.5 604.1,463.5 604.1,463.5 615.1,463.5 626.1,463.5 626.1,463.5 
-					637.1,463.5 637.1,377.2 				"/>
-			</g>
-			<line class="st5" x1="21" y1="463.5" x2="637.5" y2="463.5"/>
-			<g class="st3">
-				<text transform="matrix(1 0 0 1 5.6426 388.5996)" class="st6 st7 st8">50</text>
-			</g>
-			<g class="st3">
-				<text transform="matrix(1 0 0 1 0.5889 312.0996)" class="st6 st7 st8">100</text>
-			</g>
-			<g class="st3">
-				<text transform="matrix(1 0 0 1 0.5889 234.8496)" class="st6 st7 st8">150</text>
-			</g>
-			<g class="st3">
-				<text transform="matrix(1 0 0 1 0.5889 158.3496)" class="st6 st7 st8">200</text>
-			</g>
-			<g class="st3">
-				<text transform="matrix(1 0 0 1 0.5889 81.0996)" class="st6 st7 st8">250</text>
-			</g>
-			<g class="st3">
-				<text transform="matrix(1 0 0 1 555.7085 28.0516)" class="st9 st7 st10">New cases</text>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="637.5" height="487.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_3_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<line class="st1" x1="21" y1="78.8" x2="637.5" y2="78.8"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_5_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<line class="st2" x1="21" y1="156" x2="637.5" y2="156"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_7_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+					</clipPath>
+					<line class="st3" x1="21" y1="232.5" x2="637.5" y2="232.5"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_9_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_10_">
+						<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+					</clipPath>
+					<line class="st4" x1="21" y1="309.8" x2="637.5" y2="309.8"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_11_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_12_">
+						<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+					</clipPath>
+					<line class="st5" x1="21" y1="386.2" x2="637.5" y2="386.2"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_13_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_14_">
+						<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+					</clipPath>
+					<path class="st6" d="M87.1,463.5h11H87.1z"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_15_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_16_">
+						<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st7">
+						<polygon class="st8" points="76,457.5 65,457.5 65,459 54,459 43,459 43,456 32,456 32,462 21,462 21,463.5 32,463.5 
+							32,463.5 43,463.5 54,463.5 65,463.5 65,463.5 76,463.5 87.1,463.5 87.1,454.5 76,454.5 						"/>
+						<polygon class="st8" points="626.1,377.2 626.1,405 615.1,405 615.1,372.8 604.1,372.8 604.1,368.2 593.1,368.2 593.1,419.2 
+							582.1,419.2 582.1,349.5 571.1,349.5 571.1,340.5 560.1,340.5 560.1,374.2 549.1,374.2 549.1,358.5 538.1,358.5 538.1,321.8 
+							527.1,321.8 527.1,311.2 516.1,311.2 516.1,138.8 505,138.8 505,144.8 494,144.8 494,263.2 483,263.2 483,15.8 472,15.8 
+							472,171 461,171 461,457.5 450.1,457.5 450.1,337.5 439.1,337.5 439.1,348 428.1,348 428.1,431.2 417.1,431.2 417.1,308.2 
+							406,308.2 406,428.2 395,428.2 395,163.5 384,163.5 384,383.2 373,383.2 373,423.8 362.1,423.8 362.1,377.2 351.1,377.2 
+							351.1,357 340.1,357 340.1,340.5 329.1,340.5 329.1,355.5 318.1,355.5 318.1,349.5 307.1,349.5 307.1,294 296,294 296,456 
+							285.2,456 285.2,378.8 274.2,378.8 274.2,372.8 263.2,372.8 263.2,371.2 252.2,371.2 252.2,377.2 241.2,377.2 241.2,372.8 
+							230.2,372.8 230.2,402 219.2,402 219.2,428.2 208.2,428.2 208.2,406.5 197.1,406.5 197.1,400.5 186.1,400.5 186.1,346.5 
+							175.1,346.5 175.1,415.5 164.1,415.5 164.1,408 153.1,408 153.1,397.5 142.1,397.5 142.1,429.8 131.1,429.8 131.1,405 
+							120.1,405 120.1,419.2 109.1,419.2 109.1,446.2 98.1,446.2 98.1,463.5 109.1,463.5 109.1,463.5 120.1,463.5 131.1,463.5 
+							142.1,463.5 142.1,463.5 153.1,463.5 164.1,463.5 175.1,463.5 175.1,463.5 186.1,463.5 186.1,463.5 197.1,463.5 208.2,463.5 
+							219.2,463.5 219.2,463.5 230.2,463.5 241.2,463.5 252.2,463.5 252.2,463.5 263.2,463.5 263.2,463.5 274.2,463.5 285.2,463.5 
+							296,463.5 296.2,463.5 307.1,463.5 318.1,463.5 329.1,463.5 329.1,463.5 340.1,463.5 340.1,463.5 351.1,463.5 362.1,463.5 
+							373,463.5 373.1,463.5 384,463.5 395,463.5 406,463.5 417.1,463.5 428.1,463.5 439.1,463.5 450,463.5 450.1,463.5 461,463.5 
+							472,463.5 483,463.5 494,463.5 505,463.5 516.1,463.5 527.1,463.5 527.1,463.5 538.1,463.5 549.1,463.5 549.1,463.5 
+							560.1,463.5 571.1,463.5 582.1,463.5 582.1,463.5 593.1,463.5 604.1,463.5 604.1,463.5 615.1,463.5 626.1,463.5 626.1,463.5 
+							637.1,463.5 637.1,377.2 						"/>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_17_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_18_">
+						<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
+					</clipPath>
+					<line class="st9" x1="21" y1="463.5" x2="637.5" y2="463.5"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_19_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_20_">
+						<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st10">
+						<text transform="matrix(1 0 0 1 5.6426 388.5996)" class="st11 st12 st13">50</text>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_21_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_22_">
+						<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st14">
+						<text transform="matrix(1 0 0 1 0.5889 312.0996)" class="st11 st12 st13">100</text>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_23_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_24_">
+						<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st15">
+						<text transform="matrix(1 0 0 1 0.5889 234.8496)" class="st11 st12 st13">150</text>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_25_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_26_">
+						<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st16">
+						<text transform="matrix(1 0 0 1 0.5889 158.3496)" class="st11 st12 st13">200</text>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_27_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_28_">
+						<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st17">
+						<text transform="matrix(1 0 0 1 0.5889 81.0996)" class="st11 st12 st13">250</text>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_29_" width="637.5" height="487.5"/>
+					</defs>
+					<clipPath id="SVGID_30_">
+						<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st18">
+						<text transform="matrix(1 0 0 1 555.7085 28.0515)" class="st19 st12 st20">New cases</text>
+					</g>
+				</g>
 			</g>
 		</g>
 	</g>
 </g>
-<polygon class="st11" points="626.1,376.5 626.1,376.5 615.1,376.5 615.1,370.5 604.1,370.5 604.1,363 593.1,363 593.1,355.5 
+<polygon class="st21" points="626.1,376.5 626.1,376.5 615.1,376.5 615.1,370.5 604.1,370.5 604.1,363 593.1,363 593.1,355.5 
 	582.1,355.5 582.1,315.7 571.1,315.7 571.1,286.5 560.1,286.5 560.1,274.5 549.1,274.5 549.1,224.2 538.1,224.2 538.1,198 
 	527.1,198 527.1,216.7 516,216.7 516,221.2 505,221.2 505,249.7 494,249.7 494,291 483,291 483,297 472,297 472,355.5 461,355.5 
 	461,354 450.2,354 450.2,344.2 439.1,344.2 439.1,357 428.1,357 428.1,360 417.1,360 417.1,348.7 406.1,348.7 406.1,354 395.1,354 
@@ -96,8 +214,16 @@
 	406.1,463.5 417.1,463.5 428.1,463.5 439.1,463.5 450,463.5 450.2,463.5 461,463.5 472,463.5 483,463.5 494,463.5 505,463.5 
 	516,463.5 527.1,463.5 527.1,463.5 538.1,463.5 549.1,463.5 549.1,463.5 560.1,463.5 571.1,463.5 582.1,463.5 582.1,463.5 
 	593.1,463.5 604.1,463.5 604.1,463.5 615.1,463.5 626.1,463.5 626.1,463.5 637.1,463.5 637.1,376.5 "/>
-<text transform="matrix(1 0 0 1 555.875 49.6268)"><tspan x="0" y="0" class="st9 st7 st10">7-d</tspan><tspan x="15.4" y="0" class="st9 st7 st10">a</tspan><tspan x="21.3" y="0" class="st9 st7 st10">y </tspan><tspan x="29.2" y="0" class="st9 st7 st10">a</tspan><tspan x="35.2" y="0" class="st9 st7 st10">v</tspan><tspan x="40.4" y="0" class="st9 st7 st10">e</tspan><tspan x="46.2" y="0" class="st9 st7 st10">r</tspan><tspan x="49.8" y="0" class="st9 st7 st10">age</tspan></text>
-<rect x="536" y="17.8" class="st4" width="11.6" height="11.6"/>
-<rect x="536" y="39.6" class="st11" width="11.6" height="11.6"/>
-<text transform="matrix(1 0 0 1 16.8533 478.8171)" class="st9 st7 st8">3/11</text>
+<text transform="matrix(1 0 0 1 555.875 49.6267)" class="st19 st12 st20">7-d</text>
+<text transform="matrix(1 0 0 1 571.275 49.6267)" class="st19 st12 st20">a</text>
+<text transform="matrix(1 0 0 1 577.175 49.6267)" class="st19 st12 st20">y </text>
+<text transform="matrix(1 0 0 1 585.075 49.6267)" class="st19 st12 st20">a</text>
+<text transform="matrix(1 0 0 1 591.075 49.6267)" class="st19 st12 st20">v</text>
+<text transform="matrix(1 0 0 1 596.275 49.6267)" class="st19 st12 st20">e</text>
+<text transform="matrix(1 0 0 1 602.075 49.6267)" class="st19 st12 st20">r</text>
+<text transform="matrix(1 0 0 1 605.675 49.6267)" class="st19 st12 st20">age</text>
+<rect x="536" y="17.8" class="st8" width="11.6" height="11.6"/>
+<rect x="536" y="39.6" class="st21" width="11.6" height="11.6"/>
+<text transform="matrix(1 0 0 1 16.8533 478.8171)" class="st19 st12 st13">3/11</text>
+<text transform="matrix(1 0 0 1 622.4807 477.8171)" class="st19 st12 st13">5/5</text>
 </svg>
