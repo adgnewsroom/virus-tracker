@@ -242,33 +242,6 @@
 4/4/20,Saline,21
 4/5/20,Saline,29
 4/6/20,Saline,33
-3/11/20,White,0
-3/12/20,White,0
-3/13/20,White,0
-3/14/20,White,0
-3/15/20,White,0
-3/16/20,White,0
-3/17/20,White,0
-3/18/20,White,0
-3/19/20,White,0
-3/20/20,White,0
-3/21/20,White,0
-3/22/20,White,0
-3/23/20,White,0
-3/24/20,White,4
-3/25/20,White,4
-3/26/20,White,6
-3/27/20,White,6
-3/28/20,White,6
-3/29/20,White,6
-3/30/20,White,9
-3/31/20,White,11
-4/1/20,White,15
-4/2/20,White,22
-4/3/20,White,23
-4/4/20,White,23
-4/5/20,White,25
-4/6/20,White,27
 3/11/20,Lonoke,0
 3/12/20,Lonoke,0
 3/13/20,Lonoke,0
@@ -468,7 +441,6 @@
 4/7/20,Saline,33
 4/7/20,Washington,30
 4/7/20,St. Francis,28
-4/7/20,White,27
 4/7/20,Lonoke,23
 4/7/20,Craighead,23
 4/7/20,Pope,20
@@ -485,7 +457,6 @@
 4/8/20,Washington,36
 4/8/20,St. Francis,31
 4/8/20,Saline,30
-4/8/20,White,27
 4/8/20,Craighead,27
 4/8/20,Lonoke,24
 4/8/20,Pope,21
@@ -503,7 +474,6 @@
 4/9/20,Saline,31
 4/9/20,St. Francis,31
 4/9/20,Craighead,28
-4/9/20,White,27
 4/9/20,Lonoke,26
 4/9/20,Pope,23
 4/9/20,Miller,20
@@ -520,7 +490,6 @@
 4/10/20,Saline,32
 4/10/20,St. Francis,31
 4/10/20,Craighead,31
-4/10/20,White,28
 4/10/20,Lonoke,27
 4/10/20,Pope,26
 4/10/20,Miller,20
@@ -537,7 +506,6 @@
 4/11/20,Saline,32
 4/11/20,St. Francis,31
 4/11/20,Craighead,31
-4/11/20,White,28
 4/11/20,Lonoke,27
 4/11/20,Pope,26
 4/11/20,Miller,22
@@ -556,7 +524,6 @@
 4/12/20,Craighead,31
 4/12/20,Lonoke,30
 4/12/20,Pope,30
-4/12/20,White,28
 4/12/20,Miller,22
 4/12/20,Union,18
 4/12/20,Lincoln,11
@@ -574,7 +541,6 @@
 4/13/20,Saline,32
 4/13/20,Pope,31
 4/13/20,Lonoke,29
-4/13/20,White,28
 4/13/20,Miller,27
 4/13/20,Union,17
 4/14/20,Pulaski,297
@@ -592,7 +558,6 @@
 4/14/20,Pope,31
 4/14/20,Lonoke,29
 4/14/20,Miller,28
-4/14/20,White,28
 4/14/20,Union,17
 4/15/20,Pulaski,353
 4/15/20,Crittenden,122
@@ -609,7 +574,6 @@
 4/15/20,Pope,32
 4/15/20,Lonoke,30
 4/15/20,Miller,29
-4/15/20,White,28
 4/15/20,Union,18
 4/16/20,Pulaski,355
 4/16/20,Crittenden,122
@@ -626,7 +590,6 @@
 4/16/20,Pope,33
 4/16/20,Lonoke,30
 4/16/20,Miller,29
-4/16/20,White,28
 4/16/20,Union,19
 4/17/20,Pulaski,360
 4/17/20,Crittenden,127
@@ -643,7 +606,6 @@
 4/17/20,Pope,33
 4/17/20,Lonoke,30
 4/17/20,Miller,29
-4/17/20,White,29
 4/17/20,Union,20
 4/18/20,Pulaski,377
 4/18/20,Crittenden,138
@@ -659,7 +621,6 @@
 4/18/20,Craighead,43
 4/18/20,Pope,35
 4/18/20,Miller,29
-4/18/20,White,29
 4/18/20,Lonoke,26
 4/18/20,Union,24
 3/11/20,Lawrence,0
@@ -716,7 +677,6 @@
 4/19/20,Craighead,43
 4/19/20,Pope,35
 4/19/20,Miller,29
-4/19/20,White,29
 4/19/20,Lonoke,26
 4/19/20,Union,24
 4/20/20,Pulaski,388
@@ -733,7 +693,6 @@
 4/20/20,Craighead,44
 4/20/20,Pope,35
 4/20/20,Miller,30
-4/20/20,White,29
 4/20/20,Lonoke,26
 4/20/20,Lawrence,26
 4/20/20,Union,26
@@ -751,7 +710,6 @@
 4/21/20,Saline,46
 4/21/20,Pope,35
 4/21/20,Miller,30
-4/21/20,White,29
 4/21/20,Lawrence,28
 4/21/20,Lonoke,27
 4/21/20,Union,26
@@ -770,7 +728,6 @@
 4/22/20,Pope,36
 4/22/20,Miller,30
 4/22/20,Lawrence,29
-4/22/20,White,29
 4/22/20,Lonoke,28
 4/22/20,Union,28
 4/23/20,Lincoln,630
@@ -790,7 +747,6 @@
 4/23/20,Miller,31
 4/23/20,Lonoke,30
 4/23/20,Union,29
-4/23/20,White,29
 4/24/20,Lincoln,707
 4/24/20,Pulaski,440
 4/24/20,Crittenden,167
@@ -808,7 +764,6 @@
 4/24/20,Miller,32
 4/24/20,Lonoke,31
 4/24/20,Union,30
-4/24/20,White,30
 4/25/20,Lincoln,721
 4/25/20,Pulaski,471
 4/25/20,Crittenden,169
@@ -826,7 +781,6 @@
 4/25/20,Lonoke,33
 4/25/20,Miller,32
 4/25/20,Union,32
-4/25/20,White,31
 4/26/20,Lincoln,727
 4/26/20,Pulaski,478
 4/26/20,Crittenden,171
@@ -844,7 +798,6 @@
 4/26/20,Lonoke,38
 4/26/20,Union,33
 4/26/20,Miller,32
-4/26/20,White,31
 4/27/20,Lincoln,754
 4/27/20,Pulaski,484
 4/27/20,Crittenden,174
@@ -862,7 +815,6 @@
 4/27/20,Lonoke,39
 4/27/20,Union,38
 4/27/20,Miller,33
-4/27/20,White,31
 4/28/20,Lincoln,755
 4/28/20,Pulaski,490
 4/28/20,Crittenden,177
@@ -880,7 +832,6 @@
 4/28/20,Pope,42
 4/28/20,Lonoke,40
 4/28/20,Miller,33
-4/28/20,White,31
 4/29/20,Lincoln,814
 4/29/20,Pulaski,503
 4/29/20,Crittenden,181
@@ -898,7 +849,6 @@
 4/29/20,Pope,43
 4/29/20,Lonoke,41
 4/29/20,Miller,33
-4/29/20,White,33
 4/30/20,Lincoln,814
 4/30/20,Pulaski,518
 4/30/20,Crittenden,187
@@ -916,7 +866,6 @@
 4/30/20,Pope,43
 4/30/20,Lonoke,41
 4/30/20,Miller,34
-4/30/20,White,34
 5/1/20,Lincoln,815
 5/1/20,Pulaski,527
 5/1/20,Crittenden,188
@@ -934,7 +883,6 @@
 5/1/20,Pope,43
 5/1/20,Lonoke,41
 5/1/20,Miller,34
-5/1/20,White,34
 5/2/20,Lincoln,817
 5/2/20,Pulaski,539
 5/2/20,Crittenden,193
@@ -952,7 +900,6 @@
 5/2/20,Pope,44
 5/2/20,Lonoke,41
 5/2/20,Miller,34
-5/2/20,White,34
 5/3/20,Lincoln,822
 5/3/20,Pulaski,550
 5/3/20,Crittenden,197
@@ -970,7 +917,6 @@
 5/3/20,Pope,44
 5/3/20,Lonoke,43
 5/3/20,Miller,35
-5/3/20,White,35
 5/4/20,Lincoln,842
 5/4/20,Pulaski,551
 5/4/20,Crittenden,196
@@ -988,7 +934,6 @@
 5/4/20,Lonoke,44
 5/4/20,Pope,44
 5/4/20,Miller,35
-5/4/20,White,35
 3/11/20,Mississippi,0
 3/12/20,Mississippi,0
 3/13/20,Mississippi,0
@@ -1062,7 +1007,6 @@
 5/5/20,Lonoke,44
 5/5/20,Mississippi,41
 5/5/20,Miller,35
-5/5/20,White,35
 5/6/20,Lincoln,883
 5/6/20,Pulaski,576
 5/6/20,Jefferson,217
@@ -1081,7 +1025,6 @@
 5/6/20,Lonoke,44
 5/6/20,Mississippi,42
 5/6/20,Miller,35
-5/6/20,White,35
 5/7/20,Lincoln,899
 5/7/20,Pulaski,588
 5/7/20,Jefferson,222
@@ -1100,7 +1043,6 @@
 5/7/20,Lonoke,44
 5/7/20,Mississippi,42
 5/7/20,Miller,35
-5/7/20,White,35
 5/8/20,Lincoln,907
 5/8/20,Pulaski,603
 5/8/20,Jefferson,226
@@ -1119,7 +1061,6 @@
 5/8/20,Pope,47
 5/8/20,Lonoke,44
 5/8/20,Miller,36
-5/8/20,White,35
 5/9/20,Lincoln,907
 5/9/20,Pulaski,603
 5/9/20,Jefferson,226
@@ -1138,7 +1079,6 @@
 5/9/20,Pope,47
 5/9/20,Lonoke,44
 5/9/20,Miller,36
-5/9/20,White,35
 5/10/20,Lincoln,937
 5/10/20,Pulaski,627
 5/10/20,St. Francis,278
@@ -1157,7 +1097,6 @@
 5/10/20,Pope,47
 5/10/20,Lonoke,45
 5/10/20,Miller,36
-5/10/20,White,36
 5/11/20,Lincoln,941
 5/11/20,Pulaski,630
 5/11/20,St. Francis,279
@@ -1176,7 +1115,6 @@
 5/11/20,Pope,48
 5/11/20,Lonoke,45
 5/11/20,Miller,37
-5/11/20,White,36
 5/12/20,Lincoln,942
 5/12/20,Pulaski,640
 5/12/20,St. Francis,305
@@ -1195,7 +1133,6 @@
 5/12/20,Pope,48
 5/12/20,Lonoke,44
 5/12/20,Miller,38
-5/12/20,White,37
 5/13/20,Lincoln,942
 5/13/20,Pulaski,647
 5/13/20,St. Francis,310
@@ -1214,7 +1151,6 @@
 5/13/20,Pope,51
 5/13/20,Lonoke,43
 5/13/20,Miller,40
-5/13/20,White,36
 5/14/20,Lincoln,949
 5/14/20,Pulaski,661
 5/14/20,St. Francis,316
@@ -1233,7 +1169,6 @@
 5/14/20,Pope,52
 5/14/20,Lonoke,44
 5/14/20,Miller,40
-5/14/20,White,36
 5/15/20,Lincoln,952
 5/15/20,Pulaski,669
 5/15/20,St. Francis,333
@@ -1252,7 +1187,6 @@
 5/15/20,Mississippi,58
 5/15/20,Lonoke,45
 5/15/20,Miller,42
-5/15/20,White,36
 5/16/20,Lincoln,955
 5/16/20,Pulaski,683
 5/16/20,Jefferson,362
@@ -1271,7 +1205,6 @@
 5/16/20,Mississippi,61
 5/16/20,Lonoke,45
 5/16/20,Miller,42
-5/16/20,White,36
 5/17/20,Lincoln,955
 5/17/20,Pulaski,686
 5/17/20,Jefferson,491
@@ -1290,7 +1223,6 @@
 5/17/20,Mississippi,61
 5/17/20,Lonoke,45
 5/17/20,Miller,42
-5/17/20,White,36
 5/18/20,Lincoln,965
 5/18/20,Pulaski,693
 5/18/20,Jefferson,491
@@ -1309,7 +1241,6 @@
 5/18/20,Mississippi,62
 5/18/20,Lonoke,45
 5/18/20,Miller,42
-5/18/20,White,37
 5/19/20,Lincoln,965
 5/19/20,Pulaski,713
 5/19/20,Jefferson,497
@@ -1399,3 +1330,72 @@
 5/16/20,Cross,35
 5/17/20,Cross,35
 5/18/20,Cross,36
+3/11/20,Sevier,0
+3/12/20,Sevier,0
+3/13/20,Sevier,0
+3/14/20,Sevier,0
+3/15/20,Sevier,0
+3/16/20,Sevier,0
+3/17/20,Sevier,0
+3/18/20,Sevier,0
+3/19/20,Sevier,1
+3/20/20,Sevier,1
+3/21/20,Sevier,1
+3/22/20,Sevier,1
+3/23/20,Sevier,1
+3/24/20,Sevier,1
+3/25/20,Sevier,1
+3/26/20,Sevier,1
+3/27/20,Sevier,1
+3/28/20,Sevier,1
+3/29/20,Sevier,2
+3/30/20,Sevier,2
+3/31/20,Sevier,2
+4/1/20,Sevier,3
+4/2/20,Sevier,3
+4/3/20,Sevier,3
+4/4/20,Sevier,3
+4/5/20,Sevier,6
+4/6/20,Sevier,6
+4/7/20,Sevier,6
+4/8/20,Sevier,6
+4/9/20,Sevier,6
+4/10/20,Sevier,6
+4/11/20,Sevier,6
+4/12/20,Sevier,8
+4/13/20,Sevier,8
+4/14/20,Sevier,8
+4/15/20,Sevier,8
+4/16/20,Sevier,8
+4/17/20,Sevier,8
+4/18/20,Sevier,9
+4/19/20,Sevier,9
+4/20/20,Sevier,10
+4/21/20,Sevier,10
+4/22/20,Sevier,10
+4/23/20,Sevier,10
+4/24/20,Sevier,10
+4/25/20,Sevier,11
+4/26/20,Sevier,11
+4/27/20,Sevier,11
+4/28/20,Sevier,11
+4/29/20,Sevier,11
+4/30/20,Sevier,11
+5/1/20,Sevier,12
+5/2/20,Sevier,12
+5/3/20,Sevier,12
+5/4/20,Sevier,13
+5/5/20,Sevier,14
+5/6/20,Sevier,14
+5/7/20,Sevier,14
+5/8/20,Sevier,16
+5/9/20,Sevier,16
+5/10/20,Sevier,18
+5/11/20,Sevier,21
+5/12/20,Sevier,21
+5/13/20,Sevier,24
+5/14/20,Sevier,24
+5/15/20,Sevier,25
+5/16/20,Sevier,27
+5/17/20,Sevier,28
+5/18/20,Sevier,32
