@@ -1,7 +1,7 @@
 ﻿Facility,Lat,Long,Inmate,Staff,total,deaths
-Cummins State Prison,34.0521395,-91.5840036,963,65,1028,10
-Forrest City Jail-Federal,34.985068,-90.803351,748,18,766,0
-Randall L. Williams (RLW) Pine Bluff Unit,34.2218274,-92.0776873,231,15,246,0
+Cummins State Prison,34.0521395,-91.5840036,963,65,1028,11
+Forrest City Jail-Federal,34.985068,-90.803351,764,18,782,0
+Randall L. Williams (RLW) Pine Bluff Unit,34.2218274,-92.0776873,286,18,304,1
 Central Arkansas Community Correction Center,34.748066,-92.326741,63,27,90,1
 Central Office-ERT Parole Transport,34.226753,-92.081202,0,8,8,0
 East Arkansas Regional Unit,34.849344,-90.599995,1,5,6,0
@@ -10,7 +10,10 @@ East Central Arkansas Community Correction Center-Women’s Unit,35.144349,-90.1
 Varner Unit,34.043148,-91.608203,0,2,2,0
 Texarkana Regional Correction Center,33.4263671,-94.0412954,0,2,2,0
 Grimes Unit,35.6257553,-91.1914672,0,2,2,0
-Wrightsville Unit,34.6019592,-92.1932525,0,1,1,0
+Wrightsville Unit,34.6019592,-92.1932525,41,1,42,0
 Barbara Ester Unit,34.2221241,-92.0830434,0,1,1,0
 Ouachita River Unit-SNR,34.345043,-92.842642,1,0,1,0
 North Central Unit,36.163335,-92.150539,1,0,1,0
+Washington County Jail,36.062341,-94.157654,18,1,19,0
+Benton County Jail,36.359684,-94.229178,188,13,201,0
+McPherson Unit,35.626215,-91.193763,0,1,1,0
