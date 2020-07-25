@@ -1,77 +1,2014 @@
-﻿"objectIdFieldName","uniqueIdField__name","uniqueIdField__isSystemMaintained","globalIdFieldName","geometryProperties__shapeAreaFieldName","geometryProperties__shapeLengthFieldName","geometryProperties__units","geometryType","spatialReference__wkid","spatialReference__latestWkid","fields__name","fields__type","fields__alias","fields__sqlType","fields__length","fields__domain","fields__defaultValue","features__attributes__OBJECTID","features__attributes__county_nam","features__attributes__fhwa_numbe","features__attributes__FIPS","features__attributes__positive","features__attributes__negative","features__attributes__pending","features__attributes__lab_prvt","features__attributes__lab_pub","features__attributes__Recoveries","features__attributes__deaths","features__attributes__total_tests","features__attributes__lcase_name","features__attributes__pos_range","features__attributes__neg_range","features__attributes__border_report","features__attributes__active_cases","features__attributes__POP_5YR_EST_2018","features__attributes__Shape__Area","features__attributes__Shape__Length"
-"OBJECTID","OBJECTID","True","","Shape__Area","Shape__Length","esriMeters","esriGeometryPolygon","26915","26915","OBJECTID","esriFieldTypeOID","OBJECTID","sqlTypeOther","","null","null","1","Missing County Info","5","05","1398","59922","0","61143","177","879","0","61320","missing","1398","59922","Not Applicable","519","null","11297.6600341797","8800.43873569405"
-"","","","","","","","","","","county_nam","esriFieldTypeString","County_Nam","sqlTypeOther","50","null","null","2","Howard","61","061","222","2053","0","1788","487","152","1","2275","howard","222","2053","Not Applicable","69","13389","1541631052.86731","247879.823488919"
-"","","","","","","","","","","fhwa_numbe","esriFieldTypeDouble","FHWA_Numbe","sqlTypeOther","","null","null","3","Pulaski","119","119","4183","52494","0","47743","8934","3134","71","56677","pulaski","4183","52494","Not Applicable","978","393463","2089380947.64233","284069.084631858"
-"","","","","","","","","","","FIPS","esriFieldTypeString","FIPS","sqlTypeOther","50","null","null","4","Lonoke","85","085","324","6461","0","5948","837","229","2","6785","lonoke","324","6461","Not Applicable","93","72206","2079903589.05444","246137.911494215"
-"","","","","","","","","","","positive","esriFieldTypeInteger","positive","sqlTypeOther","","null","null","5","Prairie","117","117","56","817","0","754","119","38","0","873","prairie","56","817","Not Applicable","18","8244","1748665963.44409","269110.445244305"
-"","","","","","","","","","","negative","esriFieldTypeInteger","negative","sqlTypeOther","","null","null","6","Desha","41","041","125","1430","0","1258","297","83","1","1555","desha","125","1430","https://bit.ly/2T74BCM","41","11887","2100180171.29761","393743.785753218"
-"","","","","","","","","","","pending","esriFieldTypeInteger","pending","sqlTypeOther","","null","null","7","Phillips","107","107","230","3200","0","1925","1505","174","6","3430","phillips","230","3200","https://bit.ly/2T74BCM","50","19034","1885264368.20239","280421.016626451"
-"","","","","","","","","","","lab_prvt","esriFieldTypeInteger","lab_prvt","sqlTypeOther","","null","null","8","Searcy","129","129","22","980","0","952","50","18","0","1002","searcy","22","980","Not Applicable","4","7923","1729575196.3103","184103.839471151"
-"","","","","","","","","","","lab_pub","esriFieldTypeInteger","lab_pub","sqlTypeOther","","null","null","9","Independence","63","063","181","3794","0","3714","261","88","0","3975","independence","181","3794","Not Applicable","93","37264","1997479703.64404","228003.580116565"
-"","","","","","","","","","","Recoveries","esriFieldTypeInteger","Recoveries","sqlTypeOther","","null","null","10","Jackson","67","067","48","1577","0","1139","486","40","1","1625","jackson","48","1577","Not Applicable","7","17225","1661121959.66943","241190.808602371"
-"","","","","","","","","","","deaths","esriFieldTypeInteger","deaths","sqlTypeOther","","null","null","11","Mississippi","93","093","523","5182","0","4842","863","375","7","5705","mississippi","523","5182","https://bit.ly/2T74BCM","141","42831","2397434695.37231","293377.92435692"
-"","","","","","","","","","","total_tests","esriFieldTypeInteger","total_tests","sqlTypeOther","","null","null","12","Greene","55","055","211","5254","0","4926","539","160","1","5465","greene","211","5254","https://bit.ly/2T74BCM","50","44623","1501198851.64258","195400.850739011"
-"","","","","","","","","","","lcase_name","esriFieldTypeString","lcase_name","sqlTypeOther","50","null","null","13","Clay","21","021","101","1984","0","1929","156","79","4","2085","clay","101","1984","https://bit.ly/2T74BCM","18","15061","1662039088.03271","230200.839663875"
-"","","","","","","","","","","pos_range","esriFieldTypeString","pos_range","sqlTypeOther","50","null","null","14","Randolph","121","121","133","2378","0","2195","316","78","2","2511","randolph","133","2378","https://bit.ly/2T74BCM","53","17603","1698810411.33374","217781.913013329"
-"","","","","","","","","","","neg_range","esriFieldTypeString","neg_range","sqlTypeOther","50","null","null","15","Lawrence","75","075","152","1961","0","1814","299","111","9","2113","lawrence","152","1961","Not Applicable","32","16669","1533933452.90283","208244.792392098"
-"","","","","","","","","","","border_report","esriFieldTypeString","border_report","sqlTypeOther","255","null","null","16","Baxter","5","005","52","2928","0","2499","481","38","0","2980","baxter","52","2928","https://bit.ly/2T74BCM","14","41219","1518457528.31995","214376.071685134"
-"","","","","","","","","","","active_cases","esriFieldTypeInteger","active_cases","sqlTypeOther","","null","null","17","Marion","89","089","18","1142","0","1019","141","13","0","1160","marion","18","1142","https://bit.ly/2T74BCM","5","16438","1657005316.82642","213041.318466841"
-"","","","","","","","","","","POP_5YR_EST_2018","esriFieldTypeInteger","POP_5YR_EST_2018","sqlTypeOther","","null","null","18","Perry","105","105","41","1236","0","1059","218","36","0","1277","perry","41","1236","Not Applicable","5","10322","1450824197.89246","235691.992000723"
-"","","","","","","","","","","Shape__Area","esriFieldTypeDouble","Shape__Area","sqlTypeDouble","","null","null","19","Jefferson","69","069","1133","10843","0","8062","3914","851","33","11976","jefferson","1133","10843","Not Applicable","249","70424","2370994330.72839","284256.349610199"
-"","","","","","","","","","","Shape__Length","esriFieldTypeDouble","Shape__Length","sqlTypeDouble","","null","null","20","Washington","143","143","5536","20064","0","17749","7851","4884","40","25600","washington","5536","20064","https://bit.ly/2T74BCM","612","228529","2465023834.31018","227692.739748244"
-"","","","","","","","","","","","","","","","","","21","Crawford","33","033","429","6598","0","6335","692","299","3","7027","crawford","429","6598","https://bit.ly/2T74BCM","127","62472","1565525966.073","218076.568568796"
-"","","","","","","","","","","","","","","","","","22","Little River","81","081","77","1028","0","1033","72","50","1","1105","little river","77","1028","https://bit.ly/2T74BCM","26","12417","1458314113.76514","321191.714116766"
-"","","","","","","","","","","","","","","","","","23","Miller","91","091","385","3362","0","3084","663","312","2","3747","miller","385","3362","https://bit.ly/2T74BCM","71","43759","1651886723.96448","278617.022939423"
-"","","","","","","","","","","","","","","","","","24","Lafayette","73","073","43","484","0","441","86","29","2","527","lafayette","43","484","https://bit.ly/2T74BCM","12","6915","1413353782.99597","240091.990364965"
-"","","","","","","","","","","","","","","","","","25","Columbia","27","027","158","2072","0","1393","837","117","5","2230","columbia","158","2072","https://bit.ly/2T74BCM","36","23892","1984584461.05408","189842.983515113"
-"","","","","","","","","","","","","","","","","","26","Union","139","139","350","3696","0","3407","639","276","15","4046","union","350","3696","https://bit.ly/2T74BCM","59","39732","2731252909.41418","302655.931877982"
-"","","","","","","","","","","","","","","","","","27","Ashley","3","003","164","2121","0","1939","346","104","4","2285","ashley","164","2121","https://bit.ly/2T74BCM","56","20537","2434449438.77856","238029.518397571"
-"","","","","","","","","","","","","","","","","","28","Chicot","17","017","284","1820","0","1805","299","209","3","2104","chicot","284","1820","https://bit.ly/2T74BCM","72","10826","1788307859.28882","280731.906180036"
-"","","","","","","","","","","","","","","","","","29","Benton","7","007","4126","46843","0","46954","4015","3641","31","50969","benton","4126","46843","https://bit.ly/2T74BCM","454","258980","2289858796.17493","259063.794058411"
-"","","","","","","","","","","","","","","","","","30","Carroll","15","015","309","3581","0","2931","959","238","6","3890","carroll","309","3581","https://bit.ly/2T74BCM","65","27887","1653084714.83582","212425.446763967"
-"","","","","","","","","","","","","","","","","","31","Madison","87","087","242","2246","0","2301","187","223","1","2488","madison","242","2246","Not Applicable","18","16076","2166601172.44824","215220.142258456"
-"","","","","","","","","","","","","","","","","","32","Sebastian","131","131","1318","16357","0","16220","1455","916","13","17675","sebastian","1318","16357","https://bit.ly/2T74BCM","389","127461","1411978552.98157","217534.899566746"
-"","","","","","","","","","","","","","","","","","33","Polk","113","113","111","1877","0","1610","378","96","0","1988","polk","111","1877","https://bit.ly/2T74BCM","15","20163","2230612446.49585","218300.901651637"
-"","","","","","","","","","","","","","","","","","34","Sevier","133","133","893","4050","0","4671","272","823","9","4943","sevier","893","4050","https://bit.ly/2T74BCM","61","17193","1504881480.02832","254407.216997404"
-"","","","","","","","","","","","","","","","","","35","Garland","51","051","604","10780","0","10587","797","395","5","11384","garland","604","10780","Not Applicable","204","98296","1900949402.75073","198708.79682618"
-"","","","","","","","","","","","","","","","","","36","Saline","125","125","701","12625","0","12110","1216","542","3","13326","saline","701","12625","Not Applicable","156","118009","1890391625.52527","259324.450169752"
-"","","","","","","","","","","","","","","","","","37","Franklin","47","047","63","2087","0","1812","338","34","1","2150","franklin","63","2087","Not Applicable","28","17780","1604366855.28687","221024.220903981"
-"","","","","","","","","","","","","","","","","","38","Scott","127","127","26","795","0","714","107","19","0","821","scott","26","795","https://bit.ly/2T74BCM","7","10442","2325588371.05237","235654.491961227"
-"","","","","","","","","","","","","","","","","","39","Logan","83","083","118","2801","0","2531","388","88","0","2919","logan","118","2801","Not Applicable","30","21757","1893020842.90564","260765.966043996"
-"","","","","","","","","","","","","","","","","","40","Yell","149","149","944","3360","0","3263","1041","831","14","4304","yell","944","3360","Not Applicable","99","21573","2456264851.60352","285291.072549929"
-"","","","","","","","","","","","","","","","","","41","Montgomery","97","097","19","770","0","748","41","13","0","789","montgomery","19","770","Not Applicable","6","8993","2072865931.63159","187272.030588765"
-"","","","","","","","","","","","","","","","","","42","Pike","109","109","49","2346","0","2243","152","31","0","2395","pike","49","2346","Not Applicable","18","10808","1588931949.6095","227895.830370576"
-"","","","","","","","","","","","","","","","","","43","Hempstead","57","057","159","2293","0","1852","600","102","2","2452","hempstead","159","2293","Not Applicable","55","22018","1918024030.47583","254684.611749633"
-"","","","","","","","","","","","","","","","","","44","Drew","43","043","126","2384","0","2158","352","90","2","2510","drew","126","2384","Not Applicable","34","18502","2164050280.56885","194673.142048166"
-"","","","","","","","","","","","","","","","","","45","Bradley","11","011","112","1521","0","1071","562","77","2","1633","bradley","112","1521","Not Applicable","33","10948","1689743159.67859","251246.751516417"
-"","","","","","","","","","","","","","","","","","46","Calhoun","13","013","8","450","0","375","83","5","0","458","calhoun","8","450","Not Applicable","3","5202","1636688781.8551","257923.684200782"
-"","","","","","","","","","","","","","","","","","47","Ouachita","103","103","59","2412","0","1951","520","43","1","2471","ouachita","59","2412","Not Applicable","15","24106","1914451452.26355","288817.222837729"
-"","","","","","","","","","","","","","","","","","48","Nevada","99","099","119","1417","0","1254","282","87","8","1536","nevada","119","1417","Not Applicable","24","8440","1606223501.79431","203918.602261097"
-"","","","","","","","","","","","","","","","","","49","Clark","19","019","125","2342","0","2078","389","90","0","2467","clark","125","2342","Not Applicable","35","22385","2285025128.83716","305327.404740804"
-"","","","","","","","","","","","","","","","","","50","Dallas","39","039","26","683","0","603","106","13","0","709","dallas","26","683","Not Applicable","13","7432","1728752981.36938","248335.581705109"
-"","","","","","","","","","","","","","","","","","51","Cleveland","25","025","55","964","0","889","130","38","1","1019","cleveland","55","964","Not Applicable","16","8226","1550112202.25488","191785.27846286"
-"","","","","","","","","","","","","","","","","","52","Lincoln","79","079","1141","2361","0","2090","1412","1028","11","3502","lincoln","1141","2361","Not Applicable","102","13695","1475144651.05298","200391.193259746"
-"","","","","","","","","","","","","","","","","","53","Arkansas","1","001","164","2189","0","1900","453","83","1","2353","arkansas","164","2189","Not Applicable","80","18124","2689458657.14087","337890.821693229"
-"","","","","","","","","","","","","","","","","","54","Grant","53","053","100","1767","0","1722","145","76","0","1867","grant","100","1767","Not Applicable","24","18086","1638299260.79211","192015.431574621"
-"","","","","","","","","","","","","","","","","","55","Monroe","95","095","38","1025","0","904","159","27","0","1063","monroe","38","1025","Not Applicable","11","7249","1608814698.93091","246946.068155265"
-"","","","","","","","","","","","","","","","","","56","Lee","77","077","869","2586","0","1607","1848","820","6","3455","lee","869","2586","https://bit.ly/2T74BCM","43","9398","1615973756.60767","249884.035819293"
-"","","","","","","","","","","","","","","","","","57","Hot Spring","59","059","1382","4651","0","2813","3220","1117","4","6033","hot spring","1382","4651","Not Applicable","261","33520","1610166631.76538","219757.280649162"
-"","","","","","","","","","","","","","","","","","58","St. Francis","123","123","998","5312","0","5051","1259","922","3","6310","saint francis","998","5312","Not Applicable","73","26294","1664523033.28198","200638.765000852"
-"","","","","","","","","","","","","","","","","","59","Crittenden","35","035","1058","7207","0","7370","895","896","16","8265","crittenden","1058","7207","https://bit.ly/2T74BCM","146","49013","1653092887.37305","250119.071780147"
-"","","","","","","","","","","","","","","","","","60","Cross","37","037","137","1797","0","1638","296","104","1","1934","cross","137","1797","Not Applicable","32","16998","1612034657.20508","165977.208530094"
-"","","","","","","","","","","","","","","","","","61","Woodruff","147","147","17","898","0","850","65","15","0","915","woodruff","17","898","Not Applicable","2","6660","1538509114.34155","261925.286117796"
-"","","","","","","","","","","","","","","","","","62","White","145","145","189","5185","0","4836","538","152","2","5374","white","189","5185","Not Applicable","35","78804","2697526482.04468","339075.602124193"
-"","","","","","","","","","","","","","","","","","63","Faulkner","45","045","1013","14437","0","13492","1958","823","4","15450","faulkner","1013","14437","Not Applicable","186","122416","1719292673.13306","220407.99062066"
-"","","","","","","","","","","","","","","","","","64","Conway","29","029","119","2476","0","2162","433","96","3","2595","conway","119","2476","Not Applicable","20","20906","1466018646.01843","208726.833050194"
-"","","","","","","","","","","","","","","","","","65","Newton","101","101","73","676","0","612","137","12","0","749","newton","73","676","Not Applicable","61","7848","2130867828.67175","197624.4003355"
-"","","","","","","","","","","","","","","","","","66","Pope","115","115","1004","8395","0","8109","1290","770","5","9399","pope","1004","8395","Not Applicable","229","63644","2147891752.79688","215833.141399886"
-"","","","","","","","","","","","","","","","","","67","Johnson","71","071","554","2534","0","1826","1262","456","0","3088","johnson","554","2534","Not Applicable","98","26291","1767434801.76807","208086.242159146"
-"","","","","","","","","","","","","","","","","","68","Van Buren","141","141","42","1374","0","1252","164","36","2","1416","van buren","42","1374","Not Applicable","4","16684","1873571941.61279","202862.182311102"
-"","","","","","","","","","","","","","","","","","69","Cleburne","23","023","167","2810","0","2752","225","138","5","2977","cleburne","167","2810","Not Applicable","24","25230","1532699219.27148","160145.803854315"
-"","","","","","","","","","","","","","","","","","70","Poinsett","111","111","112","2169","0","2033","248","82","3","2281","poinsett","112","2169","Not Applicable","27","24054","1978621315.45654","195984.20857495"
-"","","","","","","","","","","","","","","","","","71","Craighead","31","031","895","14042","0","14127","810","690","8","14937","craighead","895","14042","https://bit.ly/2T74BCM","197","105701","1846141670.6062","203046.971315213"
-"","","","","","","","","","","","","","","","","","72","Sharp","135","135","89","1393","0","1309","173","64","5","1482","sharp","89","1393","https://bit.ly/2T74BCM","20","17043","1570672403.03687","220017.018631529"
-"","","","","","","","","","","","","","","","","","73","Izard","65","065","31","1191","0","1078","144","25","1","1222","izard","31","1191","Not Applicable","5","13559","1511354352.72925","187594.839051617"
-"","","","","","","","","","","","","","","","","","74","Fulton","49","049","22","1135","0","1060","97","19","0","1157","fulton","22","1135","https://bit.ly/2T74BCM","3","12139","1606270810.8877","180201.700547134"
-"","","","","","","","","","","","","","","","","","75","Stone","137","137","40","1475","0","1093","422","27","1","1515","stone","40","1475","Not Applicable","12","12446","1577804238.83069","206836.754761377"
-"","","","","","","","","","","","","","","","","","76","Boone","9","009","104","3265","0","3049","320","58","1","3369","boone","104","3265","https://bit.ly/2T74BCM","45","37288","1557916143.12292","169603.300267447"
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "", 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriMeters"
+  }, 
+  "geometryType" : "esriGeometryPolygon", 
+  "spatialReference" : {
+    "wkid" : 26915, 
+    "latestWkid" : 26915
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "county_nam", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "County_Nam", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "fhwa_numbe", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "FHWA_Numbe", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FIPS", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "FIPS", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "positive", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "positive", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "negative", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "negative", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "pending", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "pending", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "lab_prvt", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "lab_prvt", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "lab_pub", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "lab_pub", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Recoveries", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Recoveries", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "deaths", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "deaths", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_tests", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "total_tests", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "lcase_name", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "lcase_name", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "pos_range", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "pos_range", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "neg_range", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "neg_range", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "border_report", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "border_report", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "active_cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "active_cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "POP_5YR_EST_2018", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "POP_5YR_EST_2018", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1, 
+        "county_nam" : "Missing County Info", 
+        "fhwa_numbe" : 5, 
+        "FIPS" : "05", 
+        "positive" : 1398, 
+        "negative" : 59922, 
+        "pending" : 0, 
+        "lab_prvt" : 61143, 
+        "lab_pub" : 177, 
+        "Recoveries" : 879, 
+        "deaths" : 0, 
+        "total_tests" : 61320, 
+        "lcase_name" : "missing", 
+        "pos_range" : "1398", 
+        "neg_range" : "59922", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 519, 
+        "POP_5YR_EST_2018" : null, 
+        "Shape__Area" : 11297.6600341797, 
+        "Shape__Length" : 8800.43873569405
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 2, 
+        "county_nam" : "Howard", 
+        "fhwa_numbe" : 61, 
+        "FIPS" : "061", 
+        "positive" : 222, 
+        "negative" : 2053, 
+        "pending" : 0, 
+        "lab_prvt" : 1788, 
+        "lab_pub" : 487, 
+        "Recoveries" : 152, 
+        "deaths" : 1, 
+        "total_tests" : 2275, 
+        "lcase_name" : "howard", 
+        "pos_range" : "222", 
+        "neg_range" : "2053", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 69, 
+        "POP_5YR_EST_2018" : 13389, 
+        "Shape__Area" : 1541631052.86731, 
+        "Shape__Length" : 247879.823488919
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 3, 
+        "county_nam" : "Pulaski", 
+        "fhwa_numbe" : 119, 
+        "FIPS" : "119", 
+        "positive" : 4183, 
+        "negative" : 52494, 
+        "pending" : 0, 
+        "lab_prvt" : 47743, 
+        "lab_pub" : 8934, 
+        "Recoveries" : 3134, 
+        "deaths" : 71, 
+        "total_tests" : 56677, 
+        "lcase_name" : "pulaski", 
+        "pos_range" : "4183", 
+        "neg_range" : "52494", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 978, 
+        "POP_5YR_EST_2018" : 393463, 
+        "Shape__Area" : 2089380947.64233, 
+        "Shape__Length" : 284069.084631858
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 4, 
+        "county_nam" : "Lonoke", 
+        "fhwa_numbe" : 85, 
+        "FIPS" : "085", 
+        "positive" : 324, 
+        "negative" : 6461, 
+        "pending" : 0, 
+        "lab_prvt" : 5948, 
+        "lab_pub" : 837, 
+        "Recoveries" : 229, 
+        "deaths" : 2, 
+        "total_tests" : 6785, 
+        "lcase_name" : "lonoke", 
+        "pos_range" : "324", 
+        "neg_range" : "6461", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 93, 
+        "POP_5YR_EST_2018" : 72206, 
+        "Shape__Area" : 2079903589.05444, 
+        "Shape__Length" : 246137.911494215
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 5, 
+        "county_nam" : "Prairie", 
+        "fhwa_numbe" : 117, 
+        "FIPS" : "117", 
+        "positive" : 56, 
+        "negative" : 817, 
+        "pending" : 0, 
+        "lab_prvt" : 754, 
+        "lab_pub" : 119, 
+        "Recoveries" : 38, 
+        "deaths" : 0, 
+        "total_tests" : 873, 
+        "lcase_name" : "prairie", 
+        "pos_range" : "56", 
+        "neg_range" : "817", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 18, 
+        "POP_5YR_EST_2018" : 8244, 
+        "Shape__Area" : 1748665963.44409, 
+        "Shape__Length" : 269110.445244305
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 6, 
+        "county_nam" : "Desha", 
+        "fhwa_numbe" : 41, 
+        "FIPS" : "041", 
+        "positive" : 125, 
+        "negative" : 1430, 
+        "pending" : 0, 
+        "lab_prvt" : 1258, 
+        "lab_pub" : 297, 
+        "Recoveries" : 83, 
+        "deaths" : 1, 
+        "total_tests" : 1555, 
+        "lcase_name" : "desha", 
+        "pos_range" : "125", 
+        "neg_range" : "1430", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 41, 
+        "POP_5YR_EST_2018" : 11887, 
+        "Shape__Area" : 2100180171.29761, 
+        "Shape__Length" : 393743.785753218
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 7, 
+        "county_nam" : "Phillips", 
+        "fhwa_numbe" : 107, 
+        "FIPS" : "107", 
+        "positive" : 230, 
+        "negative" : 3200, 
+        "pending" : 0, 
+        "lab_prvt" : 1925, 
+        "lab_pub" : 1505, 
+        "Recoveries" : 174, 
+        "deaths" : 6, 
+        "total_tests" : 3430, 
+        "lcase_name" : "phillips", 
+        "pos_range" : "230", 
+        "neg_range" : "3200", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 50, 
+        "POP_5YR_EST_2018" : 19034, 
+        "Shape__Area" : 1885264368.20239, 
+        "Shape__Length" : 280421.016626451
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 8, 
+        "county_nam" : "Searcy", 
+        "fhwa_numbe" : 129, 
+        "FIPS" : "129", 
+        "positive" : 22, 
+        "negative" : 980, 
+        "pending" : 0, 
+        "lab_prvt" : 952, 
+        "lab_pub" : 50, 
+        "Recoveries" : 18, 
+        "deaths" : 0, 
+        "total_tests" : 1002, 
+        "lcase_name" : "searcy", 
+        "pos_range" : "22", 
+        "neg_range" : "980", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 4, 
+        "POP_5YR_EST_2018" : 7923, 
+        "Shape__Area" : 1729575196.3103, 
+        "Shape__Length" : 184103.839471151
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 9, 
+        "county_nam" : "Independence", 
+        "fhwa_numbe" : 63, 
+        "FIPS" : "063", 
+        "positive" : 181, 
+        "negative" : 3794, 
+        "pending" : 0, 
+        "lab_prvt" : 3714, 
+        "lab_pub" : 261, 
+        "Recoveries" : 88, 
+        "deaths" : 0, 
+        "total_tests" : 3975, 
+        "lcase_name" : "independence", 
+        "pos_range" : "181", 
+        "neg_range" : "3794", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 93, 
+        "POP_5YR_EST_2018" : 37264, 
+        "Shape__Area" : 1997479703.64404, 
+        "Shape__Length" : 228003.580116565
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 10, 
+        "county_nam" : "Jackson", 
+        "fhwa_numbe" : 67, 
+        "FIPS" : "067", 
+        "positive" : 48, 
+        "negative" : 1577, 
+        "pending" : 0, 
+        "lab_prvt" : 1139, 
+        "lab_pub" : 486, 
+        "Recoveries" : 40, 
+        "deaths" : 1, 
+        "total_tests" : 1625, 
+        "lcase_name" : "jackson", 
+        "pos_range" : "48", 
+        "neg_range" : "1577", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 7, 
+        "POP_5YR_EST_2018" : 17225, 
+        "Shape__Area" : 1661121959.66943, 
+        "Shape__Length" : 241190.808602371
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 11, 
+        "county_nam" : "Mississippi", 
+        "fhwa_numbe" : 93, 
+        "FIPS" : "093", 
+        "positive" : 523, 
+        "negative" : 5182, 
+        "pending" : 0, 
+        "lab_prvt" : 4842, 
+        "lab_pub" : 863, 
+        "Recoveries" : 375, 
+        "deaths" : 7, 
+        "total_tests" : 5705, 
+        "lcase_name" : "mississippi", 
+        "pos_range" : "523", 
+        "neg_range" : "5182", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 141, 
+        "POP_5YR_EST_2018" : 42831, 
+        "Shape__Area" : 2397434695.37231, 
+        "Shape__Length" : 293377.92435692
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 12, 
+        "county_nam" : "Greene", 
+        "fhwa_numbe" : 55, 
+        "FIPS" : "055", 
+        "positive" : 211, 
+        "negative" : 5254, 
+        "pending" : 0, 
+        "lab_prvt" : 4926, 
+        "lab_pub" : 539, 
+        "Recoveries" : 160, 
+        "deaths" : 1, 
+        "total_tests" : 5465, 
+        "lcase_name" : "greene", 
+        "pos_range" : "211", 
+        "neg_range" : "5254", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 50, 
+        "POP_5YR_EST_2018" : 44623, 
+        "Shape__Area" : 1501198851.64258, 
+        "Shape__Length" : 195400.850739011
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 13, 
+        "county_nam" : "Clay", 
+        "fhwa_numbe" : 21, 
+        "FIPS" : "021", 
+        "positive" : 101, 
+        "negative" : 1984, 
+        "pending" : 0, 
+        "lab_prvt" : 1929, 
+        "lab_pub" : 156, 
+        "Recoveries" : 79, 
+        "deaths" : 4, 
+        "total_tests" : 2085, 
+        "lcase_name" : "clay", 
+        "pos_range" : "101", 
+        "neg_range" : "1984", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 18, 
+        "POP_5YR_EST_2018" : 15061, 
+        "Shape__Area" : 1662039088.03271, 
+        "Shape__Length" : 230200.839663875
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 14, 
+        "county_nam" : "Randolph", 
+        "fhwa_numbe" : 121, 
+        "FIPS" : "121", 
+        "positive" : 133, 
+        "negative" : 2378, 
+        "pending" : 0, 
+        "lab_prvt" : 2195, 
+        "lab_pub" : 316, 
+        "Recoveries" : 78, 
+        "deaths" : 2, 
+        "total_tests" : 2511, 
+        "lcase_name" : "randolph", 
+        "pos_range" : "133", 
+        "neg_range" : "2378", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 53, 
+        "POP_5YR_EST_2018" : 17603, 
+        "Shape__Area" : 1698810411.33374, 
+        "Shape__Length" : 217781.913013329
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 15, 
+        "county_nam" : "Lawrence", 
+        "fhwa_numbe" : 75, 
+        "FIPS" : "075", 
+        "positive" : 152, 
+        "negative" : 1961, 
+        "pending" : 0, 
+        "lab_prvt" : 1814, 
+        "lab_pub" : 299, 
+        "Recoveries" : 111, 
+        "deaths" : 9, 
+        "total_tests" : 2113, 
+        "lcase_name" : "lawrence", 
+        "pos_range" : "152", 
+        "neg_range" : "1961", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 32, 
+        "POP_5YR_EST_2018" : 16669, 
+        "Shape__Area" : 1533933452.90283, 
+        "Shape__Length" : 208244.792392098
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 16, 
+        "county_nam" : "Baxter", 
+        "fhwa_numbe" : 5, 
+        "FIPS" : "005", 
+        "positive" : 52, 
+        "negative" : 2928, 
+        "pending" : 0, 
+        "lab_prvt" : 2499, 
+        "lab_pub" : 481, 
+        "Recoveries" : 38, 
+        "deaths" : 0, 
+        "total_tests" : 2980, 
+        "lcase_name" : "baxter", 
+        "pos_range" : "52", 
+        "neg_range" : "2928", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 14, 
+        "POP_5YR_EST_2018" : 41219, 
+        "Shape__Area" : 1518457528.31995, 
+        "Shape__Length" : 214376.071685134
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 17, 
+        "county_nam" : "Marion", 
+        "fhwa_numbe" : 89, 
+        "FIPS" : "089", 
+        "positive" : 18, 
+        "negative" : 1142, 
+        "pending" : 0, 
+        "lab_prvt" : 1019, 
+        "lab_pub" : 141, 
+        "Recoveries" : 13, 
+        "deaths" : 0, 
+        "total_tests" : 1160, 
+        "lcase_name" : "marion", 
+        "pos_range" : "18", 
+        "neg_range" : "1142", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 5, 
+        "POP_5YR_EST_2018" : 16438, 
+        "Shape__Area" : 1657005316.82642, 
+        "Shape__Length" : 213041.318466841
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 18, 
+        "county_nam" : "Perry", 
+        "fhwa_numbe" : 105, 
+        "FIPS" : "105", 
+        "positive" : 41, 
+        "negative" : 1236, 
+        "pending" : 0, 
+        "lab_prvt" : 1059, 
+        "lab_pub" : 218, 
+        "Recoveries" : 36, 
+        "deaths" : 0, 
+        "total_tests" : 1277, 
+        "lcase_name" : "perry", 
+        "pos_range" : "41", 
+        "neg_range" : "1236", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 5, 
+        "POP_5YR_EST_2018" : 10322, 
+        "Shape__Area" : 1450824197.89246, 
+        "Shape__Length" : 235691.992000723
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 19, 
+        "county_nam" : "Jefferson", 
+        "fhwa_numbe" : 69, 
+        "FIPS" : "069", 
+        "positive" : 1133, 
+        "negative" : 10843, 
+        "pending" : 0, 
+        "lab_prvt" : 8062, 
+        "lab_pub" : 3914, 
+        "Recoveries" : 851, 
+        "deaths" : 33, 
+        "total_tests" : 11976, 
+        "lcase_name" : "jefferson", 
+        "pos_range" : "1133", 
+        "neg_range" : "10843", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 249, 
+        "POP_5YR_EST_2018" : 70424, 
+        "Shape__Area" : 2370994330.72839, 
+        "Shape__Length" : 284256.349610199
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 20, 
+        "county_nam" : "Washington", 
+        "fhwa_numbe" : 143, 
+        "FIPS" : "143", 
+        "positive" : 5536, 
+        "negative" : 20064, 
+        "pending" : 0, 
+        "lab_prvt" : 17749, 
+        "lab_pub" : 7851, 
+        "Recoveries" : 4884, 
+        "deaths" : 40, 
+        "total_tests" : 25600, 
+        "lcase_name" : "washington", 
+        "pos_range" : "5536", 
+        "neg_range" : "20064", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 612, 
+        "POP_5YR_EST_2018" : 228529, 
+        "Shape__Area" : 2465023834.31018, 
+        "Shape__Length" : 227692.739748244
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 21, 
+        "county_nam" : "Crawford", 
+        "fhwa_numbe" : 33, 
+        "FIPS" : "033", 
+        "positive" : 429, 
+        "negative" : 6598, 
+        "pending" : 0, 
+        "lab_prvt" : 6335, 
+        "lab_pub" : 692, 
+        "Recoveries" : 299, 
+        "deaths" : 3, 
+        "total_tests" : 7027, 
+        "lcase_name" : "crawford", 
+        "pos_range" : "429", 
+        "neg_range" : "6598", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 127, 
+        "POP_5YR_EST_2018" : 62472, 
+        "Shape__Area" : 1565525966.073, 
+        "Shape__Length" : 218076.568568796
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 22, 
+        "county_nam" : "Little River", 
+        "fhwa_numbe" : 81, 
+        "FIPS" : "081", 
+        "positive" : 77, 
+        "negative" : 1028, 
+        "pending" : 0, 
+        "lab_prvt" : 1033, 
+        "lab_pub" : 72, 
+        "Recoveries" : 50, 
+        "deaths" : 1, 
+        "total_tests" : 1105, 
+        "lcase_name" : "little river", 
+        "pos_range" : "77", 
+        "neg_range" : "1028", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 26, 
+        "POP_5YR_EST_2018" : 12417, 
+        "Shape__Area" : 1458314113.76514, 
+        "Shape__Length" : 321191.714116766
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 23, 
+        "county_nam" : "Miller", 
+        "fhwa_numbe" : 91, 
+        "FIPS" : "091", 
+        "positive" : 385, 
+        "negative" : 3362, 
+        "pending" : 0, 
+        "lab_prvt" : 3084, 
+        "lab_pub" : 663, 
+        "Recoveries" : 312, 
+        "deaths" : 2, 
+        "total_tests" : 3747, 
+        "lcase_name" : "miller", 
+        "pos_range" : "385", 
+        "neg_range" : "3362", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 71, 
+        "POP_5YR_EST_2018" : 43759, 
+        "Shape__Area" : 1651886723.96448, 
+        "Shape__Length" : 278617.022939423
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 24, 
+        "county_nam" : "Lafayette", 
+        "fhwa_numbe" : 73, 
+        "FIPS" : "073", 
+        "positive" : 43, 
+        "negative" : 484, 
+        "pending" : 0, 
+        "lab_prvt" : 441, 
+        "lab_pub" : 86, 
+        "Recoveries" : 29, 
+        "deaths" : 2, 
+        "total_tests" : 527, 
+        "lcase_name" : "lafayette", 
+        "pos_range" : "43", 
+        "neg_range" : "484", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 12, 
+        "POP_5YR_EST_2018" : 6915, 
+        "Shape__Area" : 1413353782.99597, 
+        "Shape__Length" : 240091.990364965
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 25, 
+        "county_nam" : "Columbia", 
+        "fhwa_numbe" : 27, 
+        "FIPS" : "027", 
+        "positive" : 158, 
+        "negative" : 2072, 
+        "pending" : 0, 
+        "lab_prvt" : 1393, 
+        "lab_pub" : 837, 
+        "Recoveries" : 117, 
+        "deaths" : 5, 
+        "total_tests" : 2230, 
+        "lcase_name" : "columbia", 
+        "pos_range" : "158", 
+        "neg_range" : "2072", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 36, 
+        "POP_5YR_EST_2018" : 23892, 
+        "Shape__Area" : 1984584461.05408, 
+        "Shape__Length" : 189842.983515113
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 26, 
+        "county_nam" : "Union", 
+        "fhwa_numbe" : 139, 
+        "FIPS" : "139", 
+        "positive" : 350, 
+        "negative" : 3696, 
+        "pending" : 0, 
+        "lab_prvt" : 3407, 
+        "lab_pub" : 639, 
+        "Recoveries" : 276, 
+        "deaths" : 15, 
+        "total_tests" : 4046, 
+        "lcase_name" : "union", 
+        "pos_range" : "350", 
+        "neg_range" : "3696", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 59, 
+        "POP_5YR_EST_2018" : 39732, 
+        "Shape__Area" : 2731252909.41418, 
+        "Shape__Length" : 302655.931877982
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 27, 
+        "county_nam" : "Ashley", 
+        "fhwa_numbe" : 3, 
+        "FIPS" : "003", 
+        "positive" : 164, 
+        "negative" : 2121, 
+        "pending" : 0, 
+        "lab_prvt" : 1939, 
+        "lab_pub" : 346, 
+        "Recoveries" : 104, 
+        "deaths" : 4, 
+        "total_tests" : 2285, 
+        "lcase_name" : "ashley", 
+        "pos_range" : "164", 
+        "neg_range" : "2121", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 56, 
+        "POP_5YR_EST_2018" : 20537, 
+        "Shape__Area" : 2434449438.77856, 
+        "Shape__Length" : 238029.518397571
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 28, 
+        "county_nam" : "Chicot", 
+        "fhwa_numbe" : 17, 
+        "FIPS" : "017", 
+        "positive" : 284, 
+        "negative" : 1820, 
+        "pending" : 0, 
+        "lab_prvt" : 1805, 
+        "lab_pub" : 299, 
+        "Recoveries" : 209, 
+        "deaths" : 3, 
+        "total_tests" : 2104, 
+        "lcase_name" : "chicot", 
+        "pos_range" : "284", 
+        "neg_range" : "1820", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 72, 
+        "POP_5YR_EST_2018" : 10826, 
+        "Shape__Area" : 1788307859.28882, 
+        "Shape__Length" : 280731.906180036
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 29, 
+        "county_nam" : "Benton", 
+        "fhwa_numbe" : 7, 
+        "FIPS" : "007", 
+        "positive" : 4126, 
+        "negative" : 46843, 
+        "pending" : 0, 
+        "lab_prvt" : 46954, 
+        "lab_pub" : 4015, 
+        "Recoveries" : 3641, 
+        "deaths" : 31, 
+        "total_tests" : 50969, 
+        "lcase_name" : "benton", 
+        "pos_range" : "4126", 
+        "neg_range" : "46843", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 454, 
+        "POP_5YR_EST_2018" : 258980, 
+        "Shape__Area" : 2289858796.17493, 
+        "Shape__Length" : 259063.794058411
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 30, 
+        "county_nam" : "Carroll", 
+        "fhwa_numbe" : 15, 
+        "FIPS" : "015", 
+        "positive" : 309, 
+        "negative" : 3581, 
+        "pending" : 0, 
+        "lab_prvt" : 2931, 
+        "lab_pub" : 959, 
+        "Recoveries" : 238, 
+        "deaths" : 6, 
+        "total_tests" : 3890, 
+        "lcase_name" : "carroll", 
+        "pos_range" : "309", 
+        "neg_range" : "3581", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 65, 
+        "POP_5YR_EST_2018" : 27887, 
+        "Shape__Area" : 1653084714.83582, 
+        "Shape__Length" : 212425.446763967
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 31, 
+        "county_nam" : "Madison", 
+        "fhwa_numbe" : 87, 
+        "FIPS" : "087", 
+        "positive" : 242, 
+        "negative" : 2246, 
+        "pending" : 0, 
+        "lab_prvt" : 2301, 
+        "lab_pub" : 187, 
+        "Recoveries" : 223, 
+        "deaths" : 1, 
+        "total_tests" : 2488, 
+        "lcase_name" : "madison", 
+        "pos_range" : "242", 
+        "neg_range" : "2246", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 18, 
+        "POP_5YR_EST_2018" : 16076, 
+        "Shape__Area" : 2166601172.44824, 
+        "Shape__Length" : 215220.142258456
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 32, 
+        "county_nam" : "Sebastian", 
+        "fhwa_numbe" : 131, 
+        "FIPS" : "131", 
+        "positive" : 1318, 
+        "negative" : 16357, 
+        "pending" : 0, 
+        "lab_prvt" : 16220, 
+        "lab_pub" : 1455, 
+        "Recoveries" : 916, 
+        "deaths" : 13, 
+        "total_tests" : 17675, 
+        "lcase_name" : "sebastian", 
+        "pos_range" : "1318", 
+        "neg_range" : "16357", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 389, 
+        "POP_5YR_EST_2018" : 127461, 
+        "Shape__Area" : 1411978552.98157, 
+        "Shape__Length" : 217534.899566746
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 33, 
+        "county_nam" : "Polk", 
+        "fhwa_numbe" : 113, 
+        "FIPS" : "113", 
+        "positive" : 111, 
+        "negative" : 1877, 
+        "pending" : 0, 
+        "lab_prvt" : 1610, 
+        "lab_pub" : 378, 
+        "Recoveries" : 96, 
+        "deaths" : 0, 
+        "total_tests" : 1988, 
+        "lcase_name" : "polk", 
+        "pos_range" : "111", 
+        "neg_range" : "1877", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 15, 
+        "POP_5YR_EST_2018" : 20163, 
+        "Shape__Area" : 2230612446.49585, 
+        "Shape__Length" : 218300.901651637
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 34, 
+        "county_nam" : "Sevier", 
+        "fhwa_numbe" : 133, 
+        "FIPS" : "133", 
+        "positive" : 893, 
+        "negative" : 4050, 
+        "pending" : 0, 
+        "lab_prvt" : 4671, 
+        "lab_pub" : 272, 
+        "Recoveries" : 823, 
+        "deaths" : 9, 
+        "total_tests" : 4943, 
+        "lcase_name" : "sevier", 
+        "pos_range" : "893", 
+        "neg_range" : "4050", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 61, 
+        "POP_5YR_EST_2018" : 17193, 
+        "Shape__Area" : 1504881480.02832, 
+        "Shape__Length" : 254407.216997404
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 35, 
+        "county_nam" : "Garland", 
+        "fhwa_numbe" : 51, 
+        "FIPS" : "051", 
+        "positive" : 604, 
+        "negative" : 10780, 
+        "pending" : 0, 
+        "lab_prvt" : 10587, 
+        "lab_pub" : 797, 
+        "Recoveries" : 395, 
+        "deaths" : 5, 
+        "total_tests" : 11384, 
+        "lcase_name" : "garland", 
+        "pos_range" : "604", 
+        "neg_range" : "10780", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 204, 
+        "POP_5YR_EST_2018" : 98296, 
+        "Shape__Area" : 1900949402.75073, 
+        "Shape__Length" : 198708.79682618
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 36, 
+        "county_nam" : "Saline", 
+        "fhwa_numbe" : 125, 
+        "FIPS" : "125", 
+        "positive" : 701, 
+        "negative" : 12625, 
+        "pending" : 0, 
+        "lab_prvt" : 12110, 
+        "lab_pub" : 1216, 
+        "Recoveries" : 542, 
+        "deaths" : 3, 
+        "total_tests" : 13326, 
+        "lcase_name" : "saline", 
+        "pos_range" : "701", 
+        "neg_range" : "12625", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 156, 
+        "POP_5YR_EST_2018" : 118009, 
+        "Shape__Area" : 1890391625.52527, 
+        "Shape__Length" : 259324.450169752
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 37, 
+        "county_nam" : "Franklin", 
+        "fhwa_numbe" : 47, 
+        "FIPS" : "047", 
+        "positive" : 63, 
+        "negative" : 2087, 
+        "pending" : 0, 
+        "lab_prvt" : 1812, 
+        "lab_pub" : 338, 
+        "Recoveries" : 34, 
+        "deaths" : 1, 
+        "total_tests" : 2150, 
+        "lcase_name" : "franklin", 
+        "pos_range" : "63", 
+        "neg_range" : "2087", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 28, 
+        "POP_5YR_EST_2018" : 17780, 
+        "Shape__Area" : 1604366855.28687, 
+        "Shape__Length" : 221024.220903981
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 38, 
+        "county_nam" : "Scott", 
+        "fhwa_numbe" : 127, 
+        "FIPS" : "127", 
+        "positive" : 26, 
+        "negative" : 795, 
+        "pending" : 0, 
+        "lab_prvt" : 714, 
+        "lab_pub" : 107, 
+        "Recoveries" : 19, 
+        "deaths" : 0, 
+        "total_tests" : 821, 
+        "lcase_name" : "scott", 
+        "pos_range" : "26", 
+        "neg_range" : "795", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 7, 
+        "POP_5YR_EST_2018" : 10442, 
+        "Shape__Area" : 2325588371.05237, 
+        "Shape__Length" : 235654.491961227
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 39, 
+        "county_nam" : "Logan", 
+        "fhwa_numbe" : 83, 
+        "FIPS" : "083", 
+        "positive" : 118, 
+        "negative" : 2801, 
+        "pending" : 0, 
+        "lab_prvt" : 2531, 
+        "lab_pub" : 388, 
+        "Recoveries" : 88, 
+        "deaths" : 0, 
+        "total_tests" : 2919, 
+        "lcase_name" : "logan", 
+        "pos_range" : "118", 
+        "neg_range" : "2801", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 30, 
+        "POP_5YR_EST_2018" : 21757, 
+        "Shape__Area" : 1893020842.90564, 
+        "Shape__Length" : 260765.966043996
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 40, 
+        "county_nam" : "Yell", 
+        "fhwa_numbe" : 149, 
+        "FIPS" : "149", 
+        "positive" : 944, 
+        "negative" : 3360, 
+        "pending" : 0, 
+        "lab_prvt" : 3263, 
+        "lab_pub" : 1041, 
+        "Recoveries" : 831, 
+        "deaths" : 14, 
+        "total_tests" : 4304, 
+        "lcase_name" : "yell", 
+        "pos_range" : "944", 
+        "neg_range" : "3360", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 99, 
+        "POP_5YR_EST_2018" : 21573, 
+        "Shape__Area" : 2456264851.60352, 
+        "Shape__Length" : 285291.072549929
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 41, 
+        "county_nam" : "Montgomery", 
+        "fhwa_numbe" : 97, 
+        "FIPS" : "097", 
+        "positive" : 19, 
+        "negative" : 770, 
+        "pending" : 0, 
+        "lab_prvt" : 748, 
+        "lab_pub" : 41, 
+        "Recoveries" : 13, 
+        "deaths" : 0, 
+        "total_tests" : 789, 
+        "lcase_name" : "montgomery", 
+        "pos_range" : "19", 
+        "neg_range" : "770", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 6, 
+        "POP_5YR_EST_2018" : 8993, 
+        "Shape__Area" : 2072865931.63159, 
+        "Shape__Length" : 187272.030588765
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 42, 
+        "county_nam" : "Pike", 
+        "fhwa_numbe" : 109, 
+        "FIPS" : "109", 
+        "positive" : 49, 
+        "negative" : 2346, 
+        "pending" : 0, 
+        "lab_prvt" : 2243, 
+        "lab_pub" : 152, 
+        "Recoveries" : 31, 
+        "deaths" : 0, 
+        "total_tests" : 2395, 
+        "lcase_name" : "pike", 
+        "pos_range" : "49", 
+        "neg_range" : "2346", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 18, 
+        "POP_5YR_EST_2018" : 10808, 
+        "Shape__Area" : 1588931949.6095, 
+        "Shape__Length" : 227895.830370576
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 43, 
+        "county_nam" : "Hempstead", 
+        "fhwa_numbe" : 57, 
+        "FIPS" : "057", 
+        "positive" : 159, 
+        "negative" : 2293, 
+        "pending" : 0, 
+        "lab_prvt" : 1852, 
+        "lab_pub" : 600, 
+        "Recoveries" : 102, 
+        "deaths" : 2, 
+        "total_tests" : 2452, 
+        "lcase_name" : "hempstead", 
+        "pos_range" : "159", 
+        "neg_range" : "2293", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 55, 
+        "POP_5YR_EST_2018" : 22018, 
+        "Shape__Area" : 1918024030.47583, 
+        "Shape__Length" : 254684.611749633
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 44, 
+        "county_nam" : "Drew", 
+        "fhwa_numbe" : 43, 
+        "FIPS" : "043", 
+        "positive" : 126, 
+        "negative" : 2384, 
+        "pending" : 0, 
+        "lab_prvt" : 2158, 
+        "lab_pub" : 352, 
+        "Recoveries" : 90, 
+        "deaths" : 2, 
+        "total_tests" : 2510, 
+        "lcase_name" : "drew", 
+        "pos_range" : "126", 
+        "neg_range" : "2384", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 34, 
+        "POP_5YR_EST_2018" : 18502, 
+        "Shape__Area" : 2164050280.56885, 
+        "Shape__Length" : 194673.142048166
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 45, 
+        "county_nam" : "Bradley", 
+        "fhwa_numbe" : 11, 
+        "FIPS" : "011", 
+        "positive" : 112, 
+        "negative" : 1521, 
+        "pending" : 0, 
+        "lab_prvt" : 1071, 
+        "lab_pub" : 562, 
+        "Recoveries" : 77, 
+        "deaths" : 2, 
+        "total_tests" : 1633, 
+        "lcase_name" : "bradley", 
+        "pos_range" : "112", 
+        "neg_range" : "1521", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 33, 
+        "POP_5YR_EST_2018" : 10948, 
+        "Shape__Area" : 1689743159.67859, 
+        "Shape__Length" : 251246.751516417
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 46, 
+        "county_nam" : "Calhoun", 
+        "fhwa_numbe" : 13, 
+        "FIPS" : "013", 
+        "positive" : 8, 
+        "negative" : 450, 
+        "pending" : 0, 
+        "lab_prvt" : 375, 
+        "lab_pub" : 83, 
+        "Recoveries" : 5, 
+        "deaths" : 0, 
+        "total_tests" : 458, 
+        "lcase_name" : "calhoun", 
+        "pos_range" : "8", 
+        "neg_range" : "450", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 3, 
+        "POP_5YR_EST_2018" : 5202, 
+        "Shape__Area" : 1636688781.8551, 
+        "Shape__Length" : 257923.684200782
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 47, 
+        "county_nam" : "Ouachita", 
+        "fhwa_numbe" : 103, 
+        "FIPS" : "103", 
+        "positive" : 59, 
+        "negative" : 2412, 
+        "pending" : 0, 
+        "lab_prvt" : 1951, 
+        "lab_pub" : 520, 
+        "Recoveries" : 43, 
+        "deaths" : 1, 
+        "total_tests" : 2471, 
+        "lcase_name" : "ouachita", 
+        "pos_range" : "59", 
+        "neg_range" : "2412", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 15, 
+        "POP_5YR_EST_2018" : 24106, 
+        "Shape__Area" : 1914451452.26355, 
+        "Shape__Length" : 288817.222837729
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 48, 
+        "county_nam" : "Nevada", 
+        "fhwa_numbe" : 99, 
+        "FIPS" : "099", 
+        "positive" : 119, 
+        "negative" : 1417, 
+        "pending" : 0, 
+        "lab_prvt" : 1254, 
+        "lab_pub" : 282, 
+        "Recoveries" : 87, 
+        "deaths" : 8, 
+        "total_tests" : 1536, 
+        "lcase_name" : "nevada", 
+        "pos_range" : "119", 
+        "neg_range" : "1417", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 24, 
+        "POP_5YR_EST_2018" : 8440, 
+        "Shape__Area" : 1606223501.79431, 
+        "Shape__Length" : 203918.602261097
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 49, 
+        "county_nam" : "Clark", 
+        "fhwa_numbe" : 19, 
+        "FIPS" : "019", 
+        "positive" : 125, 
+        "negative" : 2342, 
+        "pending" : 0, 
+        "lab_prvt" : 2078, 
+        "lab_pub" : 389, 
+        "Recoveries" : 90, 
+        "deaths" : 0, 
+        "total_tests" : 2467, 
+        "lcase_name" : "clark", 
+        "pos_range" : "125", 
+        "neg_range" : "2342", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 35, 
+        "POP_5YR_EST_2018" : 22385, 
+        "Shape__Area" : 2285025128.83716, 
+        "Shape__Length" : 305327.404740804
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 50, 
+        "county_nam" : "Dallas", 
+        "fhwa_numbe" : 39, 
+        "FIPS" : "039", 
+        "positive" : 26, 
+        "negative" : 683, 
+        "pending" : 0, 
+        "lab_prvt" : 603, 
+        "lab_pub" : 106, 
+        "Recoveries" : 13, 
+        "deaths" : 0, 
+        "total_tests" : 709, 
+        "lcase_name" : "dallas", 
+        "pos_range" : "26", 
+        "neg_range" : "683", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 13, 
+        "POP_5YR_EST_2018" : 7432, 
+        "Shape__Area" : 1728752981.36938, 
+        "Shape__Length" : 248335.581705109
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 51, 
+        "county_nam" : "Cleveland", 
+        "fhwa_numbe" : 25, 
+        "FIPS" : "025", 
+        "positive" : 55, 
+        "negative" : 964, 
+        "pending" : 0, 
+        "lab_prvt" : 889, 
+        "lab_pub" : 130, 
+        "Recoveries" : 38, 
+        "deaths" : 1, 
+        "total_tests" : 1019, 
+        "lcase_name" : "cleveland", 
+        "pos_range" : "55", 
+        "neg_range" : "964", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 16, 
+        "POP_5YR_EST_2018" : 8226, 
+        "Shape__Area" : 1550112202.25488, 
+        "Shape__Length" : 191785.27846286
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 52, 
+        "county_nam" : "Lincoln", 
+        "fhwa_numbe" : 79, 
+        "FIPS" : "079", 
+        "positive" : 1141, 
+        "negative" : 2361, 
+        "pending" : 0, 
+        "lab_prvt" : 2090, 
+        "lab_pub" : 1412, 
+        "Recoveries" : 1028, 
+        "deaths" : 11, 
+        "total_tests" : 3502, 
+        "lcase_name" : "lincoln", 
+        "pos_range" : "1141", 
+        "neg_range" : "2361", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 102, 
+        "POP_5YR_EST_2018" : 13695, 
+        "Shape__Area" : 1475144651.05298, 
+        "Shape__Length" : 200391.193259746
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 53, 
+        "county_nam" : "Arkansas", 
+        "fhwa_numbe" : 1, 
+        "FIPS" : "001", 
+        "positive" : 164, 
+        "negative" : 2189, 
+        "pending" : 0, 
+        "lab_prvt" : 1900, 
+        "lab_pub" : 453, 
+        "Recoveries" : 83, 
+        "deaths" : 1, 
+        "total_tests" : 2353, 
+        "lcase_name" : "arkansas", 
+        "pos_range" : "164", 
+        "neg_range" : "2189", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 80, 
+        "POP_5YR_EST_2018" : 18124, 
+        "Shape__Area" : 2689458657.14087, 
+        "Shape__Length" : 337890.821693229
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 54, 
+        "county_nam" : "Grant", 
+        "fhwa_numbe" : 53, 
+        "FIPS" : "053", 
+        "positive" : 100, 
+        "negative" : 1767, 
+        "pending" : 0, 
+        "lab_prvt" : 1722, 
+        "lab_pub" : 145, 
+        "Recoveries" : 76, 
+        "deaths" : 0, 
+        "total_tests" : 1867, 
+        "lcase_name" : "grant", 
+        "pos_range" : "100", 
+        "neg_range" : "1767", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 24, 
+        "POP_5YR_EST_2018" : 18086, 
+        "Shape__Area" : 1638299260.79211, 
+        "Shape__Length" : 192015.431574621
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 55, 
+        "county_nam" : "Monroe", 
+        "fhwa_numbe" : 95, 
+        "FIPS" : "095", 
+        "positive" : 38, 
+        "negative" : 1025, 
+        "pending" : 0, 
+        "lab_prvt" : 904, 
+        "lab_pub" : 159, 
+        "Recoveries" : 27, 
+        "deaths" : 0, 
+        "total_tests" : 1063, 
+        "lcase_name" : "monroe", 
+        "pos_range" : "38", 
+        "neg_range" : "1025", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 11, 
+        "POP_5YR_EST_2018" : 7249, 
+        "Shape__Area" : 1608814698.93091, 
+        "Shape__Length" : 246946.068155265
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 56, 
+        "county_nam" : "Lee", 
+        "fhwa_numbe" : 77, 
+        "FIPS" : "077", 
+        "positive" : 869, 
+        "negative" : 2586, 
+        "pending" : 0, 
+        "lab_prvt" : 1607, 
+        "lab_pub" : 1848, 
+        "Recoveries" : 820, 
+        "deaths" : 6, 
+        "total_tests" : 3455, 
+        "lcase_name" : "lee", 
+        "pos_range" : "869", 
+        "neg_range" : "2586", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 43, 
+        "POP_5YR_EST_2018" : 9398, 
+        "Shape__Area" : 1615973756.60767, 
+        "Shape__Length" : 249884.035819293
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 57, 
+        "county_nam" : "Hot Spring", 
+        "fhwa_numbe" : 59, 
+        "FIPS" : "059", 
+        "positive" : 1382, 
+        "negative" : 4651, 
+        "pending" : 0, 
+        "lab_prvt" : 2813, 
+        "lab_pub" : 3220, 
+        "Recoveries" : 1117, 
+        "deaths" : 4, 
+        "total_tests" : 6033, 
+        "lcase_name" : "hot spring", 
+        "pos_range" : "1382", 
+        "neg_range" : "4651", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 261, 
+        "POP_5YR_EST_2018" : 33520, 
+        "Shape__Area" : 1610166631.76538, 
+        "Shape__Length" : 219757.280649162
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 58, 
+        "county_nam" : "St. Francis", 
+        "fhwa_numbe" : 123, 
+        "FIPS" : "123", 
+        "positive" : 998, 
+        "negative" : 5312, 
+        "pending" : 0, 
+        "lab_prvt" : 5051, 
+        "lab_pub" : 1259, 
+        "Recoveries" : 922, 
+        "deaths" : 3, 
+        "total_tests" : 6310, 
+        "lcase_name" : "saint francis", 
+        "pos_range" : "998", 
+        "neg_range" : "5312", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 73, 
+        "POP_5YR_EST_2018" : 26294, 
+        "Shape__Area" : 1664523033.28198, 
+        "Shape__Length" : 200638.765000852
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 59, 
+        "county_nam" : "Crittenden", 
+        "fhwa_numbe" : 35, 
+        "FIPS" : "035", 
+        "positive" : 1058, 
+        "negative" : 7207, 
+        "pending" : 0, 
+        "lab_prvt" : 7370, 
+        "lab_pub" : 895, 
+        "Recoveries" : 896, 
+        "deaths" : 16, 
+        "total_tests" : 8265, 
+        "lcase_name" : "crittenden", 
+        "pos_range" : "1058", 
+        "neg_range" : "7207", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 146, 
+        "POP_5YR_EST_2018" : 49013, 
+        "Shape__Area" : 1653092887.37305, 
+        "Shape__Length" : 250119.071780147
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 60, 
+        "county_nam" : "Cross", 
+        "fhwa_numbe" : 37, 
+        "FIPS" : "037", 
+        "positive" : 137, 
+        "negative" : 1797, 
+        "pending" : 0, 
+        "lab_prvt" : 1638, 
+        "lab_pub" : 296, 
+        "Recoveries" : 104, 
+        "deaths" : 1, 
+        "total_tests" : 1934, 
+        "lcase_name" : "cross", 
+        "pos_range" : "137", 
+        "neg_range" : "1797", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 32, 
+        "POP_5YR_EST_2018" : 16998, 
+        "Shape__Area" : 1612034657.20508, 
+        "Shape__Length" : 165977.208530094
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 61, 
+        "county_nam" : "Woodruff", 
+        "fhwa_numbe" : 147, 
+        "FIPS" : "147", 
+        "positive" : 17, 
+        "negative" : 898, 
+        "pending" : 0, 
+        "lab_prvt" : 850, 
+        "lab_pub" : 65, 
+        "Recoveries" : 15, 
+        "deaths" : 0, 
+        "total_tests" : 915, 
+        "lcase_name" : "woodruff", 
+        "pos_range" : "17", 
+        "neg_range" : "898", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 2, 
+        "POP_5YR_EST_2018" : 6660, 
+        "Shape__Area" : 1538509114.34155, 
+        "Shape__Length" : 261925.286117796
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 62, 
+        "county_nam" : "White", 
+        "fhwa_numbe" : 145, 
+        "FIPS" : "145", 
+        "positive" : 189, 
+        "negative" : 5185, 
+        "pending" : 0, 
+        "lab_prvt" : 4836, 
+        "lab_pub" : 538, 
+        "Recoveries" : 152, 
+        "deaths" : 2, 
+        "total_tests" : 5374, 
+        "lcase_name" : "white", 
+        "pos_range" : "189", 
+        "neg_range" : "5185", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 35, 
+        "POP_5YR_EST_2018" : 78804, 
+        "Shape__Area" : 2697526482.04468, 
+        "Shape__Length" : 339075.602124193
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 63, 
+        "county_nam" : "Faulkner", 
+        "fhwa_numbe" : 45, 
+        "FIPS" : "045", 
+        "positive" : 1013, 
+        "negative" : 14437, 
+        "pending" : 0, 
+        "lab_prvt" : 13492, 
+        "lab_pub" : 1958, 
+        "Recoveries" : 823, 
+        "deaths" : 4, 
+        "total_tests" : 15450, 
+        "lcase_name" : "faulkner", 
+        "pos_range" : "1013", 
+        "neg_range" : "14437", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 186, 
+        "POP_5YR_EST_2018" : 122416, 
+        "Shape__Area" : 1719292673.13306, 
+        "Shape__Length" : 220407.99062066
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 64, 
+        "county_nam" : "Conway", 
+        "fhwa_numbe" : 29, 
+        "FIPS" : "029", 
+        "positive" : 119, 
+        "negative" : 2476, 
+        "pending" : 0, 
+        "lab_prvt" : 2162, 
+        "lab_pub" : 433, 
+        "Recoveries" : 96, 
+        "deaths" : 3, 
+        "total_tests" : 2595, 
+        "lcase_name" : "conway", 
+        "pos_range" : "119", 
+        "neg_range" : "2476", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 20, 
+        "POP_5YR_EST_2018" : 20906, 
+        "Shape__Area" : 1466018646.01843, 
+        "Shape__Length" : 208726.833050194
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 65, 
+        "county_nam" : "Newton", 
+        "fhwa_numbe" : 101, 
+        "FIPS" : "101", 
+        "positive" : 73, 
+        "negative" : 676, 
+        "pending" : 0, 
+        "lab_prvt" : 612, 
+        "lab_pub" : 137, 
+        "Recoveries" : 12, 
+        "deaths" : 0, 
+        "total_tests" : 749, 
+        "lcase_name" : "newton", 
+        "pos_range" : "73", 
+        "neg_range" : "676", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 61, 
+        "POP_5YR_EST_2018" : 7848, 
+        "Shape__Area" : 2130867828.67175, 
+        "Shape__Length" : 197624.4003355
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 66, 
+        "county_nam" : "Pope", 
+        "fhwa_numbe" : 115, 
+        "FIPS" : "115", 
+        "positive" : 1004, 
+        "negative" : 8395, 
+        "pending" : 0, 
+        "lab_prvt" : 8109, 
+        "lab_pub" : 1290, 
+        "Recoveries" : 770, 
+        "deaths" : 5, 
+        "total_tests" : 9399, 
+        "lcase_name" : "pope", 
+        "pos_range" : "1004", 
+        "neg_range" : "8395", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 229, 
+        "POP_5YR_EST_2018" : 63644, 
+        "Shape__Area" : 2147891752.79688, 
+        "Shape__Length" : 215833.141399886
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 67, 
+        "county_nam" : "Johnson", 
+        "fhwa_numbe" : 71, 
+        "FIPS" : "071", 
+        "positive" : 554, 
+        "negative" : 2534, 
+        "pending" : 0, 
+        "lab_prvt" : 1826, 
+        "lab_pub" : 1262, 
+        "Recoveries" : 456, 
+        "deaths" : 0, 
+        "total_tests" : 3088, 
+        "lcase_name" : "johnson", 
+        "pos_range" : "554", 
+        "neg_range" : "2534", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 98, 
+        "POP_5YR_EST_2018" : 26291, 
+        "Shape__Area" : 1767434801.76807, 
+        "Shape__Length" : 208086.242159146
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 68, 
+        "county_nam" : "Van Buren", 
+        "fhwa_numbe" : 141, 
+        "FIPS" : "141", 
+        "positive" : 42, 
+        "negative" : 1374, 
+        "pending" : 0, 
+        "lab_prvt" : 1252, 
+        "lab_pub" : 164, 
+        "Recoveries" : 36, 
+        "deaths" : 2, 
+        "total_tests" : 1416, 
+        "lcase_name" : "van buren", 
+        "pos_range" : "42", 
+        "neg_range" : "1374", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 4, 
+        "POP_5YR_EST_2018" : 16684, 
+        "Shape__Area" : 1873571941.61279, 
+        "Shape__Length" : 202862.182311102
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 69, 
+        "county_nam" : "Cleburne", 
+        "fhwa_numbe" : 23, 
+        "FIPS" : "023", 
+        "positive" : 167, 
+        "negative" : 2810, 
+        "pending" : 0, 
+        "lab_prvt" : 2752, 
+        "lab_pub" : 225, 
+        "Recoveries" : 138, 
+        "deaths" : 5, 
+        "total_tests" : 2977, 
+        "lcase_name" : "cleburne", 
+        "pos_range" : "167", 
+        "neg_range" : "2810", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 24, 
+        "POP_5YR_EST_2018" : 25230, 
+        "Shape__Area" : 1532699219.27148, 
+        "Shape__Length" : 160145.803854315
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 70, 
+        "county_nam" : "Poinsett", 
+        "fhwa_numbe" : 111, 
+        "FIPS" : "111", 
+        "positive" : 112, 
+        "negative" : 2169, 
+        "pending" : 0, 
+        "lab_prvt" : 2033, 
+        "lab_pub" : 248, 
+        "Recoveries" : 82, 
+        "deaths" : 3, 
+        "total_tests" : 2281, 
+        "lcase_name" : "poinsett", 
+        "pos_range" : "112", 
+        "neg_range" : "2169", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 27, 
+        "POP_5YR_EST_2018" : 24054, 
+        "Shape__Area" : 1978621315.45654, 
+        "Shape__Length" : 195984.20857495
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 71, 
+        "county_nam" : "Craighead", 
+        "fhwa_numbe" : 31, 
+        "FIPS" : "031", 
+        "positive" : 895, 
+        "negative" : 14042, 
+        "pending" : 0, 
+        "lab_prvt" : 14127, 
+        "lab_pub" : 810, 
+        "Recoveries" : 690, 
+        "deaths" : 8, 
+        "total_tests" : 14937, 
+        "lcase_name" : "craighead", 
+        "pos_range" : "895", 
+        "neg_range" : "14042", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 197, 
+        "POP_5YR_EST_2018" : 105701, 
+        "Shape__Area" : 1846141670.6062, 
+        "Shape__Length" : 203046.971315213
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 72, 
+        "county_nam" : "Sharp", 
+        "fhwa_numbe" : 135, 
+        "FIPS" : "135", 
+        "positive" : 89, 
+        "negative" : 1393, 
+        "pending" : 0, 
+        "lab_prvt" : 1309, 
+        "lab_pub" : 173, 
+        "Recoveries" : 64, 
+        "deaths" : 5, 
+        "total_tests" : 1482, 
+        "lcase_name" : "sharp", 
+        "pos_range" : "89", 
+        "neg_range" : "1393", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 20, 
+        "POP_5YR_EST_2018" : 17043, 
+        "Shape__Area" : 1570672403.03687, 
+        "Shape__Length" : 220017.018631529
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 73, 
+        "county_nam" : "Izard", 
+        "fhwa_numbe" : 65, 
+        "FIPS" : "065", 
+        "positive" : 31, 
+        "negative" : 1191, 
+        "pending" : 0, 
+        "lab_prvt" : 1078, 
+        "lab_pub" : 144, 
+        "Recoveries" : 25, 
+        "deaths" : 1, 
+        "total_tests" : 1222, 
+        "lcase_name" : "izard", 
+        "pos_range" : "31", 
+        "neg_range" : "1191", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 5, 
+        "POP_5YR_EST_2018" : 13559, 
+        "Shape__Area" : 1511354352.72925, 
+        "Shape__Length" : 187594.839051617
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 74, 
+        "county_nam" : "Fulton", 
+        "fhwa_numbe" : 49, 
+        "FIPS" : "049", 
+        "positive" : 22, 
+        "negative" : 1135, 
+        "pending" : 0, 
+        "lab_prvt" : 1060, 
+        "lab_pub" : 97, 
+        "Recoveries" : 19, 
+        "deaths" : 0, 
+        "total_tests" : 1157, 
+        "lcase_name" : "fulton", 
+        "pos_range" : "22", 
+        "neg_range" : "1135", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 3, 
+        "POP_5YR_EST_2018" : 12139, 
+        "Shape__Area" : 1606270810.8877, 
+        "Shape__Length" : 180201.700547134
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 75, 
+        "county_nam" : "Stone", 
+        "fhwa_numbe" : 137, 
+        "FIPS" : "137", 
+        "positive" : 40, 
+        "negative" : 1475, 
+        "pending" : 0, 
+        "lab_prvt" : 1093, 
+        "lab_pub" : 422, 
+        "Recoveries" : 27, 
+        "deaths" : 1, 
+        "total_tests" : 1515, 
+        "lcase_name" : "stone", 
+        "pos_range" : "40", 
+        "neg_range" : "1475", 
+        "border_report" : "Not Applicable", 
+        "active_cases" : 12, 
+        "POP_5YR_EST_2018" : 12446, 
+        "Shape__Area" : 1577804238.83069, 
+        "Shape__Length" : 206836.754761377
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 76, 
+        "county_nam" : "Boone", 
+        "fhwa_numbe" : 9, 
+        "FIPS" : "009", 
+        "positive" : 104, 
+        "negative" : 3265, 
+        "pending" : 0, 
+        "lab_prvt" : 3049, 
+        "lab_pub" : 320, 
+        "Recoveries" : 58, 
+        "deaths" : 1, 
+        "total_tests" : 3369, 
+        "lcase_name" : "boone", 
+        "pos_range" : "104", 
+        "neg_range" : "3265", 
+        "border_report" : "https://bit.ly/2T74BCM", 
+        "active_cases" : 45, 
+        "POP_5YR_EST_2018" : 37288, 
+        "Shape__Area" : 1557916143.12292, 
+        "Shape__Length" : 169603.300267447
+      }
+    }
+  ]
+}
