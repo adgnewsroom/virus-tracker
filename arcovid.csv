@@ -1,3 +1,4 @@
+date,county,value
 3/11/20,Benton,0
 3/12/20,Benton,0
 3/13/20,Benton,0
@@ -283,7 +284,6 @@
 7/29/20,Chicot,483
 7/30/20,Chicot,498
 7/30/20,Chicot,498
-date,county,value
 3/11/20,Craighead,0
 3/12/20,Craighead,0
 3/13/20,Craighead,0
