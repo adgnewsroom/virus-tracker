@@ -145,6 +145,8 @@ z-index: 100
     <th title="Field #2">Cumulative cases</th>
     <th title="Field #3">Active cases</th>
     <th title="Field #4">Fall 2018 Enrollment</th>
+    <th title="Field #4">As of date</th>
+
 
     </tr></thead>
       <!-- Table head -->
@@ -818,6 +820,7 @@ $('.dataTables_length').addClass('bs-select');
 
 
 
+
 $(document).ready(function () {
   $.getJSON("https://spreadsheets.google.com/feeds/list/1sZOvxOT6mUtBP-mJsybsyKRLAO4C2Js84obYcrQFpdk/2/public/values?alt=json", function (data) {
 
@@ -830,9 +833,11 @@ $(document).ready(function () {
     var collegecumu = data.feed.entry[i]['gsx$_cokwr']['$t'];
     var collegeactive = data.feed.entry[i]['gsx$_cpzh4']['$t'];
     var collegeenroll = data.feed.entry[i]['gsx$_cre1l']['$t'];
+    var collegedate = data.feed.entry[i]['gsx$_chk2m']['$t'];
 
 
-    document.getElementById('collegetable').innerHTML += ('<tr>'+'<td>'+collegename+'</td>'+'<td>'+collegecumu+'</td>'+'<td>'+collegeactive+'</td>'+'<td>'+collegeenroll+'</td>'+'</tr>');
+
+    document.getElementById('collegetable').innerHTML += ('<tr>'+'<td>'+collegename+'</td>'+'<td>'+collegecumu+'</td>'+'<td>'+collegeactive+'</td>'+'<td>'+collegeenroll+'</td>'+'<td>'+collegedate+'</td>'+'</tr>');
 
   }
 
