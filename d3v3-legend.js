@@ -23,10 +23,10 @@ module.exports = function(){
     path,
     legendDispatcher = d3v3.dispatch("cellover", "cellout", "cellclick");
 
-    function legend(svg){
+    function legend(svg7){
 
       var type = helper.d3_calcType(scale, ascending, cells, labels, labelFormat, labelDelimiter),
-        legendG = svg.selectAll('g').data([scale]);
+        legendG = svg7.selectAll('g').data([scale]);
 
       legendG.enter().append('g').attr('class', classPrefix + 'legendCells');
 
@@ -78,7 +78,7 @@ module.exports = function(){
       }
 
       helper.d3_placement(orient, cell, cellTrans, text, textTrans, labelAlign);
-      helper.d3_title(svg, legendG, title, classPrefix);
+      helper.d3_title(svg7, legendG, title, classPrefix);
 
       cell.transition().style("opacity", 1);
 
@@ -292,9 +292,9 @@ module.exports = {
     }
   },
 
-  d3_addText: function (svg, enter, labels, classPrefix){
+  d3_addText: function (svg7, enter, labels, classPrefix){
     enter.append("text").attr("class", classPrefix + "label");
-    svg.selectAll("g." + classPrefix + "cell text." + classPrefix + "label")
+    svg7.selectAll("g." + classPrefix + "cell text." + classPrefix + "label")
       .data(labels).text(this.d3_identity);
   },
 
@@ -349,24 +349,24 @@ module.exports = {
     cellDispatcher.cellclick.call(obj, d);
   },
 
-  d3_title: function(svg, cellsSvg, title, classPrefix){
+  d3_title: function(svg7, cellssvg7, title, classPrefix){
     if (title !== ""){
 
-      var titleText = svg.selectAll('text.' + classPrefix + 'legendTitle');
+      var titleText = svg7.selectAll('text.' + classPrefix + 'legendTitle');
 
       titleText.data([title])
         .enter()
         .append('text')
         .attr('class', classPrefix + 'legendTitle');
 
-        svg.selectAll('text.' + classPrefix + 'legendTitle')
+        svg7.selectAll('text.' + classPrefix + 'legendTitle')
             .text(title)
 
-      var yOffset = svg.select('.' + classPrefix + 'legendTitle')
+      var yOffset = svg7.select('.' + classPrefix + 'legendTitle')
           .map(function(d) { return d[0].getBBox().height})[0],
-      xOffset = -cellsSvg.map(function(d) { return d[0].getBBox().x})[0];
+      xOffset = -cellssvg7.map(function(d) { return d[0].getBBox().x})[0];
 
-      cellsSvg.attr('transform', 'translate(' + xOffset + ',' + (yOffset + 10) + ')');
+      cellssvg7.attr('transform', 'translate(' + xOffset + ',' + (yOffset + 10) + ')');
 
     }
   }
@@ -395,10 +395,10 @@ module.exports =  function(){
     path,
     legendDispatcher = d3v3.dispatch("cellover", "cellout", "cellclick");
 
-    function legend(svg){
+    function legend(svg7){
 
       var type = helper.d3_calcType(scale, ascending, cells, labels, labelFormat, labelDelimiter),
-        legendG = svg.selectAll('g').data([scale]);
+        legendG = svg7.selectAll('g').data([scale]);
 
       legendG.enter().append('g').attr('class', classPrefix + 'legendCells');
 
@@ -466,7 +466,7 @@ module.exports =  function(){
       }
 
       helper.d3_placement(orient, cell, cellTrans, text, textTrans, labelAlign);
-      helper.d3_title(svg, legendG, title, classPrefix);
+      helper.d3_title(svg7, legendG, title, classPrefix);
 
       cell.transition().style("opacity", 1);
 
@@ -597,10 +597,10 @@ module.exports = function(){
     ascending = false,
     legendDispatcher = d3v3.dispatch("cellover", "cellout", "cellclick");
 
-    function legend(svg){
+    function legend(svg7){
 
       var type = helper.d3_calcType(scale, ascending, cells, labels, labelFormat, labelDelimiter),
-        legendG = svg.selectAll('g').data([scale]);
+        legendG = svg7.selectAll('g').data([scale]);
 
       legendG.enter().append('g').attr('class', classPrefix + 'legendCells');
 
@@ -642,7 +642,7 @@ module.exports = function(){
       }
 
       helper.d3_placement(orient, cell, cellTrans, text, textTrans, labelAlign);
-      helper.d3_title(svg, legendG, title, classPrefix);
+      helper.d3_title(svg7, legendG, title, classPrefix);
       cell.transition().style("opacity", 1);
 
     }
