@@ -46,8 +46,8 @@ module.exports = function(){
       helper.d3_addText(legendG, cellEnter, type.labels, classPrefix)
 
       // sets placement
-      var text = cell.select("text"),
-        shapeSize = shapes[0].map( function(d){ return d.getBBox(); });
+      // var text = cell.select("text"),
+      //   shapeSize = shapes[0].map( function(d){ return d.getBBox(); });
 
       //sets scale
       //everything is fill except for line which is stroke,
@@ -242,7 +242,7 @@ module.exports = {
       }
     }
 
-    var labels = data.map(labelFormat);
+    // var labels = data.map(labelFormat);
 
     return {data: data,
             labels: labels,
@@ -362,9 +362,9 @@ module.exports = {
         svg7.selectAll('text.' + classPrefix + 'legendTitle')
             .text(title)
 
-      var yOffset = svg7.select('.' + classPrefix + 'legendTitle')
-          .map(function(d) { return d[0].getBBox().height})[0],
-      xOffset = -cellssvg7.map(function(d) { return d[0].getBBox().x})[0];
+      // var yOffset = svg7.select('.' + classPrefix + 'legendTitle')
+      //     .map(function(d) { return d[0].getBBox().height})[0],
+      // xOffset = -cellssvg7.map(function(d) { return d[0].getBBox().x})[0];
 
       cellssvg7.attr('transform', 'translate(' + xOffset + ',' + (yOffset + 10) + ')');
 
@@ -424,20 +424,20 @@ module.exports =  function(){
       helper.d3_addText(legendG, cellEnter, type.labels, classPrefix)
 
       //sets placement
-      var text = cell.select("text"),
-        shapeSize = shapes[0].map(
-          function(d, i){
-            var bbox = d.getBBox()
-            var stroke = scale(type.data[i]);
-
-            if (shape === "line" && orient === "horizontal") {
-              bbox.height = bbox.height + stroke;
-            } else if (shape === "line" && orient === "vertical"){
-              bbox.width = bbox.width;
-            }
-
-            return bbox;
-        });
+      // var text = cell.select("text"),
+      //   shapeSize = shapes[0].map(
+      //     function(d, i){
+      //       var bbox = d.getBBox()
+      //       var stroke = scale(type.data[i]);
+      //
+      //       if (shape === "line" && orient === "horizontal") {
+      //         bbox.height = bbox.height + stroke;
+      //       } else if (shape === "line" && orient === "vertical"){
+      //         bbox.width = bbox.width;
+      //       }
+      //
+      //       return bbox;
+      //   });
 
       var maxH = d3v3.max(shapeSize, function(d){ return d.height + d.y; }),
       maxW = d3v3.max(shapeSize, function(d){ return d.width + d.x; });
@@ -619,8 +619,8 @@ module.exports = function(){
       helper.d3_addText(legendG, cellEnter, type.labels, classPrefix)
 
       // sets placement
-      var text = cell.select("text"),
-        shapeSize = shapes[0].map( function(d){ return d.getBBox(); });
+      // var text = cell.select("text"),
+      //   shapeSize = shapes[0].map( function(d){ return d.getBBox(); });
 
       var maxH = d3v3.max(shapeSize, function(d){ return d.height; }),
       maxW = d3v3.max(shapeSize, function(d){ return d.width; });
