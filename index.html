@@ -234,6 +234,7 @@ z-index: 100;
 }
 
 .d3-tip {
+  z-index: 2000;
   line-height: 0.8;
   padding: 12px;
   border:1px solid #cccccc;
@@ -1105,7 +1106,8 @@ p {
             <button type="button" class="btn btn-light btn-lg"><h7><a href="#arkansas">Arkansas</a></h7></button>
             <button type="button" class="btn btn-light btn-lg"><h7><a href="#us">U.S.</a></h7></button>
             <button type="button" class="btn btn-light btn-lg"><h7><a href="#world">World</a></h7></button>
-            <h2>UPDATED OCTOBER 19, 3:00 P.M. CDT</h2>
+            <!-- Change the timestamp here: -->
+            <h2>UPDATED NOVEMBER 13, 6:00 P.M. CDT</h2>
 </div>
 </div>
       </div>
@@ -1150,14 +1152,15 @@ p {
   <div class="armap">
   <div class="card" style="background:#f0f0f0">
   <div class="card-body">
-<h4><span class="badge badge-pill badge-warning">99,597</span> total cases</h4>
-<h4><span class="badge badge-pill badge-warning">5,807</span> probable cases</h4>
-<h4><span class="badge badge-pill badge-warning">8,658</span> active cases</h4>
-<h4><span class="badge badge-pill badge-warning">1,714</span> deaths</h4>
-<h4><span class="badge badge-pill badge-success">89,217</span> recoveries</h4>
-<h4><span class="badge badge-pill badge-dark">1,159,923</span> negative tests</h4>
-<div role="alert">
-  * 1,990 cases with missing county information.
+    <!-- Change daily numbers here: -->
+    <h4><span class="badge badge-pill badge-warning">130,318</span> total cases</h4>
+    <h4><span class="badge badge-pill badge-warning">13,531</span> probable cases</h4>
+    <h4><span class="badge badge-pill badge-warning">15,773</span> active cases</h4>
+    <h4><span class="badge badge-pill badge-warning">2,148</span> deaths</h4>
+    <h4><span class="badge badge-pill badge-success">112,383</span> recoveries</h4>
+    <h4><span class="badge badge-pill badge-dark">1,443,529</span> negative tests</h4>
+    <div role="alert">
+      * 2,138 cases with missing county information.
 </div>
 </div>
 </div>
@@ -1362,11 +1365,12 @@ p {
   <rect class="e9a5f613-0eb3-4bb3-bfde-06c8ea98116a" x="180" width="58" height="11"/>
   <rect class="eff986fe-3dd8-44f0-8704-6144a8c00e25" x="240" width="58" height="11"/>
   <rect class="a6afe6f3-843c-422d-86ef-9ca93b62f9f9" x="300" width="58" height="11"/>
+  <!-- // scale for school districts: -->
   <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(55 24)">1</text>
-  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(111 24)">10</text>
-  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(171 24)">20</text>
-  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(231 24)">50</text>
-  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(287 24)">100</text>
+  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(111 24)">20</text>
+  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(171 24)">50</text>
+  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(231 24)">100</text>
+  <text class="efc6541b-4aa2-4cfc-acc2-ebd6ee16f2f2" transform="translate(287 24)">200</text>
 </svg>
 </div>
 
@@ -1440,7 +1444,13 @@ p {
 
 
 <div class="subhead"><p>Covid-19 cases in Arkansas long-term care facilities</p></div>
+<div class="d-flex justify-content-center">
 
+<div class="alert alert-warning schoolcaption" role="alert">
+  * The Arkansas Department of Health reports nursing home cases once a week. The reports only list facilities that have had a new or additional positive case in the
+past 14 days.
+</div>
+</div>
 <div class="d-flex justify-content-center">
 
 <div id="nursinghomemap" class="svg-container5">
@@ -1456,1779 +1466,13 @@ p {
 <th title="Field #4">Total cases</th>
 <th title="Field #5">Total deaths</th>
 </tr></thead>
-<tbody><tr>
-<td>Mitchell&#39;s Nursing Home</td>
-<td align="right">87</td>
-<td align="right">46</td>
-<td align="right">133</td>
-<td align="right">11</td>
-</tr>
-<tr>
-<td>Randolph County Nursing Home</td>
-<td align="right">72</td>
-<td align="right">40</td>
-<td align="right">112</td>
-<td align="right">15</td>
-</tr>
-<tr>
-<td>The Springs on Broadway-W. Memphis</td>
-<td align="right">62</td>
-<td align="right">44</td>
-<td align="right">106</td>
-<td align="right">15</td>
-</tr>
-<tr>
-<td>Newton County Nursing Home</td>
-<td align="right">65</td>
-<td align="right">34</td>
-<td align="right">99</td>
-<td align="right">15</td>
-</tr>
-<tr>
-<td>Hot Springs Nursing &amp; Rehabilitation</td>
-<td align="right">66</td>
-<td align="right">31</td>
-<td align="right">97</td>
-<td align="right">7</td>
-</tr>
-<tr>
-<td>Pleasant Manor</td>
-<td align="right">64</td>
-<td align="right">33</td>
-<td align="right">97</td>
-<td align="right">14</td>
-</tr>
-<tr>
-<td>Lake Village Healthcare &amp; Rehab</td>
-<td align="right">73</td>
-<td align="right">21</td>
-<td align="right">94</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Woodland Hills Healthcare &amp; Rehabilitation</td>
-<td align="right">51</td>
-<td align="right">38</td>
-<td align="right">89</td>
-<td align="right">19</td>
-</tr>
-<tr>
-<td>Waters of White Hall</td>
-<td align="right">46</td>
-<td align="right">39</td>
-<td align="right">85</td>
-<td align="right">16</td>
-</tr>
-<tr>
-<td>Walnut Ridge Nursing &amp; Rehab</td>
-<td align="right">55</td>
-<td align="right">26</td>
-<td align="right">81</td>
-<td align="right">8</td>
-</tr>
-<tr>
-<td>Little River Nursing &amp; Rehab</td>
-<td align="right">43</td>
-<td align="right">30</td>
-<td align="right">73</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>South Pines Nursing &amp; Rehab/Prescott Manor</td>
-<td align="right">54</td>
-<td align="right">19</td>
-<td align="right">73</td>
-<td align="right">6</td>
-</tr>
-<tr>
-<td>Fayetteville Health &amp; Rehab</td>
-<td align="right">50</td>
-<td align="right">22</td>
-<td align="right">72</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Gosnell Therapy and Living Center</td>
-<td align="right">52</td>
-<td align="right">20</td>
-<td align="right">72</td>
-<td align="right">10</td>
-</tr>
-<tr>
-<td>The Waters of Rogers</td>
-<td align="right">38</td>
-<td align="right">33</td>
-<td align="right">71</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td>Beebe Retirement Center</td>
-<td align="right">47</td>
-<td align="right">23</td>
-<td align="right">70</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Arkansas Convalescent Center</td>
-<td align="right">52</td>
-<td align="right">16</td>
-<td align="right">68</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td>Heritage Square Nursing &amp; Rehabilitation Center</td>
-<td align="right">27</td>
-<td align="right">40</td>
-<td align="right">67</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Briarwood Nursing Center</td>
-<td align="right">46</td>
-<td align="right">20</td>
-<td align="right">66</td>
-<td align="right">7</td>
-</tr>
-<tr>
-<td>Dierks Health &amp; Rehab Center</td>
-<td align="right">41</td>
-<td align="right">24</td>
-<td align="right">65</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Legacy Health &amp; Rehabilitation Center</td>
-<td align="right">43</td>
-<td align="right">21</td>
-<td align="right">64</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Harris Healthcare</td>
-<td align="right">31</td>
-<td align="right">32</td>
-<td align="right">63</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Courtyard Rehabilitation &amp; Health Center</td>
-<td align="right">35</td>
-<td align="right">23</td>
-<td align="right">58</td>
-<td align="right">7</td>
-</tr>
-<tr>
-<td>Courtyard Healthcare &amp; Rehab</td>
-<td align="right">35</td>
-<td align="right">22</td>
-<td align="right">57</td>
-<td align="right">7</td>
-</tr>
-<tr>
-<td>Ash Flat Healthcare &amp; Rehab</td>
-<td align="right">37</td>
-<td align="right">18</td>
-<td align="right">55</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>The Springs of Magnolia</td>
-<td align="right">32</td>
-<td align="right">23</td>
-<td align="right">55</td>
-<td align="right">8</td>
-</tr>
-<tr>
-<td>Heritage Living Center-Conway</td>
-<td align="right">43</td>
-<td align="right">11</td>
-<td align="right">54</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>The Lakes at Maumelle H&amp;R</td>
-<td align="right">42</td>
-<td align="right">12</td>
-<td align="right">54</td>
-<td align="right">13</td>
-</tr>
-<tr>
-<td>Willow Bend Healthcare &amp; Rehab</td>
-<td align="right">30</td>
-<td align="right">22</td>
-<td align="right">52</td>
-<td align="right">6</td>
-</tr>
-<tr>
-<td>Legacy Heights Nursing &amp; Rehab</td>
-<td align="right">36</td>
-<td align="right">15</td>
-<td align="right">51</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>North Hills Lifecare &amp; Rehab</td>
-<td align="right">27</td>
-<td align="right">23</td>
-<td align="right">50</td>
-<td align="right">6</td>
-</tr>
-<tr>
-<td>Villages of General Baptist West</td>
-<td align="right">31</td>
-<td align="right">19</td>
-<td align="right">50</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td>The Villages of General Baptist West</td>
-<td align="right">31</td>
-<td align="right">19</td>
-<td align="right">50</td>
-<td align="right">5</td>
-</tr>
-<tr>
-<td>The Maples at Her-Ber Meadows</td>
-<td align="right">24</td>
-<td align="right">20</td>
-<td align="right">44</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Hudson Memorial Nursing Home</td>
-<td align="right">29</td>
-<td align="right">13</td>
-<td align="right">42</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Rector Nursing and Rehab</td>
-<td align="right">24</td>
-<td align="right">14</td>
-<td align="right">38</td>
-<td align="right">6</td>
-</tr>
-<tr>
-<td>Somerset Senior Living at Harrison</td>
-<td align="right">15</td>
-<td align="right">23</td>
-<td align="right">38</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>West Memphis Health &amp; Rehab</td>
-<td align="right">23</td>
-<td align="right">14</td>
-<td align="right">37</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Craighead Nursing Center</td>
-<td align="right">25</td>
-<td align="right">10</td>
-<td align="right">35</td>
-<td align="right">7</td>
-</tr>
-<tr>
-<td>Robinson Nursing &amp; Rehab</td>
-<td align="right">23</td>
-<td align="right">10</td>
-<td align="right">33</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Cavalier Healthcare of England</td>
-<td align="right">18</td>
-<td align="right">14</td>
-<td align="right">32</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>St. John&#39;s Place of Arkansas</td>
-<td align="right">23</td>
-<td align="right">9</td>
-<td align="right">32</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>River Ridge Rehab &amp; Care Center</td>
-<td align="right">21</td>
-<td align="right">10</td>
-<td align="right">31</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Village Springs Health &amp; Rehab</td>
-<td align="right">20</td>
-<td align="right">11</td>
-<td align="right">31</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Ashton Place Health &amp; Rehab</td>
-<td align="right">20</td>
-<td align="right">10</td>
-<td align="right">30</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Edgewood Health &amp; Rehab-Springdale</td>
-<td align="right">19</td>
-<td align="right">11</td>
-<td align="right">30</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Cottages of Wentworth Place-Magnolia</td>
-<td align="right">20</td>
-<td align="right">10</td>
-<td align="right">30</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Dermott City Nursing Home</td>
-<td align="right">17</td>
-<td align="right">11</td>
-<td align="right">28</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Nashville Nursing and Rehab, Inc.</td>
-<td align="right">25</td>
-<td align="right">3</td>
-<td align="right">28</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Greenhouse Cottages of Belle Meade</td>
-<td align="right">13</td>
-<td align="right">15</td>
-<td align="right">28</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Waters of Mountain View</td>
-<td align="right">19</td>
-<td align="right">9</td>
-<td align="right">28</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Covington Court Health &amp; Rehab</td>
-<td align="right">20</td>
-<td align="right">6</td>
-<td align="right">26</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>The Waters of North Little Rock, LLC</td>
-<td align="right">15</td>
-<td align="right">11</td>
-<td align="right">26</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Green House Cottages of Southern Hills</td>
-<td align="right">14</td>
-<td align="right">10</td>
-<td align="right">24</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Lonoke Health &amp; Rehab</td>
-<td align="right">14</td>
-<td align="right">9</td>
-<td align="right">23</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td>Montgomery County Nursing Home</td>
-<td align="right">3</td>
-<td align="right">20</td>
-<td align="right">23</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Methodist Village Senior Living</td>
-<td align="right">10</td>
-<td align="right">12</td>
-<td align="right">22</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Waters of Fort Smith</td>
-<td align="right">16</td>
-<td align="right">6</td>
-<td align="right">22</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Cottage Lane Health &amp; Rehab</td>
-<td align="right">13</td>
-<td align="right">7</td>
-<td align="right">20</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>The Springs of Batesville</td>
-<td align="right">13</td>
-<td align="right">6</td>
-<td align="right">19</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Timberlane Health &amp; Rehab-El Dorado</td>
-<td align="right">11</td>
-<td align="right">8</td>
-<td align="right">19</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Crestpark of Helena</td>
-<td align="right">14</td>
-<td align="right">4</td>
-<td align="right">18</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Arbor Oaks Healthcare &amp; Rehab</td>
-<td align="right">17</td>
-<td align="right">0</td>
-<td align="right">17</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Salem Place N&amp;R</td>
-<td align="right">6</td>
-<td align="right">11</td>
-<td align="right">17</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Waters of Stamps</td>
-<td align="right">10</td>
-<td align="right">7</td>
-<td align="right">17</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Crossing at Malvern</td>
-<td align="right">9</td>
-<td align="right">7</td>
-<td align="right">16</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Timberlane Health and Rehabilitation-El Dorado</td>
-<td align="right">8</td>
-<td align="right">8</td>
-<td align="right">16</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Somerset Senior Living at Pine Hills</td>
-<td align="right">12</td>
-<td align="right">3</td>
-<td align="right">15</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Gassville Therapy and Living</td>
-<td align="right">14</td>
-<td align="right">0</td>
-<td align="right">14</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Encore Healthcare &amp; Rehab-WLR</td>
-<td align="right">12</td>
-<td align="right">1</td>
-<td align="right">13</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Summit Health &amp; Rehab</td>
-<td align="right">8</td>
-<td align="right">5</td>
-<td align="right">13</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Three Rivers Healthcare &amp; Rehabilitation</td>
-<td align="right">2</td>
-<td align="right">11</td>
-<td align="right">13</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Springs of Jonesboro</td>
-<td align="right">1</td>
-<td align="right">11</td>
-<td align="right">12</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Village at Valley Ranch</td>
-<td align="right">5</td>
-<td align="right">7</td>
-<td align="right">12</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Allay Health and Rehab</td>
-<td align="right">5</td>
-<td align="right">6</td>
-<td align="right">11</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Brookstone Assisted Living Community</td>
-<td align="right">4</td>
-<td align="right">7</td>
-<td align="right">11</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>Midtown Post Acute and Rehabilitation</td>
-<td align="right">6</td>
-<td align="right">5</td>
-<td align="right">11</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>West Memphis Residential Inc.</td>
-<td align="right">5</td>
-<td align="right">6</td>
-<td align="right">11</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Wood-Lawn Heights</td>
-<td align="right">0</td>
-<td align="right">11</td>
-<td align="right">11</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Highland Healthcare &amp; Rehabilitation Center</td>
-<td align="right">6</td>
-<td align="right">5</td>
-<td align="right">11</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Arkansas State Veteran&#39;s Home</td>
-<td align="right">6</td>
-<td align="right">4</td>
-<td align="right">10</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Highland Court, A Rehabilitation &amp; Resident Care Facility</td>
-<td align="right">10</td>
-<td align="right">0</td>
-<td align="right">10</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Maple Esplanade Assisted Living</td>
-<td align="right">6</td>
-<td align="right">4</td>
-<td align="right">10</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Chapel Ridge Health &amp; Rehab</td>
-<td align="right">7</td>
-<td align="right">3</td>
-<td align="right">10</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Advanced Health and Rehab of Union County</td>
-<td align="right">3</td>
-<td align="right">6</td>
-<td align="right">9</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Jamestown Nursing &amp; Rehab</td>
-<td align="right">3</td>
-<td align="right">6</td>
-<td align="right">9</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Lawrence Hall Health &amp; Rehab</td>
-<td align="right">5</td>
-<td align="right">4</td>
-<td align="right">9</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Van Buren Health &amp; Rehab</td>
-<td align="right">7</td>
-<td align="right">2</td>
-<td align="right">9</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Memory Care of Little Rock</td>
-<td align="right">5</td>
-<td align="right">3</td>
-<td align="right">8</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Monette Manor</td>
-<td align="right">7</td>
-<td align="right">1</td>
-<td align="right">8</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Ozark Nursing Home, Inc.</td>
-<td align="right">2</td>
-<td align="right">6</td>
-<td align="right">8</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Primrose Retirement Community of Rogers</td>
-<td align="right">5</td>
-<td align="right">3</td>
-<td align="right">8</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Providence PCC of Springdale</td>
-<td align="right">1</td>
-<td align="right">7</td>
-<td align="right">8</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Silver Oaks Health &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">6</td>
-<td align="right">8</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Village on the Park - Rogers</td>
-<td align="right">2</td>
-<td align="right">6</td>
-<td align="right">8</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Arkansas Nursing &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Belle View Estates Rehabilitation &amp; Care Center</td>
-<td align="right">1</td>
-<td align="right">6</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Chambers Nursing Center</td>
-<td align="right">1</td>
-<td align="right">6</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Ouachita Nursing and Rehab</td>
-<td align="right">4</td>
-<td align="right">3</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Siloam Healthcare, LLC</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">7</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Somerset Senior Living at Premier</td>
-<td align="right">0</td>
-<td align="right">7</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>St. Elizabeth&#39;s Place</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Apple Creek Health and Rehabilitation</td>
-<td align="right">4</td>
-<td align="right">2</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Dardanelle Nursing &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">5</td>
-<td align="right">6</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Glenwood Health and Rehab</td>
-<td align="right">2</td>
-<td align="right">4</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Greenhouse Cottages of Poplar Grove</td>
-<td align="right">2</td>
-<td align="right">4</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Katherine&#39;s Place at Wedington</td>
-<td align="right">5</td>
-<td align="right">1</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Russellville Nursing &amp; Rehab</td>
-<td align="right">5</td>
-<td align="right">1</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Crossing at Riverside Health &amp; Rehabilitation</td>
-<td align="right">4</td>
-<td align="right">2</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Waters of Cumberland</td>
-<td align="right">1</td>
-<td align="right">5</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Waters of West Dixon</td>
-<td align="right">1</td>
-<td align="right">5</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Amberwood Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Ashley Health &amp; Rehabilitation</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Bailey Creek Health &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Community Compassion Center of Jonesboro</td>
-<td align="right">0</td>
-<td align="right">5</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Conway Healthcare &amp; Rehab</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Fox Ridge Assisted Living - Chenal</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">5</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Good Shepherd Nursing &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">5</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Heartland Rehabilitation and Care Center</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Johnson County Health &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Maple Healthcare</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Somerset Senior Living at Mount Vista</td>
-<td align="right">4</td>
-<td align="right">1</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Atrium at Serenity Pointe</td>
-<td align="right">0</td>
-<td align="right">5</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Brookfield at Oaktree</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Barrow Creek Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">4</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crestpark of Forrest City</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crestpark of Stuttgart</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crown Point Assisted Living</td>
-<td align="right">3</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hickory Heights Health &amp; Rehab</td>
-<td align="right">3</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Meadowview Healthcare &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Mine Creek Health and Rehab</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Mountain Meadows Nursing &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Rich Mountain Nursing &amp; Rehab Center</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Sheridan Healthcare &amp; Rehabilitation Center</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Sherwood Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">4</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Trinity Village Retirement Community</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Windcrest Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">4</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Lakeside Nursing Center</td>
-<td align="right">0</td>
-<td align="right">4</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Stella Manor Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">4</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Bentley Rehab &amp; Healthcare</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Brookdale Fort Smith</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Care Manor Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Community Compassion Center of Batesville</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Courtyard Gardens H&amp;R Center- Arkadelphia</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crestpark Of Wynne</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Fox Ridge Assisted Living-Bryant</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hillcrest Nursing Home - Harrison</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Lake Hamilton Nursing &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Manila Nursing Center</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Mercy Crest Assisted Living</td>
-<td align="right">3</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Morningside of Springdale</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Presbyterian Village</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Quail Run Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Ridgecrest Health &amp; Rehabilitation</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Rogers Health &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Shiloh Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Spring Creek Health &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Superior Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Manor Benton</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Twin Rivers Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>VA Nursing Home - Fayetteville</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>West Shores Assisted Living</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Westwood Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Searcy Healthcare</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Alma Health &amp; Rehabilitation Center</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Arkansas State Veterans Home at North Little Rock</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Avenir Senior Living</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Avenir Senior Living</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Brookdale Pleasant Hills</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Brownwood Life Care Center</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Butterfield Trails Nursing Home</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Canyon Springs Health &amp; Rehabilitation</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Chapel Woods Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Colonel Glenn Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Community Compassion Center of Nashville</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>DeWitt Nursing Home</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Elmcroft Assisted Living-Maumelle</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Fianna Hills Nursing &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Gardens of Osage Terrace-Bentonville</td>
-<td align="right">2</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Gardner Nursing and Rehabilitation</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Greene Acres Nursing Home</td>
-<td align="right">2</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Greystone Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hope Haven Assisted Living</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Lakewood Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Magnolia Place of Rogers</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Ozark Health Nursing and Rehab Center</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Paris Health &amp; Rehab</td>
-<td align="right">2</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Parkway Heights Village</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Pediatric Complex Care of Arkansas</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Promenade Health &amp; Rehab-Rogers</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Southfork River Therapy &amp; Living</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Southridge Village Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Springdale Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>St. Michael&#39;s Place, Newport Healthcare &amp; Rehab Center</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Manor Assisted Living</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The West Haven, Inc.</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Waldron Nursing Center</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Woodbriar Nursing Home</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Woodruff County Health center</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Oak Manor Nursing &amp; Rehabilitation Center, Inc.</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Oakdale Nursing Facility</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Alcoa Pines Health &amp; Rehabilitation</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Atkins Nursing &amp; Rehab Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Barnes Healthcare</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Belvedere Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Bradford House Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Brighton Ridge Therapy &amp; Living Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Brookdale Chenal Heights</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Cabot Health &amp; Rehab, LLC</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Cla-Clif Nursing &amp; Rehab Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Corning Nursing &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Countryside Assisted Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crestpark Mariana</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crestpark of DeWitt</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crestpark of Marianna</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Davis East</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Dudneywood Assisted Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Eagle Mountain Assisted Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Garrett Woods Senior Living Community</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Grand Brook Memory Care of Rogers</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Greene Acres Easy Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Greenhurst Nursing Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Happy Valley Health &amp; Rehabilitation Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Heather Manor Rehabilitation</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hillcrest Care &amp; Rehab-Prescott</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hiram Shaddox Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Horizons of Hope</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hospice Home Care Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Indian Rock Village</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Liberty Park Senior Living</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>McGehee Health &amp; Rehabilitation Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Mt. Carmel Community</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Peachtree Village Assisted Living &amp; Senior Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Ridgemere Senior Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>River Chase Rehabilitation &amp; Care Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Seven Springs Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Southern Trace Rehabilitation and Care Center</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Springhouse Village</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Stonegate Villa Health &amp; Rehab</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Stonehaven Assisted Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Pines Nursing &amp; Rehab Center</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Villages of General Baptist Health Care</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>The Woods of Monticello Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>White River Healthcare</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Bear Creek Healthcare</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Brookdale Russellville</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Hope&#39;s Creek Assisted Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Morningside of Fayetteville</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Morningside of Jonesboro</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Oak Ridge Health &amp; Rehab</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Pioneer Therapy &amp; Living</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Somerset Senior Living at McGehee</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>St. Andrew&#39;s Place</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-</tbody></table>
+<tbody id="nursinghometable">
+</tbody>
+</table>
 </div>
+
+
+
 <div class="spacer" style="padding:5vh"></div>
 
 
@@ -3259,275 +1503,12 @@ p {
 <th title="Field #4">Total cases</th>
 <th title="Field #5">Total deaths</th>
 </tr></thead>
-<tbody><tr>
-<td>Ouachita River Correction Unit</td>
-<td align="right">1278</td>
-<td align="right">48</td>
-<td align="right">1326</td>
-<td align="right">17</td>
-</tr>
-<tr>
-<td>Cummins State Prison</td>
-<td align="right">1062</td>
-<td align="right">69</td>
-<td align="right">1131</td>
-<td align="right">11</td>
-</tr>
-<tr>
-<td>East Arkansas Regional Unit</td>
-<td align="right">829</td>
-<td align="right">61</td>
-<td align="right">890</td>
-<td align="right">6</td>
-</tr>
-<tr>
-<td>Forrest City Jail-Federal</td>
-<td align="right">780</td>
-<td align="right">23</td>
-<td align="right">803</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Wrightsville Unit</td>
-<td align="right">685</td>
-<td align="right">19</td>
-<td align="right">704</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td>Delta Corrections Facility</td>
-<td align="right">470</td>
-<td align="right">15</td>
-<td align="right">485</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Varner Unit</td>
-<td align="right">316</td>
-<td align="right">7</td>
-<td align="right">323</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Randall L. Williams (RLW) Pine Bluff Unit</td>
-<td align="right">302</td>
-<td align="right">19</td>
-<td align="right">321</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Benton County Jail</td>
-<td align="right">189</td>
-<td align="right">15</td>
-<td align="right">204</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Benton Unit</td>
-<td align="right">121</td>
-<td align="right">2</td>
-<td align="right">123</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Central Arkansas Community Correction Center</td>
-<td align="right">68</td>
-<td align="right">42</td>
-<td align="right">110</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td>Mississippi County Work Release Center</td>
-<td align="right">95</td>
-<td align="right">4</td>
-<td align="right">99</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Barbara Ester Unit</td>
-<td align="right">68</td>
-<td align="right">6</td>
-<td align="right">74</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Grimes Unit</td>
-<td align="right">67</td>
-<td align="right">6</td>
-<td align="right">73</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Northwest Arkansas Work Release</td>
-<td align="right">52</td>
-<td align="right">1</td>
-<td align="right">53</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Pine Bluff Unit</td>
-<td align="right">36</td>
-<td align="right">6</td>
-<td align="right">42</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Greene County Jail</td>
-<td align="right">35</td>
-<td align="right">0</td>
-<td align="right">35</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Crawford County Jail</td>
-<td align="right">34</td>
-<td align="right">0</td>
-<td align="right">34</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>McPherson Unit</td>
-<td align="right">20</td>
-<td align="right">8</td>
-<td align="right">28</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Craighead County Jail</td>
-<td align="right">28</td>
-<td align="right">0</td>
-<td align="right">28</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Tucker Max Unit</td>
-<td align="right">27</td>
-<td align="right">0</td>
-<td align="right">27</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Max Security Unit</td>
-<td align="right">23</td>
-<td align="right">2</td>
-<td align="right">25</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Faulkner County Dentition Center</td>
-<td align="right">22</td>
-<td align="right">0</td>
-<td align="right">22</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Washington County Jail</td>
-<td align="right">18</td>
-<td align="right">2</td>
-<td align="right">20</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Saline County Jail</td>
-<td align="right">9</td>
-<td align="right">0</td>
-<td align="right">9</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Central Office-ERT Parole Transport</td>
-<td align="right">0</td>
-<td align="right">8</td>
-<td align="right">8</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>North Central Unit</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">7</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Pulaski County Detention Center</td>
-<td align="right">4</td>
-<td align="right">2</td>
-<td align="right">6</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>East Arkansas Community Corrections Center</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Johnson County Detention Center</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>East Central Arkansas Community Correction Center-Women’s Unit</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Texarkana Regional Correction Center</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Dermott Juvenile Correctional Facility</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Northwest Arkansas Community Correction Center</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Sebastian County Detention Center</td>
-<td align="right">2</td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Lawrence County Jail</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
+<tbody id="prisontable">
 </tbody>
 </table>
 </div>
 
 <div class="spacer" style="padding:4vh"></div>
-
-<!-- <div class="d-flex justify-content-center">
-<div class="prisonsvg">
-<div class="subhead"><p>States with the most coronavirus infection in prisons</p></div>
-<div class="d-flex justify-content-center">
-  <div class="alert alert-warning" role="alert">*<span style="color:tomato">2701</span> prisoners and <span style="color:tomato">514</span> staff members tested positive in federal prisons as of May 6.</div>
-</div>
-<img src="https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/prison.svg" />
-</div>
-</div>
-
-<div class="spacer" style="padding:125px"></div> -->
 
 <p>People who think they may have covid-19 should call their health care providers or schedule a test at a <a href="https://www.healthy.arkansas.gov/health-units" target="_blank"><span class="badge badge-warning">local health unit</span></a>, according to the state Department of Health.</p>
 
@@ -3572,7 +1553,7 @@ p {
 
 
 <div class="spacer" style="padding:5vh"></div>
-<div class="subhead"><p>Cumulative covid-19 cases in the United States by county</p></div>
+<div class="subhead"><p>Cumulative covid-19 cases in the United States by state</p></div>
 
 <div class="d-flex justify-content-center">
   <!-- <iframe title="U.S. covid-19 cases by county" aria-label="USA states Symbol map" id="datawrapper-chart-nVmeA" src="//datawrapper.dwcdn.net/nVmeA/13/" scrolling="no" frameborder="0" style="width: 0; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
@@ -3585,7 +1566,9 @@ p {
 
 <div class="card" id="totalcases" style="background:#f0f0f0;">
 <div class="card-body">
-  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">8,206,525</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">220,079</span> deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">3,272,603</span> recoveries</h5>
+
+  <!-- US/World case counts: -->
+  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">10,713,452</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">244,207</span> deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">4,051,256</span> recoveries</h5>
 </div>
 </div>
 </div>
@@ -3613,44 +1596,39 @@ p {
 <p>Thousands of new cases are now being detected across the country each day.</p>
 
 <div class="spacer" style="padding:5vh"></div>
-<div class="subhead"><p>Cumulative covid-19 cases worldwide</p></div>
+
+<div class="subhead"><p>Countries with the most covid-19 cases</p></div>
+<div class="container">
 <div class="d-flex justify-content-center">
+
+  <iframe title="worldwide table for online" aria-label="chart" id="datawrapper-chart-bDtrf" src="https://datawrapper.dwcdn.net/bDtrf/3/" scrolling="no" frameborder="0" style="width: 0; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+  </script>
+</div>
+</div>
+<!-- <div class="subhead"><p>Cumulative covid-19 cases worldwide</p></div>
+<div class="d-flex justify-content-center"> -->
   <!-- <iframe title="World covid-19 cases map" aria-label="World Symbol map" id="datawrapper-chart-Z4Qde" src="//datawrapper.dwcdn.net/Z4Qde/11/" scrolling="no" frameborder="0" style="width: 0; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
   </script> -->
 
+  <!-- <div id="world" class="svg-container4">
+  </div> -->
+<!-- </div> -->
 
+<div class="spacer" style="padding:3vh"></div>
 
-  <div id="world" class="svg-container4">
-  </div>
-
-
-</div>
 <div class="d-flex justify-content-center">
 
 <div class="card" id="totalcases" style="background:#f0f0f0;">
 <div class="card-body">
-  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">40,280,824</span> confirmed cases &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">1,116,314</span> deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">27,598,216</span> recoveries</h5>
+    <!-- US/World case counts: -->
+  <h5 style="color:black; padding:0"><span class="badge badge-pill badge-warning">63,876,548</span> confirmed cases worldwide&nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning">1,300,391</span> deaths &nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-success">34,305,803</span> recoveries</h5>
 </div>
 </div>
-
 </div>
 
+<div class="spacer" style="padding:3vh"></div>
 
-<div class="spacer" style="padding:7vh"></div>
-
-  <div class="subhead"><p>Countries with the most covid-19 cases</p></div>
-<div class="container">
-  <div class="d-flex justify-content-center">
-
-    <iframe title="worldwide table for online" aria-label="chart" id="datawrapper-chart-bDtrf" src="https://datawrapper.dwcdn.net/bDtrf/3/" scrolling="no" frameborder="0" style="width: 0; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-    </script>
-  </div>
-</div>
-
-
-<div class="spacer" style="padding:7vh"></div>
-
-  <div class="subhead"><p>Cumulative covid-19 cases 200 days since 100th case</p></div>
+  <div class="subhead"><p>Cumulative covid-19 cases 300 days since 100th case</p></div>
 
   <div class="container">
 <div class="d-flex justify-content-end">
@@ -3721,7 +1699,7 @@ p {
     <a href="https://covidtracking.com/data/" target="_blank" style="color: CornflowerBlue">The COVID Tracking Project</a> and <a href="https://github.com/nytimes/covid-19-data" target="_blank" style="color: CornflowerBlue">The New York Times</a>.</p>
     <p>Arkansas map is updated as data come in from state health department. Other graphics are updated 11:00 p.m. CDT each day.<p>
     <p>Data compiled here only track number of confirmed cases. More cases most likely exist among individuals who have not been tested.<p>
-    <p>Please contact <a href="mailto:ychen@adgnewsroom.com" style="color: CornflowerBlue">Yutao Chen</a> if you see information that you believe is out-of-date or incorrect.<p>
+    <p>Please contact <a href="mailto:bsmith@adgnewsroom.com" style="color: CornflowerBlue">Brian Smith</a> if you see information that you believe is out-of-date or incorrect.<p>
     <p>Data visualization by Yutao Chen and Emily Walkenhorst</p>
     <p>Lead photo by Stephen Swofford</p>
     <p>Design and development by Yutao Chen</p>
@@ -3751,32 +1729,23 @@ p {
 
           <a href="https://www.arkansasonline.com/news/coronavirus/" class="btn btn-warning btn-sm">Read more</a>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated OCTOBER 18</small>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/5.jpg" alt="Card image cap">
+
+        <div class="card-body">
+          <small class="h5">Lives Remembered</small><br></br>
+          <div role="alert" class="card-text">An interactive project compiling stories of Arkansans who lost their lives due to covid-19.</div><br>
+          <a href="https://www.arkansasonline.com/livesremembered/" class="btn btn-warning btn-sm">Read more</a>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/3.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/12.jpg" alt="Card image cap">
 
         <div class="card-body">
-          <small class="h5">Cancellations and postponements</small><br></br>
-          <div role="alert" class="card-text">List features event and school cancellations in Arkansas related to the coronavirus.</div><br>
-          <a href="https://www.arkansasonline.com/news/2020/mar/12/coronavirus-cancellations/" class="btn btn-warning btn-sm">Read more</a>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated April 28</small>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/2.jpg" alt="Card image cap">
-
-        <div class="card-body">
-          <small class="h5">Restaurant closings/changes</small><br></br>
-          <div role="alert" class="card-text">Area restaurants cite covid-19 pandemic in changes, closures.</div><br>
-          <a href="https://www.arkansasonline.com/news/2020/mar/17/central-arkansas-restaurants-announce-new-strategi/" class="btn btn-warning btn-sm">Read more</a>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated June 28</small>
+          <small class="h5">Covid Classroom</small><br></br>
+          <div role="alert" class="card-text">A series examining the effects of the coronavirus pandemic on k-12 education across Arkansas.</div><br>
+          <a href="https://www.arkansasonline.com/covidclassroom/" class="btn btn-warning btn-sm">Read more</a>
         </div>
       </div>
     </div>
@@ -3802,7 +1771,7 @@ p {
 
     var svg4 = svgContainer.append('svg')
     .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "0 200 1000 1000")
+    .attr("viewBox", "-50 180 1100 1100")
     .classed("svg-content", true);
 //     .on('mousemove', function() {
 // console.log( d3.event.pageY )
@@ -3816,7 +1785,8 @@ p {
 
         Promise.all([
           d3.json("https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/us-states_20m.topojson"),
-          d3.csv("https://raw.githubusercontent.com/adgnewsroom/virus-tracker/master/data.csv")
+          // link to us map data:
+          d3.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/11-03-2020.csv")
     ])
     .then(function(data){
 
@@ -3824,6 +1794,7 @@ p {
 
 
             data[1].forEach(function(d){
+// in case column names are changed:
               d["Lat"] = +d["Lat"];
               d["Long_"] = +d["Long_"];
               d["Confirmed"] = +d["Confirmed"];
@@ -3843,6 +1814,7 @@ p {
             //console.log(d3.extent(data[1], function(d){ return d["Confirmed"]}))
 
           var confirmedScale = d3.scaleSqrt()
+          // in case column names are changed:
             .domain(d3.extent(data[1], function(d){ return d["Confirmed"]}))
             .range([1.5, 48]);
 
@@ -3867,9 +1839,10 @@ p {
 
                 var legend = svg4.append("g")
                     .attr("class", "legend")
-                    .attr("transform","translate(900,250)")
+                    .attr("transform","translate(800,320)")
                   .selectAll("g")
-                    .data([5000, 20000, 50000])
+                  // scale for us map:
+                    .data([50000, 200000, 500000])
                   .enter().append("g");
 
                 legend.append("circle")
@@ -3889,15 +1862,18 @@ p {
                     .append("circle")
                     .attr("class", "bubbles")
                     .attr("cx", function (d) {
+                      // in case column names are changed:
                       if(projectLatLong([d["Long_"], d["Lat"]]) != null){
                         return projectLatLong([d["Long_"], d["Lat"]])[0];
                       }
                     })
                     .attr("cy", function (d) {
+                      // in case column names are changed:
                       if(projectLatLong([d["Long_"], d["Lat"]]) != null){
                         return projectLatLong([d["Long_"], d["Lat"]])[1];
                       }
                     })
+                    // in case column names are changed:
                     .attr("r", function(d){ return confirmedScale(d["Confirmed"]); })
                     .attr("fill", "#de2d26")
                     .attr("opacity", 0.5)
@@ -3910,8 +1886,9 @@ p {
                             .style("top", (d3.event.y+20) + "px")
                             .style("font-size", "11px")
                             .style("font-family", "'Roboto', sans-serif")
-                            .html("<strong style='color:firebrick; font-size:11pt;'>" + d["county"] +
-                            ", " + d["state"] + "</strong>" + "<br>" + "Confirmed cases: " + d["Confirmed"] + "<br>" + "Deaths: " + d["Deaths"]);
+                            // in case column names are changed:
+                            .html("<strong style='color:firebrick; font-size:11pt;'>" + d["Province_State"] +
+                             "</strong>" + "<br>" + "Confirmed cases: " + d["Confirmed"] + "<br>" + "Deaths: " + d["Deaths"]);
     	              })
                     .on("mouseout", function(d) {
                           d3.select(".tooltip")
@@ -3925,7 +1902,7 @@ p {
             </script>
 
 
-            <script>
+            <!-- <script>
             var svgContainer2 = d3.select('div#world');
 
             var svg2 = svgContainer2.append('svg')
@@ -4036,7 +2013,7 @@ p {
                             })
 
                     });
-                    </script>
+                    </script> -->
 
     <script type="text/javascript">
 
@@ -4109,20 +2086,6 @@ p {
     }
 
 
-    $(document).ready(function () {
-    $('#tablePrison').DataTable({
-        "pageLength": 10
-    });
-    $('.dataTables_length').addClass('bs-select');
-    });
-
-    $(document).ready(function () {
-    $('#tableNursinghome').DataTable({
-        "pageLength": 10
-    });
-    $('.dataTables_length').addClass('bs-select');
-    });
-
     </script>
     <script src="https://cdn.jsdelivr.net/gh/adgnewsroom/virus-tracker/d3.v3.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/gh/adgnewsroom/virus-tracker/d3v3-legend.min.js"></script> -->
@@ -4134,7 +2097,7 @@ p {
     function d3waffle() {
       var margin = {top: 8, right: 1, bottom: 5, left: 45},
           icon = "&#9632;",
-          scale = 0.008, // wafflescale
+          scale = 0.006, // wafflescale
           rows = 38,
           adjust = 1.2,
           colorscale = d3v3.scale.category20(),
@@ -4397,28 +2360,28 @@ p {
       });
 
       var data = [
-        { "name": "0-10", "value": 5699},
-        { "name": "11-17", "value": 6996},
-        { "name": "18-24", "value": 15349},
-        { "name": "25-34", "value": 16857},
-        { "name": "35-44", "value": 15514},
-        { "name": "45-54", "value": 14083},
-        { "name": "55-64", "value": 11404},
-        { "name": "65+", "value": 13164},
+        { "name": "0-10", "value": 7358},
+        { "name": "11-17", "value": 9629},
+        { "name": "18-24", "value": 19093},
+        { "name": "25-34", "value": 21747},
+        { "name": "35-44", "value": 20017},
+        { "name": "45-54", "value": 18560},
+        { "name": "55-64", "value": 15307},
+        { "name": "65+", "value": 18607},
       ];
 
       function updateData() {
         var chart = d3waffle();
 
         var data2 = [
-          { "name": "Black", "value": 20138},
-          { "name": "White", "value": 58147},
-          { "name": "American Indian", "value": 272},
-          { "name": "Asian", "value": 1076},
-          { "name": "Multi-race", "value": 739},
-          { "name": "Pacific Islander", "value": 2412},
-          { "name": "Other", "value": 6006},
-          { "name": "Unknown", "value": 10276}
+          { "name": "Black", "value": 24684},
+          { "name": "White", "value": 78874},
+          { "name": "American Indian", "value": 339},
+          { "name": "Asian", "value": 1265},
+          { "name": "Multi-race", "value": 924},
+          { "name": "Pacific Islander", "value": 2528},
+          { "name": "Other", "value": 7129},
+          { "name": "Unknown", "value": 14575}
         ];
 
         d3v3.select("#waffle")
@@ -4430,9 +2393,9 @@ p {
                 var chart = d3waffle();
 
                 var data3 = [
-                  { "name": "Male", "value": 49061},
-                  { "name": "Female", "value": 49621},
-                  { "name": "Unknown", "value": 384}
+                  { "name": "Male", "value": 63040},
+                  { "name": "Female", "value": 66471},
+                  { "name": "Unknown", "value": 807}
                 ];
 
                 d3v3.select("#waffle")
@@ -4444,13 +2407,13 @@ p {
                     var chart = d3waffle();
 
                     var data4 = [
-                      { "name": "Diabetes", "value": 6866},
-                      { "name": "Heart Disease", "value": 3017},
-                      { "name": "High Blood Pressure", "value": 12027},
-                      { "name": "Lung Disease", "value": 2222},
-                      { "name": "Kidney Disease", "value": 731},
-                      { "name": "Weakened immune system", "value": 737},
-                      { "name": "None", "value": 73466}
+                      { "name": "Diabetes", "value": 9102},
+                      { "name": "Heart Disease", "value": 4506},
+                      { "name": "High Blood Pressure", "value": 16476},
+                      { "name": "Lung Disease", "value": 3015},
+                      { "name": "Kidney Disease", "value": 1118},
+                      { "name": "Weakened immune system", "value": 1035},
+                      { "name": "None", "value": 95066}
                     ];
 
                     d3v3.select("#waffle")
@@ -4895,7 +2858,8 @@ p {
     var path3 = d3v3.geo.path()
         .projection(projection3);
 
-    var colorScale = d3v3.scale.threshold().domain([1, 500, 1000, 2000, 5000, 100000])
+        // scale for total cases:
+    var colorScale = d3v3.scale.threshold().domain([1, 500, 1000, 2000, 5000, 1000000])
     .range(['#d3d3d3', '#fef0d9', '#fdcc8a', '#fc8d59', '#e34a33', '#b30000']);
 
 
@@ -4973,7 +2937,8 @@ p {
       .attr("viewBox", "0 -250 900 900")
       .classed("svg-content", true);
 
-          var colorScale1 = d3v3.scale.threshold().domain([1, 10, 20, 50, 100, 1000])
+          // scale for deaths:
+          var colorScale1 = d3v3.scale.threshold().domain([1, 10, 20, 50, 100, 1000000])
           .range(['#d3d3d3', '#fef0d9', '#fdcc8a', '#fc8d59', '#e34a33', '#b30000']);
 
 
@@ -5059,7 +3024,8 @@ p {
           .attr("viewBox", "0 -250 900 900")
           .classed("svg-content", true);
 
-          var colorScale = d3v3.scale.threshold().domain([1, 500, 1000, 2000, 5000, 100000])
+          // scale for total cases:
+          var colorScale = d3v3.scale.threshold().domain([1, 500, 1000, 2000, 5000, 1000000])
           .range(['#d3d3d3', '#fef0d9', '#fdcc8a', '#fc8d59', '#e34a33', '#b30000']);
 
 
@@ -5141,8 +3107,8 @@ p {
               .attr("viewBox", "0 -250 900 900")
               .classed("svg-content", true);
 
-
-              var colorScale2 = d3v3.scale.threshold().domain([1, 2000, 5000, 10000, 20000, 100000])
+              // scale for per capita:
+              var colorScale2 = d3v3.scale.threshold().domain([1, 2000, 5000, 10000, 20000, 1000000])
               .range(['#d3d3d3', '#fef0d9', '#fdcc8a', '#fc8d59', '#e34a33', '#b30000']);
 
 
@@ -5224,8 +3190,8 @@ p {
                   .attr("viewBox", "0 -250 900 900")
                   .classed("svg-content", true);
 
-
-                  var colorScale2 = d3v3.scale.threshold().domain([1, 50, 100, 200, 500, 100000])
+                  // scale for active cases:
+                  var colorScale2 = d3v3.scale.threshold().domain([1, 50, 100, 200, 500, 1000000])
                   .range(['#d3d3d3', '#fef0d9', '#fdcc8a', '#fc8d59', '#e34a33', '#b30000']);
 
 
@@ -5555,7 +3521,8 @@ p {
                       var path7 = d3v3.geo.path()
                           .projection(projection7);
 
-                      var colorScale3 = d3v3.scale.threshold().domain([1, 10, 20, 50, 100, 1000])
+                      // scale for school districts:
+                      var colorScale3 = d3v3.scale.threshold().domain([1, 20, 50, 100, 200, 100000])
                       .range(['#d3d3d3', '#ffffd4', '#fed98e', '#fe9929', '#d95f0e', '#993404']);
 
                       var schoolById = d3v3.map();
@@ -5787,6 +3754,57 @@ p {
                     });
 
 
+                    $(document).ready(function () {
+                      $.getJSON("https://spreadsheets.google.com/feeds/list/1Gt_MG5qwp8IMf-H4Z7UqsEu56qAnLJlFcd9F7jIn7xY/4/public/values?alt=json", function (data) {
+
+                      var sheetData = data.feed.entry;
+
+                      var i;
+                      for (i = 0; i < sheetData.length; i++) {
+
+                        var facilities = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+                        var residents = data.feed.entry[i]['gsx$_cokwr']['$t'];
+                        var hcw = data.feed.entry[i]['gsx$_cpzh4']['$t'];
+                        var total = data.feed.entry[i]['gsx$_cre1l']['$t'];
+                        var residentdeaths = data.feed.entry[i]['gsx$_chk2m']['$t'];
+
+                        document.getElementById('nursinghometable').innerHTML += ('<tr>'+'<td>'+facilities+'</td>'+'<td>'+residents+'</td>'+'<td>'+hcw+'</td>'+'<td>'+total+'</td>'+'<td>'+residentdeaths+'</td>'+'</tr>');
+                      }
+
+                    $('#tableNursinghome').DataTable({
+                        "pageLength": 10
+                        // "bAutoWidth": false;
+                    });
+                    $('.dataTables_length').addClass('bs-select');
+                    });
+                    });
+
+
+                    $(document).ready(function () {
+                      $.getJSON("https://spreadsheets.google.com/feeds/list/1k7tnNZn93w97ch8T0VF0oOXiUbRwG4vDQsx8HarPSyc/4/public/values?alt=json", function (data) {
+
+                      var sheetData = data.feed.entry;
+
+                      var i;
+                      for (i = 0; i < sheetData.length; i++) {
+
+                        var prions = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+                        var inmates = data.feed.entry[i]['gsx$_cokwr']['$t'];
+                        var staff = data.feed.entry[i]['gsx$_cpzh4']['$t'];
+                        var totalcases = data.feed.entry[i]['gsx$_cre1l']['$t'];
+                        var tortaldeaths = data.feed.entry[i]['gsx$_chk2m']['$t'];
+
+                        document.getElementById('prisontable').innerHTML += ('<tr>'+'<td>'+prions+'</td>'+'<td>'+inmates+'</td>'+'<td>'+staff+'</td>'+'<td>'+totalcases+'</td>'+'<td>'+tortaldeaths+'</td>'+'</tr>');
+                      }
+
+                    $('#tablePrison').DataTable({
+                        "pageLength": 10
+                        // "bAutoWidth": false;
+                    });
+                    $('.dataTables_length').addClass('bs-select');
+                    });
+                    });
+
 
 
                     $(document).ready(function () {
@@ -5818,8 +3836,5 @@ p {
                     });
 
                       </script>
-
-
-
   </body>
 </html>
