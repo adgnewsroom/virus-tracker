@@ -1,114 +1,102 @@
 Facility,Resident,HCW,total,deaths,Lat,Long
-Alma Health & Rehabilitation Center,44,35,79,15,35.4897666,-94.2315554
+Allay Health and Rehab,15,11,26,6,34.7278412,-92.4082895
+Alma Health & Rehabilitation Center,44,36,80,15,35.4897666,-94.2315554
+Amberwood Health & Rehab,1,12,13,1,34.5952138,-92.5341358
 Apple Creek Health & Rehabilitation,61,36,97,1,36.359808,-94.3080819
-Arkansas Nursing & Rehab,13,13,26,1,33.4207989,-94.0204605
-Arkansas State Veterans Home,9,18,27,3,36.077912,-94.158513
-Ash Flat Healthcare and Rehabilitation Center,38,20,58,5,36.2300949,-91.6095275
-Atkins Nursing & Rehab Center,16,15,31,0,35.248949,-92.943338
+Arkansas State Veterans Home-Fayetteville,9,18,27,3,36.0779256,-94.1576189
+Atkins Nursing & Rehab Center,20,18,38,1,35.248949,-92.943338
 Autumn Hill Therapy and Living Center,46,36,82,9,36.3605405,-93.5521894
-Avenir Memory Care at Little Rock,17,9,26,4,34.8106402,-92.4631576
-Avenir Memory Care at Fayetteville,0,5,5,0,36.1095573,-94.1871074
-Bailey Creek Health and Rehab,70,26,96,8,33.4639448,-94.0254666
+Avenir Memory Care at Little Rock,18,10,28,4,34.8106402,-92.4631576
+Bailey Creek Health and Rehab,70,29,99,10,33.4639448,-94.0254666
+Barrow Creek Health & Rehab,10,20,30,0,34.7311031,-92.3738808
 Beebe Retirement Center,71,49,120,17,35.0776466,-91.8925517
-Bradford House Nursing & Rehab,53,40,93,3,36.3393161,-94.1938607
-Butterfield Trails Village Nursing Home,17,17,34,2,36.1180483,-94.1341045
-"Cabot Health and Rehab, LLC",57,44,101,16,34.9813507,-92.044905
-Care Manor Nursing & Rehab,66,29,95,10,36.3396156,-92.3993376
-"Chambers Nursing Home Center, Inc.",5,15,20,0,34.7807472,-91.7351898
-Chateau on the Ridge-ALF,5,2,7,0,36.0438462,-90.5158043
-Colonel Glenn Health & Rehab,12,13,25,0,34.7088337,-92.409336
+Bradford House Nursing & Rehab,54,41,95,4,36.3393161,-94.1938607
+Brookridge Cove Rehabilitation and Care Center,2,0,2,0,35.1679913,-92.7342968
+Butterfield Trails Village Nursing Home,24,22,46,2,36.1180483,-94.1341045
+"Chambers Nursing Home Center, Inc.",40,36,76,1,34.7807472,-91.7351898
+Conway Healthcare & Rehab,17,17,34,0,35.0696828,-92.4657573
 Courtyard Gardens Health & Rehabilitation Center,2,2,4,1,34.126556,-93.081706
-Courtyard Rehabilitation & Health Center,45,37,82,7,33.2071937,-92.6980019
-Crestpark of Helena,18,11,29,5,34.5399377,-90.6231226
-Crestpark of Mariana,0,2,2,0,34.774065,-90.7779074
-Crestpark of Stuttgart,40,22,62,3,34.482762,-91.560034
-Crestpark of Wynne,2,8,10,0,35.2192991,-90.7894512
-"Dardanelle Nursing and Rehabilitation Center, Inc.",1,15,16,0,35.2050128,-93.1547041
-Dermott City Nursing Home,40,23,63,10,33.519823,-91.4442193
-Des Arc Nursing and Rehabilitation Center,52,41,93,1,34.9773659,-91.5205442
-DeWitt Nursing Home,21,15,36,0,34.2799029,-91.3389815
-Dudneywood Assisted Living,13,5,18,0,33.294474,-93.2100648
-Eaglecrest Nursing and Rehab,57,24,81,0,36.2553667,-91.5709392
-Encore Healthcare and Rehabilitation,57,34,91,8,34.3765562,-92.8324411
-Evergreen Living Center at Stagecoach,0,2,2,0,34.6343386,-92.4828912
-Fianna Hills Nursing & Rehabilitation Center,6,7,13,0,35.3038741,-94.4044594
-General Baptist Nursing Home of Piggott,9,10,19,2,36.3804918,-90.1987164
-Greene Acres Nursing Home,7,8,15,0,36.0707039,-90.5190956
-Greenhurst Nursing Center,2,6,8,0,35.2966973,-94.0135123
+Courtyard Rehabilitation & Health Center,45,38,83,8,33.2071937,-92.6980019
+Crestpark of Stuttgart,40,24,64,3,34.482762,-91.560034
+Crestpark of Wynne,2,9,11,0,35.2192991,-90.7894512
+"Dardanelle Nursing and Rehabilitation Center, Inc.",1,16,17,0,35.2050128,-93.1547041
+Dermott City Nursing Home,40,24,64,10,33.519823,-91.4442193
+Des Arc Nursing and Rehabilitation Center,54,41,95,1,34.9773659,-91.5205442
+DeWitt Nursing Home,23,19,42,0,34.2799029,-91.3389815
+Dudneywood Assisted Living,13,5,18,1,33.294474,-93.2100648
+Eaglecrest Nursing and Rehab,77,34,111,4,36.2553667,-91.5709392
+Elmcroft of Maumelle-ALF,23,19,42,0,34.8688025,-92.397001
+Encore Healthcare and Rehabilitation,57,37,94,9,34.3765562,-92.8324411
+Fianna Hills Nursing & Rehabilitation Center,6,9,15,0,35.3038741,-94.4044594
+Fox Ridge Bryant -ALF,3,6,9,2,34.6342441,-92.4876575
+General Baptist Nursing Home of Piggott,29,13,42,2,36.3804918,-90.1987164
+Good Samaritan Society-Hot Springs Village,3,8,11,0,34.6717456,-92.9639254
+Greene Acres Nursing Home,29,13,42,0,36.0707039,-90.5190956
 Harris Health and Rehab,43,34,77,6,35.7025452,-90.0165417
-Heartland Rehabilitation and Care Center,5,7,12,0,34.5979828,-92.5508769
-Heritage Living Center-Conway,72,33,105,5,35.0952703,-92.4666735
-Hickory Heights Health & Rehab,13,13,26,7,34.77701,-92.4508469
-"Highland Court, A Rehabilitation and Resident Care Facility",19,19,38,1,35.9057313,-92.6614946
+Heather Manor Rehabilitation,4,8,12,0,33.647209,-93.5924269
+Heritage Living Center-Conway,73,35,108,7,35.0952703,-92.4666735
 Hillcrest Care & Rehab-Prescott,4,11,15,0,33.810163,-93.3780139
-Hillcrest Home,12,22,34,0,36.241332,-93.102567
-"Jamestown Nursing and Rehab, LLC",36,27,63,1,36.3098529,-94.166174
-Johnson Co Health & Rehab-Clarksville,3,5,8,0,35.4631922,-93.4366119
-Lake Hamilton Health & Rehab,43,39,82,5,34.4528638,-93.1675253
-Lakeside Nursing Center,30,14,44,0,35.8180803,-90.4429222
-Lakewood Health & Rehab,64,39,103,21,34.7984562,-92.2404421
-Lawrence Hall Health & Rehab,120,64,184,14,36.071506,-90.9665268
-Legacy Village Assisted Living,0,1,1,0,36.3806312,-94.1927549
-Liberty Park Senior Living,7,1,8,0,35.8083787,-90.6665774
-Little River Nursing & Rehab,46,43,89,19,33.6599358,-94.1122829
-Manila Nursing Center,0,6,6,0,35.888871,-90.1574009
-Meadowview Healthcare and Rehab,6,8,14,0,36.0939341,-93.7425256
-Memory Lane Alzheimer's Special Care,1,0,1,0,35.4497751,-94.3546664
-Methodist Health and Rehab,10,29,39,0,35.364301,-94.3481726
-Mountain Meadows Health and Rehabilitation,84,39,123,15,35.7098595,-91.6307585
-Mt. Carmel Community-ALF,9,16,25,2,34.5987073,-92.5454857
-"Nashville Nursing and Rehab, Inc.",25,5,30,2,33.9526961,-93.8545952
+Hillcrest Home,26,41,67,1,36.241332,-93.102567
+Hope's Creek Assisted Living,3,2,5,0,35.4735451,-94.3541847
+"Innisfree Health and Rehab, LLC",17,17,34,2,36.3323613,-94.1521918
+"Jamestown Nursing and Rehab, LLC",52,39,91,1,36.3098529,-94.166174
+Johnson Co Health & Rehab-Clarksville,3,7,10,0,35.4631922,-93.4366119
+Lake Hamilton Health & Rehab,50,45,95,5,34.4528638,-93.1675253
+Lakeside Nursing Center,44,22,66,3,35.8180803,-90.4429222
+Legacy Heights Nursing & Rehab,36,16,52,4,35.2685885,-93.1436432
+Liberty Park Senior Living,11,11,22,0,35.8083787,-90.6665774
+Little River Nursing & Rehab,46,44,90,19,33.6599358,-94.1122829
+Meadowview Healthcare and Rehab,6,10,16,0,36.0939341,-93.7425256
+Methodist Health and Rehab,11,38,49,0,35.364301,-94.3481726
+Montgomery County Nursing Home,22,35,57,4,34.5439233,-93.6298932
+Mt. Carmel Community-ALF,11,17,28,2,34.5987073,-92.5454857
+"Murfreesboro Rehab and Nursing, Inc.",1,4,5,0,34.0702407,-93.690511
 North Hills Life Care & Rehab,28,25,53,7,36.1074003,-94.1552954
-"Nursing and Rehabilitation Center at Good Shepherd, LLC",5,17,22,0,34.7256152,-92.3897704
-Oak Ridge Health and Rehabilitation,21,12,33,1,33.2085658,-92.6410723
-Ozark Nursing Home,5,16,21,0,35.493668,-93.8363956
-Perry County Nursing and Rehabilitation Center,3,3,6,0,35.007763,-92.811865
-Pink Bud Home for the Golden Years,58,52,110,12,35.2066579,-94.2587735
+Oak Ridge Health and Rehabilitation,43,17,60,4,33.2085658,-92.6410723
+Oakdale Nursing Facility,6,9,15,0,35.2682228,-91.6658477
 Pioneer Therapy & Living,56,27,83,0,36.0574136,-91.8802423
-Pocahontas Healthcare and Rehabilitation Center,2,5,7,0,36.2887436,-90.9949517
-Primrose Retirement Community of Rogers,16,11,27,2,36.3303272,-94.1979155
-Quail Run Health and Rehab,16,12,28,0,35.666803,-90.524169
-"Quapaw Care and Rehabilitation Center, LLC",21,23,44,1,34.4489532,-93.0890023
-Randolph Co Nursing Home,85,66,151,17,36.2906574,-90.997922
-Rich Mountain Nursing & Rehab Center,8,3,11,0,34.5836369,-94.2286025
-Ridgecrest Health and Rehabilitation,57,35,92,8,35.8669756,-90.62588
-River Chase Rehabilitation & Care Center,2,2,4,0,35.1672239,-92.7195548
-River Ridge Rehab & Care Center,36,20,56,8,35.2145987,-90.7739073
-Rogers Health and Rehabilitation Center,15,13,28,0,36.313195,-94.1335188
-Russellville Nursing & Rehab,8,8,16,0,35.2913,-93.169491
-Shiloh Nursing and Rehab,9,15,24,1,36.2223145,-94.1398323
-Somerset Senior Living at Mount Vista/Mount Vista R&H Center,67,36,103,7,36.2472098,-93.1213989
-Somerset Senior Living of Yellville/ CCC of Yellville,1,1,2,0,36.231625,-92.6879647
-Southern Pines Nursing & Rehab/Prescott Manor,61,24,85,16,33.787272,-93.380473
-Southern Trace Rehabilitation and Care Center,52,21,73,1,34.6152154,-92.5034947
-Southfork River Therapy & Living,10,8,18,0,36.3692401,-91.8353509
-Southridge Village Nursing & Rehab,69,52,121,13,35.4912731,-91.9969214
+Pocahontas Healthcare and Rehabilitation Center,2,6,8,0,36.2887436,-90.9949517
+Primrose Retirement Community of Rogers,26,14,40,2,36.3303272,-94.1979155
+Quail Run Health and Rehab,16,12,28,1,35.666803,-90.524169
+"Quapaw Care and Rehabilitation Center, LLC",45,40,85,9,34.4489532,-93.0890023
+Randolph Co Nursing Home,104,71,175,20,36.2906574,-90.997922
+Rich Mountain Nursing & Rehab Center,69,53,122,3,34.5836369,-94.2286025
+Ridgecrest Health and Rehabilitation,58,39,97,9,35.8669756,-90.62588
+River Chase Rehabilitation & Care Center,3,6,9,1,35.1672239,-92.7195548
+Rogers Health and Rehabilitation Center,26,19,45,1,36.313195,-94.1335188
+Russellville Nursing & Rehab,8,9,17,0,35.2913,-93.169491
+Shiloh Nursing and Rehab,9,19,28,1,36.2223145,-94.1398323
+Somerset Senior Living at Crossett,5,10,15,0,33.1117217,-91.9477082
+Somerset Senior Living at Harrison,56,52,108,15,36.2486865,-93.1215948
+Somerset Senior Living at Mount Vista/Mount Vista R&H Center,70,40,110,8,36.2472098,-93.1213989
+Somerset Senior Living of Yellville/ CCC of Yellville,2,5,7,0,36.231625,-92.6879647
+Southern Pines Nursing & Rehab/Prescott Manor,61,25,86,16,33.787272,-93.380473
+Southern Trace Rehabilitation and Care Center,87,50,137,5,34.6152154,-92.5034947
+Southfork River Therapy & Living,67,40,107,0,36.3692401,-91.8353509
 Springhouse Village,1,3,4,0,36.114812,-94.116813
-St. Andrew's Place,21,15,36,0,35.084704,-92.4881648
-St. Elizabeth's Place,19,22,41,0,35.8081918,-90.6632973
-St. Michael's Place,7,18,25,0,35.6176276,-91.2653356
+St. Bernards Village-ALF,11,6,17,0,35.8241972,-90.6965078
+St. Elizabeth's Place,56,28,84,0,35.8081918,-90.6632973
 Stella Manor Nursing & Rehab,1,10,11,0,35.2872709,-93.1523203
+Stonegate Villa Health & Rehab,1,4,5,0,33.1408393,-91.9389738
 The Atrium at Serenity Pointe-ALF,10,8,18,0,34.4971291,-93.124188
-The Cottages of Wentworth Place,20,11,31,1,33.2796187,-93.2117858
 The Crossing at Riverside Health & Rehabilitation,40,21,61,7,35.2537981,-91.7084329
-The Greenhouse Cottages of Belle Meade,20,31,51,1,36.042633,-90.5155868
+The Greenhouse Cottages of Belle Meade,32,43,75,1,36.042633,-90.5155868
+The Greenhouse Cottages of Wentworth Place,24,21,45,1,33.2796187,-93.2117858
 "The Manor, LLC-ALF",5,6,11,0,34.7393858,-92.3650899
-The Pines Nursing and Rehabilitation Center,87,54,141,5,34.4642762,-93.0229664
+The Pines Nursing and Rehabilitation Center,91,60,151,14,34.4642762,-93.0229664
 The Springs of Batesville,82,54,136,29,35.7919006,-91.6193523
 The Springs of Jonesboro,49,32,81,7,35.8004005,-90.684792
 The Springs of Magnolia,54,34,88,13,33.2944444,-93.2086012
 The Springs of Minecreek,12,12,24,1,33.9593608,-93.84728
-The Village at Valley Ranch,40,32,72,4,34.8136588,-92.4737835
-"The Waters of Cumberland, LLC",58,20,78,1,34.7339601,-92.2711564
+The Waters of Fort Smith,18,32,50,3,35.3343556,-94.4260465
 The Waters of Mountain View,76,56,132,13,35.8697606,-92.1078633
-The Waters of Newport,6,14,20,1,35.6028899,-91.2533533
-The Waters of West Dixon,18,17,35,1,34.6580976,-92.2878569
-The Waters of White Hall,52,52,104,16,34.283565,-92.094469
-Three Rivers Healthcare & Rehabilitation,52,47,99,2,35.5266113,-90.4375835
-Twin Rivers Health and Rehabilitation,23,19,42,3,34.12218,-93.086372
-Walnut Ridge Nursing and Rehabilitation Center,57,34,91,8,36.075676,-90.971879
-West Shores Assisted Living-ALF,1,3,4,0,34.4938519,-93.119992
-"Westwood Health and Rehab, Inc.",19,13,32,1,36.1773057,-94.1477777
+The Waters of Newport,8,19,27,1,35.6028899,-91.2533533
+Three Rivers Healthcare & Rehabilitation,91,67,158,5,35.5266113,-90.4375835
+Timberlane Health and Rehabilitation,43,28,71,7,33.204622,-92.690277
+Twin Lakes Therapy and Living,37,16,53,3,36.2838932,-92.6117174
+Twin Rivers Health and Rehabilitation,24,20,44,6,34.12218,-93.086372
+Waldron Nursing Center,3,4,7,0,34.894891,-94.1066708
+"Westwood Health and Rehab, Inc.",29,18,47,3,36.1773057,-94.1477777
 Willow Bend Healthcare & Rehab,47,33,80,9,35.2000043,-90.2096029
-Woodbriar Nursing Home,59,39,98,11,35.5715907,-90.7228166
-Wood-Lawn Heights,0,17,17,0,35.7708415,-91.6206624
+Wood-Lawn Heights,0,23,23,0,35.7708415,-91.6206624
+Woodruff County Health Center,5,5,10,0,35.2679152,-91.2039778
